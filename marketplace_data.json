@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Miecz Cienia",
+    "seller": "NPC_Mistrz_Czerni",
+    "price_ton": 12,
+    "price_rfn": 280,
+    "rarity": "epic",
+    "type": "weapon"
+  },
+  {
+    "id": 2,
+    "name": "Karta NFT - Elfi Tropiciel",
+    "seller": "NPC_Bazyl",
+    "price_ton": 25,
+    "price_rfn": null,
+    "rarity": "legendary",
+    "type": "nft"
+  }
+]

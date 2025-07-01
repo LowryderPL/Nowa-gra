@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketplace - Firos: Magic & Magic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🛒 Rynek NFT – Firos</h1>
+  <div class="market-header">
+    <p>Witaj w markecie FIROS. Tu możesz kupić unikalne karty NFT, artefakty i przedmioty.</p>
+    <div class="market-filters">
+      <label for="rarity">Filtruj po rzadkości:</label>
+      <select id="rarity" onchange="filterByRarity()">
+        <option value="all">Wszystko</option>
+        <option value="common">Powszechne</option>
+        <option value="rare">Rzadkie</option>
+        <option value="epic">Epickie</option>
+        <option value="legendary">Legendarne</option>
+      </select>
+    </div>
+  </div>  <div class="market-container">
+    <div class="market-card rarity-rare">
+      <img src="nft_images/ice_sorceress.png" alt="Ice Sorceress NFT" />
+      <div class="nft-name">❄ Lodowa Czarodziejka</div>
+      <div class="nft-description">Dodaje 20% mroźnych obrażeń. Może spowolnić wroga w walce.</div>
+      <div class="price">
+        <span>💎 0.5 TON</span> lub <span>🇷🇺 500 RFN</span>
+      </div>
+      <button class="buy-button">Kup</button>
+    </div><div class="market-card rarity-epic">
+  <img src="nft_images/undead_knight.png" alt="Undead Knight NFT" />
+  <div class="nft-name">☠ Nieumarły Rycerz</div>
+  <div class="nft-description">Unikalny wojownik, zwiększa wytrzymałość postaci o 30%</div>
+  <div class="price">
+    <span>💰 1.2 TON</span> tylko
+  </div>
+  <button class="buy-button">Kup za TON</button>
+</div>
+
+<div class="market-card rarity-common">
+  <img src="nft_images/wolf_pup.png" alt="Wolf Pup NFT" />
+  <div class="nft-name">🐺 Wilczek</div>
+  <div class="nft-description">Towarzysz początkujących, przyspiesza regenerację PA.</div>
+  <div class="price">
+    <span>🇷🇺 150 RFN</span>
+  </div>
+  <button class="buy-button">Kup za RFN</button>
+</div>
+
+<div class="market-card rarity-legendary">
+  <img src="nft_images/dragon_queen.png" alt="Legendary Dragon NFT" />
+  <div class="nft-name">🔥 Smoczyca Królewska</div>
+  <div class="nft-description">Najrzadsza karta. Oferuje 50% odporności na magię i ogień.</div>
+  <div class="price">
+    <span>🔥 2.5 TON</span> lub <span>🇷🇺 3000 RFN</span>
+  </div>
+  <button class="buy-button">Kup legendarną!</button>
+</div>
+
+  </div>  <script>
+    function filterByRarity() {
+      const selected = document.getElementById("rarity").value;
+      const cards = document.querySelectorAll(".market-card");
+      cards.forEach(card => {
+        if (selected === "all" || card.classList.contains("rarity-" + selected)) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    }
+  </script></body>
+</html>

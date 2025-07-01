@@ -1,0 +1,34 @@
+[
+  {
+    "id": "NFT-CHAR-WER033",
+    "nazwa": "Averis z Wercowe",
+    "typ": "Postać",
+    "frakcja": "Wercowe",
+    "rzadkosc": "Legendarna",
+    "opis": "Zaklinacz Mgły. Odblokowuje misje Mglistych Jezior.",
+    "efekty": [
+      "+20% do iluzji",
+      "Odblokowuje sekretne misje w regionie"
+    ],
+    "grafika": "assets/nft/averis.png",
+    "misje_odblokowane": ["mgla_jeziora_01", "mgla_jeziora_02"],
+    "ewolucja": true,
+    "kolekcja": "Frakcja Wercowe"
+  },
+  {
+    "id": "NFT-LOC-OST001",
+    "nazwa": "Zamek Ostrorogu",
+    "typ": "Lokacja",
+    "frakcja": "Ostroróg",
+    "rzadkosc": "Epicka",
+    "opis": "Najstarszy bastion nekromancji i mutacji.",
+    "efekty": [
+      "+5% do czarnej magii",
+      "Odblokowuje dungeon: Studnia Lamentu"
+    ],
+    "grafika": "assets/nft/zamek_ostrorogu.png",
+    "misje_odblokowane": ["studnia_lamentu_01"],
+    "ewolucja": false,
+    "kolekcja": "Zamki Frakcyjne"
+  }
+]

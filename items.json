@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Miecz Cienia",
+    "type": "broń",
+    "rarity": "epicki",
+    "power": 120,
+    "defense": 20,
+    "magic": 0,
+    "description": "Przeklęty miecz wykuty z czarnego kamienia."
+  },
+  {
+    "name": "Zbroja Wędrowca",
+    "type": "zbroja",
+    "rarity": "rzadka",
+    "power": 0,
+    "defense": 80,
+    "magic": 10,
+    "description": "Zbroja należąca do starego maga-wojownika."
+  },
+  {
+    "name": "Karta Bohatera: Eldrin",
+    "type": "karta klasowa",
+    "rarity": "unikatowa",
+    "power": 50,
+    "defense": 40,
+    "magic": 150,
+    "description": "Potężny elficki mag, obrońca Lasy Firowej."
+  }
+]

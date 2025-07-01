@@ -1,0 +1,23 @@
+[
+  {
+    "typ": "nft",
+    "nazwa": "Znachorka Level 6",
+    "rzadkosc": "epic",
+    "cena": 12,
+    "waluta": "TON"
+  },
+  {
+    "typ": "ekwipunek",
+    "nazwa": "Hełm Upiora +4",
+    "rzadkosc": "rare",
+    "cena": 6,
+    "waluta": "RFN"
+  },
+  {
+    "typ": "mikstura",
+    "nazwa": "Eliksir Wilczego Kła",
+    "rzadkosc": "common",
+    "cena": 2,
+    "waluta": "RFN"
+  }
+]

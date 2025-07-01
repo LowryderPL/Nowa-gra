@@ -1,0 +1,10 @@
+{
+  "map": [
+    {"id": 1, "name": "Twierdza Kaedwen", "type": "castle", "position": [3, 4]},
+    {"id": 2, "name": "Ruiny Koroth", "type": "ruins", "position": [6, 1]},
+    {"id": 3, "name": "Miasto Valgard", "type": "city", "position": [2, 7]},
+    {"id": 4, "name": "Jaskinia Strigi", "type": "boss", "position": [5, 5], "boss_id": "striga"},
+    {"id": 5, "name": "Góra Lodowego Trolla", "type": "boss", "position": [1, 2], "boss_id": "ice_troll"},
+    {"id": 6, "name": "Wrota Wraithów", "type": "boss", "position": [7, 6], "boss_id": "wraith"}
+  ]
+}

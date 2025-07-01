@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FIROS NFT Collection</title>
+    <style>
+        body { background-color: #1c1c1c; color: #fff; font-family: fantasy; text-align: center; }
+        .card { border: 2px solid #555; background: #2a2a2a; padding: 10px; margin: 10px; border-radius: 8px; display: inline-block; width: 200px; }
+        .card img { width: 100%; border-radius: 4px; }
+        .rarity-Legendary { color: gold; }
+        .rarity-Epic { color: violet; }
+        .rarity-Rare { color: skyblue; }
+        .rarity-Common { color: gray; }
+    </style>
+</head>
+<body>
+    <h1>Twoja Kolekcja NFT</h1>
+    <div id="collection"></div>
+    <script>
+        fetch("nft_cards.json")
+            .then(res => res.json())
+            .then(data => {
+                let html = "";
+                data.forEach(card => {
+                    html += `<div class="card rarity-${card.rarity}"><h3>${card.name}</h3><img src="${card.image}" alt=""><p>${card.ability}</p></div>`;
+                });
+                document.getElementById("collection").innerHTML = html;
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+import sqlite3
+
+# Połączenie z bazą danych (utworzy jeśli nie istnieje)
+conn = sqlite3.connect("firos_inventory.db")
+cursor = conn.cursor()
+
+# Tworzenie tabeli 'inventory'
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS inventory (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    type TEXT NOT NULL,
+    rarity TEXT NOT NULL,
+    description TEXT,
+    equipped INTEGER DEFAULT 0,
+    owner TEXT DEFAULT 'player_1'
+)
+""")
+
+# Przykładowe dane
+sample_items = [
+    ("Miecz Cieni", "broń", "epicki", "Miecz pokryty runami, wykuty w cieniu Gór Rozpaczy."),
+    ("Zbroja Wilczego Księcia", "zbroja", "legendarna", "Zbroja należąca do zapomnianego lorda północy."),
+    ("Karta: Arthon Zwiadowca", "karta", "rzadka", "Bohater frakcji Wędrowców. Zwiększa szansę na unik."),
+    ("Eliksir Widzenia Prawdy", "eliksir", "zwykła", "Pozwala zobaczyć niewidzialne rzeczy przez 2 tury.")
+]
+
+cursor.executemany("""
+INSERT INTO inventory (name, type, rarity, description)
+VALUES (?, ?, ?, ?)
+""", sample_items)
+
+# Zapisanie i zamknięcie połączenia
+conn.commit()
+conn.close()
+
+print("Baza danych firos_inventory.db została utworzona i uzupełniona.")

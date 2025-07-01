@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>FIROS – System Craftingu</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #e6e6e6;
+      font-family: 'MedievalSharp', serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #ffcc00;
+    }
+    .crafting-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .recipe {
+      background-color: #1b1b1b;
+      border: 2px solid #555;
+      border-radius: 10px;
+      padding: 15px;
+      width: 280px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+    }
+    .recipe h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .recipe p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+    button {
+      background-color: #222;
+      color: #ffd700;
+      border: 1px solid #888;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔨 System Craftingu – FIROS</h1>
+  <div class="crafting-grid" id="crafting-container"></div>
+
+  <script>
+    async function loadRecipes() {
+      const res = await fetch("/api/crafting");
+      const recipes = await res.json();
+      const container = document.getElementById("crafting-container");
+
+      recipes.forEach(recipe => {
+        const el = document.createElement("div");
+        el.className = "recipe";
+        el.innerHTML = `
+          <h2>${recipe.name}</h2>
+          <p><strong>Wymagane składniki:</strong> ${recipe.ingredients.join(', ')}</p>
+          <p><strong>Efekt:</strong> ${recipe.effect}</p>
+          <button onclick="craft('${recipe.id}')">Stwórz</button>
+        `;
+        container.appendChild(el);
+      });
+    }
+
+    async function craft(id) {
+      const res = await fetch("/api/craft/" + id, { method: 'POST' });
+      const data = await res.json();
+      alert(data.message);
+    }
+
+    loadRecipes();
+  </script>
+
+</body>
+</html>

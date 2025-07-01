@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketplace - Firos: Magic & Magic</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #111;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 1rem;
+      color: #f5b642;
+    }
+
+    .market-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .market-card {
+      background-color: #1e1e1e;
+      border: 1px solid #444;
+      border-radius: 10px;
+      margin: 1rem;
+      padding: 1rem;
+      width: 260px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .market-card img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+    }
+
+    .market-card .nft-name {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 0.3rem;
+      color: #f5b642;
+    }
+
+    .market-card .nft-description {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .market-card .price span {
+      display: inline-block;
+      margin-right: 0.3rem;
+      font-weight: bold;
+      color: #f5b642;
+    }
+
+    .buy-button {
+      background-color: #444;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .buy-button:hover {
+      background-color: #666;
+    }
+
+    .rarity-rare {
+      border-color: #3ca3dd;
+    }
+
+    .rarity-epic {
+      border-color: #b55fff;
+    }
+
+    .rarity-legendary {
+      border-color: #ffd700;
+    }
+
+    .rarity-common {
+      border-color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>🛡️ Rynek NFT - Firos</h1>
+  <div class="market-container" id="marketplace">
+    <div class="market-card rarity-rare">
+      <img src="nft_images/ice_sorceress.png" alt="Ice Sorceress NFT">
+      <div class="nft-name">Lodowa Czarodziejka</div>
+      <div class="nft-description">Dodaje 20% mroźnych obrażeń. Może spowolnić wroga w walce.</div>
+      <div class="price">
+        <span>💠 8 TON</span> lub <span>💰 500 RFN</span>
+      </div>
+      <button class="buy-button" onclick="buyNFT('Lodowa Czarodziejka')">Kup</button>
+    </div>
+
+    <div class="market-card rarity-epic">
+      <img src="nft_images/undead_knight.png" alt="Undead Knight NFT">
+      <div class="nft-name">Nieumarły Rycerz</div>
+      <div class="nft-description">Unikalny wojownik, zwiększa wytrzymałość postaci o 30%.</div>
+      <div class="price">
+        <span>💠 10 TON</span>
+      </div>
+      <button class="buy-button" onclick="buyNFT('Nieumarły Rycerz')">Kup</button>
+    </div>
+
+    <div class="market-card rarity-common">
+      <img src="nft_images/wolf_pup.png" alt="Wolf Pup NFT">
+      <div class="nft-name">Wilczek</div>
+      <div class="nft-description">Towarzysz początkujących, przyspiesza regenerację PA.</div>
+      <div class="price">
+        <span>💰 150 RFN</span>
+      </div>
+      <button class="buy-button" onclick="buyNFT('Wilczek')">Kup</button>
+    </div>
+
+    <div class="market-card rarity-legendary">
+      <img src="nft_images/phoenix_warrior.png" alt="Phoenix Warrior NFT">
+      <div class="nft-name">Feniks Wojownik</div>
+      <div class="nft-description">Legenda bitew – odradza się raz po śmierci z 25% HP.</div>
+      <div class="price">
+        <span>🔥 100 TON</span> lub <span>💰 2000 RFN</span>
+      </div>
+      <button class="buy-button" onclick="buyNFT('Feniks Wojownik')">Kup</button>
+    </div>
+  </div>
+
+  <script>
+    function buyNFT(nazwa) {
+      alert("Kupiono NFT: " + nazwa + " (do podłączenia z płatnościami TON/RFN)");
+    }
+  </script>
+</body>
+</html>

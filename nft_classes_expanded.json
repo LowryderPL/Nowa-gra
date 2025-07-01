@@ -1,0 +1,103 @@
+{
+  "nft_classes": [
+    {
+      "id": "znachorka_01",
+      "name": "Znachorka",
+      "rarity": "epic",
+      "description": "Mistrzyni eliksirów i leczenia. Specjalizuje się w zielarstwie i alchemii.",
+      "levels": [
+        "Znachorka Level 1",
+        "Znachorka Level 2",
+        "Znachorka Level 3"
+      ],
+      "crafting": [
+        "Eliksir Wilczego Kła",
+        "Zioła Snów",
+        "Korzeń Wieszczki"
+      ],
+      "special_nft": "Korzeń Wieszczki",
+      "drop_location": "Ruins of Koroth",
+      "required_for_quests": ["Leczenie Rannego Króla", "Rytuał Wiosny"],
+      "attributes": {
+        "intelligence": 8,
+        "alchemy": 10,
+        "healing": 9,
+        "defense": 4
+      },
+      "available_in": ["TON", "RFN"],
+      "icon": "icon_refenthon.png"
+    },
+    {
+      "id": "berserker_01",
+      "name": "Berserker z Gór",
+      "rarity": "rare",
+      "description": "Wojownik opętany szałem bitewnym. Zwiększa siłę drużyny w PvP.",
+      "levels": ["Berserker 1", "Berserker 2", "Berserker 3"],
+      "crafting": ["Kamień Furii", "Kość Trolla"],
+      "special_nft": "Runa Krwi",
+      "drop_location": "Jaskinia Bestii",
+      "required_for_quests": ["Zemsta za Klan", "Rozpalenie Ognia Wojny"],
+      "attributes": {
+        "strength": 10,
+        "rage": 9,
+        "defense": 6,
+        "speed": 4
+      },
+      "available_in": ["RFN"]
+    },
+    {
+      "id": "nekromanta_01",
+      "name": "Nekromanta",
+      "rarity": "legendary",
+      "description": "Władca ciemności, potrafi przywoływać umarłych. Kluczowy do misji z demonami.",
+      "levels": ["Nekromanta 1", "Nekromanta 2", "Nekromanta 3"],
+      "crafting": ["Proch Umarłych", "Zwoje Cienia", "Krew Demona"],
+      "special_nft": "Księga Wiecznego Mroku",
+      "drop_location": "Cmentarz Dzikich Królów",
+      "required_for_quests": ["Przyzwanie Armii Cieni", "Przeklęta Wieża"],
+      "attributes": {
+        "dark_magic": 10,
+        "mana": 9,
+        "control": 7,
+        "speed": 3
+      },
+      "available_in": ["TON"]
+    },
+    {
+      "id": "łowca_elfów_01",
+      "name": "Łowca Elfów",
+      "rarity": "uncommon",
+      "description": "Tropiciel i łowca magicznych stworzeń. Zwiększa szanse na loot z bossów.",
+      "levels": ["Łowca 1", "Łowca 2", "Łowca 3"],
+      "crafting": ["Strzała Żywiołu", "Pazur Mantykory"],
+      "special_nft": "Tarcza Ciszy",
+      "drop_location": "Las Martwych Elfów",
+      "required_for_quests": ["Polowanie na Widma", "Zabójstwo Królowej"],
+      "attributes": {
+        "dexterity": 8,
+        "tracking": 9,
+        "archery": 10,
+        "stealth": 7
+      },
+      "available_in": ["RFN"]
+    },
+    {
+      "id": "mnich_ognia_01",
+      "name": "Mnich Ognia",
+      "rarity": "epic",
+      "description": "Kapłan Zakonu Płonącej Góry. Potężny mag ofensywny.",
+      "levels": ["Mnich 1", "Mnich 2", "Mnich 3"],
+      "crafting": ["Płomień Duszy", "Popiół Feniksa"],
+      "special_nft": "Korona Żaru",
+      "drop_location": "Wulkan Yesoroth",
+      "required_for_quests": ["Oczyszczenie Świątyni", "Zatrzymanie Krwawiącej Mgły"],
+      "attributes": {
+        "fire_magic": 9,
+        "wisdom": 8,
+        "resistance": 6,
+        "charisma": 5
+      },
+      "available_in": ["TON", "RFN"]
+    }
+  ]
+}

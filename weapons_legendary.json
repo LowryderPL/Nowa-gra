@@ -1,0 +1,24 @@
+[
+    {
+        "id": "wolfblade_sword",
+        "name": "Wolfblade Sword",
+        "type": "sword",
+        "rarity": "legendary",
+        "bonus": {
+            "crit_damage": "+15%",
+            "stamina_regen": "-6%"
+        },
+        "description": "Forged in the snow of Kaedwen, this sword strikes faster when your heart slows."
+    },
+    {
+        "id": "reapers_scythe",
+        "name": "Reaper\u2019s Scythe",
+        "type": "scythe",
+        "rarity": "legendary",
+        "bonus": {
+            "damage_vs_humanoid": "+50%",
+            "poison_resist": "-2%"
+        },
+        "description": "A cursed scythe used in rituals of old."
+    }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIROS: Magic & Magic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>FIROS: Magic & Magic</h1>
+    <p class="subtitle">Wejdź do mrocznego świata fantasy, zbieraj karty NFT, rozwijaj bohatera i eksploruj mapę.</p>
+</header>
+
+<section class="menu">
+    <button onclick="navigate('map')">🗺️ Mapa</button>
+    <button onclick="navigate('inventory')">🎒 Ekwipunek</button>
+    <button onclick="navigate('market')">💰 Marketplace</button>
+    <button onclick="navigate('nft')">🧙‍♂️ Karty NFT</button>
+    <button onclick="navigate('quests')">📜 Misje</button>
+    <button onclick="navigate('battle')">⚔️ Bitwa</button>
+</section>
+
+<main id="content">
+    <p>Witaj Bohaterze! Wybierz zakładkę, aby rozpocząć przygodę.</p>
+</main>
+
+<footer>
+    <p>&copy; 2025 Firos: Magic & Magic | Powered by TON & RFN</p>
+</footer>
+
+<script>
+function navigate(view) {
+    const content = document.getElementById('content');
+    content.innerHTML = `<p>Wczytywanie sekcji: <strong>${view}</strong>...</p>`;
+
+    if (view === 'inventory') {
+        fetch('items.json')
+            .then(res => res.json())
+            .then(data => {
+                let html = '<h2>🎒 Ekwipunek</h2><ul>';
+                data.forEach(item => {
+                    html += `<li><strong>${item.name}</strong> [${item.type}]<br>
+                             Moc: ${item.power} | Obrona: ${item.defense} | Magia: ${item.magic}<br>
+                             <em>${item.description}</em></li><hr>`;
+                });
+                html += '</ul>';
+                content.innerHTML = html;
+            })
+            .catch(() => content.innerHTML = "<p>Błąd ładowania ekwipunku.</p>");
+    }
+
+    else if (view === 'market') {
+        content.innerHTML = "<h2>💰 Marketplace</h2><p>Tu kupisz lub sprzedasz przedmioty i NFT.</p>";
+    }
+
+    else if (view === 'nft') {
+        content.innerHTML = "<h2>🧙‍♂️ Karty NFT</h2><p>Kolekcjonuj magiczne karty!</p>";
+    }
+
+    else if (view === 'map') {
+        content.innerHTML = "<h2>🗺️ Mapa Świata</h2><p>Tu pojawi się ogromna mapa Firos!</p>";
+    }
+
+    else if (view === 'quests') {
+        content.innerHTML = "<h2>📜 Misje</h2><p>Wykonuj misje i zdobywaj doświadczenie.</p>";
+    }
+
+    else if (view === 'battle') {
+        content.innerHTML = "<h2>⚔️ Bitwa</h2><p>Wyzwania, PvP i lochy!</p>";
+    }
+}
+</script>
+
+</body>
+</html>
