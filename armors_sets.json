@@ -1,0 +1,24 @@
+[
+    {
+        "id": "nilfgaardian_plate",
+        "name": "Nilfgaardian Plate",
+        "type": "heavy_armor",
+        "rarity": "epic",
+        "bonus": {
+            "hit_chance": "+5%",
+            "movement_speed": "-20%"
+        },
+        "description": "Imperial plate finished with gilded ornamentation."
+    },
+    {
+        "id": "salamandra_armor",
+        "name": "Salamandra Armour",
+        "type": "leather",
+        "rarity": "rare",
+        "bonus": {
+            "vitality": "+50",
+            "fire_resist": "-25%"
+        },
+        "description": "Leather armor of an insidious organization."
+    }
+]
