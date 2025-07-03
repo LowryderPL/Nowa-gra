@@ -1,0 +1,47 @@
+[
+    {
+        "id": "zw_001",
+        "name": "Zwój Wskazania Głębin",
+        "type": "scroll",
+        "rarity": "rare",
+        "description": "Pokazuje lokalizację rzadkiego łowiska przez 10 minut.",
+        "price_ton": 1.2,
+        "rotating": true
+    },
+    {
+        "id": "map_001",
+        "name": "Fragment Mapy Topielców",
+        "type": "map_fragment",
+        "rarity": "epic",
+        "description": "Fragment starożytnej mapy prowadzącej do zatopionej świątyni.",
+        "price_ton": 1.8,
+        "rotating": true
+    },
+    {
+        "id": "book_001",
+        "name": "Księga Szeptów Mgły",
+        "type": "book",
+        "rarity": "legendary",
+        "description": "Zawiera zapisy o przeklętej przystani i relikcie syreny.",
+        "price_ton": 3.5,
+        "rotating": false
+    },
+    {
+        "id": "notes_001",
+        "name": "Zapiski Starego Rybaka",
+        "type": "notes",
+        "rarity": "common",
+        "description": "Stara notatka, sugerująca miejsce z dużym szansą na relikt.",
+        "price_ton": 0.7,
+        "rotating": true
+    },
+    {
+        "id": "det_001",
+        "name": "Zwój Detekcji Skarbów",
+        "type": "detection_scroll",
+        "rarity": "epic",
+        "description": "Pozwala wykryć pobliskie skarby przez 10 minut w czasie rzeczywistym.",
+        "price_ton": 2.5,
+        "rotating": false
+    }
+]
