@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Węgor Królewski",
+        "type": "magic fish",
+        "rarity": "Legendary",
+        "location": "Mroczne Wody Gnilne",
+        "drops": [
+            "jad królewski",
+            "skóra",
+            "płetwa"
+        ],
+        "effects": [
+            "mikstura paralizy",
+            "ulepszanie ostrzy"
+        ],
+        "quote": "„Nie ruszaj ogona, jeśli nie wiesz, gdzie ma głowę.”"
+    },
+    {
+        "name": "Kraken Mroczny",
+        "type": "mythic cephalopod",
+        "rarity": "Mythic",
+        "location": "Trójkąt Umrali",
+        "drops": [
+            "macka",
+            "oko głębin",
+            "błona"
+        ],
+        "effects": [
+            "rytuał przyzwania",
+            "zbroja tentakularna"
+        ],
+        "quote": "„Cisza w głębinie to jego śmiech.”"
+    },
+    {
+        "name": "Syrena Umierająca",
+        "type": "mystic siren",
+        "rarity": "Mythic",
+        "location": "Mgły Syrenie",
+        "drops": [
+            "głos",
+            "serce",
+            "skóra alabastrowa"
+        ],
+        "effects": [
+            "rytuał uwodzenia",
+            "amulet elokwencji"
+        ],
+        "quote": "„Jej śpiew kończy sny, zanim zaczną się na dobre.”"
+    },
+    {
+        "name": "Żelazoryb",
+        "type": "armored fish",
+        "rarity": "Epic",
+        "location": "Głębokie Jeziora Firos",
+        "drops": [
+            "łuski stalowe",
+            "język tnący"
+        ],
+        "effects": [
+            "tarcze",
+            "pułapki ostrzowe"
+        ],
+        "quote": "„Nie jest szybki, ale przegryzie stal.”"
+    }
+]
