@@ -1,4 +1,14 @@
 
+"""
+🏰 GUILD SYSTEM – SYSTEM GILDII W GRZE FIROS
+
+Ten moduł pozwala graczom tworzyć, dołączać i opuszczać gildie.
+- Każda gildia ma lidera, członków, poziom, opis i bank.
+- Gildie mogą rywalizować w wojnach gildii i zdobywać nagrody.
+- Bank gildii służy do wspólnego rozwoju i odblokowywania bonusów.
+
+Dane przechowywane są w guilds.json
+"""
 import json
 import os
 

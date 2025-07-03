@@ -1,4 +1,14 @@
 
+"""
+💼 TRADING STALLS – SZAFKI HANDLOWE GRACZY
+
+Ten moduł pozwala graczom wystawiać przedmioty na sprzedaż:
+- Każda szafka to indywidualne ogłoszenie (przedmiot, ilość, cena)
+- Można przeglądać oferty, usuwać je i filtrować po graczu
+- Umożliwia budowę rynku między graczami
+
+Dane przechowywane są w trading_stalls.json
+"""
 import json
 import os
 from datetime import datetime

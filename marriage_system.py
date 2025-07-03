@@ -1,4 +1,14 @@
 
+"""
+💍 MARRIAGE SYSTEM – SYSTEM MAŁŻEŃSTW W GRZE FIROS
+
+Ten moduł umożliwia graczom zawieranie i rozwiązywanie małżeństw:
+- Małżeństwo daje bonusy (np. więcej expa, teleportacja do partnera)
+- Relacje są zapisywane i mogą być przeszukiwane
+- Można się rozwieść w dowolnym momencie
+
+Dane przechowywane są w marriages.json
+"""
 import json
 import os
 
