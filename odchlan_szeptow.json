@@ -1,0 +1,13 @@
+{
+    "map_name": "Odch\u0142a\u0144 Szept\u00f3w",
+    "available_fish": [
+        "Whisperfish",
+        "Shadow Pike",
+        "Bloodscale"
+    ],
+    "boss_fish": "Siren Umy",
+    "secret_treasure": true,
+    "chat_enabled": true,
+    "fishing_enabled": true,
+    "auto_pairing": true
+}
