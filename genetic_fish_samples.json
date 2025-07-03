@@ -1,0 +1,56 @@
+[
+    {
+        "species": "Żelazoryb",
+        "mutated": true,
+        "mutation_name": "Zmutowane Oko",
+        "mutation_effect": "bonus do rytuałów",
+        "value_ton": 2.16
+    },
+    {
+        "species": "Żelazoryb",
+        "mutated": true,
+        "mutation_name": "Zmutowane Oko",
+        "mutation_effect": "bonus do rytuałów",
+        "value_ton": 2.16
+    },
+    {
+        "species": "Zgniła Meduza",
+        "mutated": false,
+        "value_ton": 0.9
+    },
+    {
+        "species": "Zgniła Meduza",
+        "mutated": false,
+        "value_ton": 0.9
+    },
+    {
+        "species": "Węgorz Królewski",
+        "mutated": false,
+        "value_ton": 3.5
+    },
+    {
+        "species": "Żelazoryb",
+        "mutated": false,
+        "value_ton": 1.2
+    },
+    {
+        "species": "Żelazoryb",
+        "mutated": false,
+        "value_ton": 1.2
+    },
+    {
+        "species": "Węgorz Królewski",
+        "mutated": false,
+        "value_ton": 3.5
+    },
+    {
+        "species": "Zgniła Meduza",
+        "mutated": false,
+        "value_ton": 0.9
+    },
+    {
+        "species": "Zgniła Meduza",
+        "mutated": false,
+        "value_ton": 0.9
+    }
+]
