@@ -1,0 +1,1 @@
+{'name': "Syrena Umy'Zahl", 'type': 'boss_fish', 'location': 'Otchłań Szeptów', 'attributes': {'rarity': 'legendary', 'weight': '128 kg', 'hp': 9000, 'effects': ['hipnotyzujące śpiewy', 'krzyk banshee', 'skryty atak ogonem']}, 'loot': ['Zwoje zaklęć wodnych', 'Serce Syreny', 'Perła Rozpaczy'], 'image_url': 'bosses/syrena_umyzahl.png'}
