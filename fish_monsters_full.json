@@ -1,0 +1,83 @@
+[
+    {
+        "id": "abyssal_lurker",
+        "name": "Abyssal Lurker",
+        "rarity": "legendary",
+        "location": "Czarne Rozlewiska",
+        "description": "Ryba, która żyje w najciemniejszych głębinach. Jej ciało pokryte jest bioluminescencyjnymi wzorami.",
+        "mutations": [
+            "bioluminescencja",
+            "zęby jadowe"
+        ],
+        "drop_items": [
+            "Ząb Otchłani",
+            "Skórka Cienia"
+        ],
+        "value_RFN": 240,
+        "value_TON": 1.9
+    },
+    {
+        "id": "silverfin_slicer",
+        "name": "Silverfin Slicer",
+        "rarity": "epic",
+        "location": "Lśniące Jeziora",
+        "description": "Agresywna, błyszcząca ryba o łuskach tnących jak żyletki.",
+        "mutations": [
+            "metaliczne łuski"
+        ],
+        "drop_items": [
+            "Płetwa Ostrej Rzeki"
+        ],
+        "value_RFN": 120,
+        "value_TON": 0.9
+    },
+    {
+        "id": "glowing_marrowfish",
+        "name": "Glowing Marrowfish",
+        "rarity": "rare",
+        "location": "Zatokowe Moczary",
+        "description": "Rzadko spotykana ryba, która emituje światło z wnętrza ciała.",
+        "mutations": [
+            "fluorescencja kości"
+        ],
+        "drop_items": [
+            "Świetlista Kość"
+        ],
+        "value_RFN": 80,
+        "value_TON": 0.4
+    },
+    {
+        "id": "whisperscale",
+        "name": "Whisperscale",
+        "rarity": "common",
+        "location": "Wiejskie Stawy",
+        "description": "Zwykła, choć dziwnie cicha ryba. Podobno jej łuski szepczą nocą.",
+        "mutations": [],
+        "drop_items": [
+            "Łuska Szepcząca"
+        ],
+        "value_RFN": 15,
+        "value_TON": 0.05
+    },
+    {
+        "id": "deep_mind_siren",
+        "name": "Deep Mind Siren",
+        "rarity": "mythical",
+        "location": "Zapomniany Ocean",
+        "description": "Legendarna ryba-boss znana jako Królowa Zapomnianych. Łowić ją można tylko w określonych porach nocy, w miejscach pełnych zatopionych ruin.",
+        "mutations": [
+            "głos hipnozy",
+            "skrzydła płetwowe",
+            "telepatyczna obecność"
+        ],
+        "drop_items": [
+            "Złoty Róg Syreny",
+            "Koral Czaszki",
+            "Zwoje Podmorskie"
+        ],
+        "value_RFN": 720,
+        "value_TON": 5.8,
+        "boss": true,
+        "lore": "Gdy ostatnia syrena zginęła w wielkiej wojnie oceanicznej, jej duch odrodził się w ciele tej ryby. Tylko wybrani mogą usłyszeć jej pieśń z dna morskiego."
+    }
+]
