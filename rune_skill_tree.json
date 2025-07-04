@@ -1,0 +1,40 @@
+{
+    "Poziom 1": [
+        {
+            "rune": "Runa Ognia",
+            "unlocked_by": "Zakończ misję: Zgliszcza Południa"
+        },
+        {
+            "rune": "Runa Mrozu",
+            "unlocked_by": "Zakończ misję: Lodowe Serce"
+        }
+    ],
+    "Poziom 2": [
+        {
+            "rune": "Runa Krwi",
+            "unlocked_by": "Wykonaj 3 misje klasowe"
+        },
+        {
+            "rune": "Runa Światła",
+            "unlocked_by": "Ukończ zadanie: Brama Światłości"
+        },
+        {
+            "rune": "Runa Cienia",
+            "unlocked_by": "Pokonaj bossa: Król Pustki"
+        }
+    ],
+    "Poziom 3": [
+        {
+            "rune": "Runa Chaosu",
+            "unlocked_by": "Zakończ linię fabularną: Upadek Królestwa"
+        },
+        {
+            "rune": "Runa Iluzji",
+            "unlocked_by": "Wykonaj 5 misji dziennych bez porażki"
+        },
+        {
+            "rune": "Runa Wojny",
+            "unlocked_by": "Zajmij twierdzę frakcji"
+        }
+    ]
+}
