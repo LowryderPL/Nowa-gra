@@ -1,83 +1,74 @@
+# alchemy_gui.py – GUI do systemu alchemii
+# Zintegrowane z alchemy.py
 
 import tkinter as tk
 from tkinter import messagebox
-from PIL import Image, ImageTk
+from alchemy import Alchemy
 
 class AlchemyGUI:
-    def __init__(self, master, inventory, xp):
+    def __init__(self, master):
         self.master = master
-        self.master.title("Księga Alchemii")
-        self.inventory = inventory
-        self.xp = xp
+        self.master.title("Warsztat Alchemiczny")
+        self.master.geometry("700x600")
+        self.master.configure(bg="#2d2d2d")
 
-        self.recipes = {
-            "Eliksir Życia": {"components": ["Czerwony Korzeń", "Woda"], "xp_cost": 5, "effect": "Przywraca 20 HP"},
-            "Mutagen Cienia": {"components": ["Cień Mrocznego Wilka", "Krew"], "xp_cost": 10, "effect": "+10 Uniku, -5 HP"},
-            "Esencja Ognia": {"components": ["Siarczysta Żywica", "Olej"], "xp_cost": 7, "effect": "Podpala broń"}
-        }
+        self.alchemy = Alchemy()
+        self.selected_ingredients = []
 
         self.create_widgets()
 
     def create_widgets(self):
-        try:
-            bg_image = Image.open("alchemy_background_main.png")
-            self.bg_photo = ImageTk.PhotoImage(bg_image)
-            canvas = tk.Canvas(self.master, width=bg_image.width, height=bg_image.height)
-            canvas.create_image(0, 0, anchor=tk.NW, image=self.bg_photo)
-            canvas.grid(row=0, column=0, columnspan=3)
-        except:
-            tk.Label(self.master, text="Księga Alchemii", font=("Papyrus", 16, "bold")).grid(row=0, column=0, columnspan=3)
+        title = tk.Label(self.master, text="🧪 Alchemia: Tworzenie Mikstur", font=("Georgia", 18, "bold"), fg="#00ffcc", bg="#2d2d2d")
+        title.pack(pady=10)
 
-        tk.Label(self.master, text=f"XP: {self.xp}").grid(row=1, column=0, sticky='w')
+        # Lista receptur
+        self.recipe_listbox = tk.Listbox(self.master, width=60, height=12, bg="#1e1e1e", fg="#ffffff", font=("Courier", 11))
+        self.recipe_listbox.pack(pady=10)
 
-        tk.Label(self.master, text="Receptury").grid(row=2, column=0)
-        self.recipe_listbox = tk.Listbox(self.master, width=30)
-        self.recipe_listbox.grid(row=3, column=0, rowspan=4)
-        for name in self.recipes:
-            self.recipe_listbox.insert(tk.END, name)
+        for recipe in self.alchemy.recipes:
+            self.recipe_listbox.insert(tk.END, f"{recipe.name} ({recipe.category}) – {', '.join(recipe.ingredients)}")
 
-        self.effect_label = tk.Label(self.master, text="Efekt: ", wraplength=200)
-        self.effect_label.grid(row=7, column=0, sticky="w")
+        # Składniki (ręczne wybieranie)
+        ing_frame = tk.Frame(self.master, bg="#2d2d2d")
+        ing_frame.pack()
 
-        tk.Button(self.master, text="Utwórz miksturę", command=self.craft_potion).grid(row=8, column=0, pady=5)
+        tk.Label(ing_frame, text="Składnik 1:", fg="#cccccc", bg="#2d2d2d").grid(row=0, column=0)
+        self.ing1_entry = tk.Entry(ing_frame)
+        self.ing1_entry.grid(row=0, column=1, padx=5)
 
-        tk.Label(self.master, text="Składniki").grid(row=2, column=1)
-        self.inventory_text = tk.Text(self.master, width=30, height=10)
-        self.inventory_text.grid(row=3, column=1, rowspan=4)
+        tk.Label(ing_frame, text="Składnik 2:", fg="#cccccc", bg="#2d2d2d").grid(row=1, column=0)
+        self.ing2_entry = tk.Entry(ing_frame)
+        self.ing2_entry.grid(row=1, column=1, padx=5)
 
-        self.update_inventory_display()
+        tk.Label(ing_frame, text="Składnik 3 (opc.):", fg="#cccccc", bg="#2d2d2d").grid(row=2, column=0)
+        self.ing3_entry = tk.Entry(ing_frame)
+        self.ing3_entry.grid(row=2, column=1, padx=5)
 
-    def update_inventory_display(self):
-        self.inventory_text.delete(1.0, tk.END)
-        for item in self.inventory:
-            self.inventory_text.insert(tk.END, f"{item['name']}\n")
+        # Przyciski
+        btn_frame = tk.Frame(self.master, bg="#2d2d2d")
+        btn_frame.pack(pady=10)
 
-    def craft_potion(self):
-        selected = self.recipe_listbox.curselection()
-        if not selected:
+        tk.Button(btn_frame, text="Stwórz 🧪", command=self.create_potion, bg="#00cc99", fg="white", font=("Arial", 11, "bold")).grid(row=0, column=0, padx=10)
+        tk.Button(btn_frame, text="📦 Plecak", command=self.show_backpack, bg="#444444", fg="white", font=("Arial", 11)).grid(row=0, column=1, padx=10)
+
+    def create_potion(self):
+        ing1 = self.ing1_entry.get().strip().lower()
+        ing2 = self.ing2_entry.get().strip().lower()
+        ing3 = self.ing3_entry.get().strip().lower()
+
+        ingredients = [i for i in [ing1, ing2, ing3] if i]
+        if not ingredients:
+            messagebox.showwarning("Błąd", "Wprowadź przynajmniej 2 składniki.")
             return
 
-        name = self.recipe_listbox.get(selected[0])
-        recipe = self.recipes[name]
-        components = recipe["components"]
-        xp_cost = recipe["xp_cost"]
-        effect = recipe["effect"]
+        result = self.alchemy.craft(ingredients)
+        messagebox.showinfo("Wynik alchemii", result)
 
-        if self.xp < xp_cost:
-            messagebox.showwarning("Brak XP", f"Potrzeba {xp_cost} XP.")
-            return
+    def show_backpack(self):
+        messagebox.showinfo("📦 Plecak", self.alchemy.show_backpack())
 
-        inv_names = [item["name"] for item in self.inventory]
-        if all(comp in inv_names for comp in components):
-            for comp in components:
-                for i, item in enumerate(self.inventory):
-                    if item["name"] == comp:
-                        del self.inventory[i]
-                        break
-            self.inventory.append({"name": name, "slot": "none", "weight": 0.5})
-            self.xp -= xp_cost
-            self.update_inventory_display()
-            self.effect_label.config(text=f"Efekt: {effect}")
-            messagebox.showinfo("Utworzono", f"Stworzono: {name}\nEfekt: {effect}")
-        else:
-            messagebox.showwarning("Brak składników", "Nie masz wszystkich składników.")
+# Uruchomienie GUI (do testów lokalnych)
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = AlchemyGUI(root)
+    root.mainloop()
