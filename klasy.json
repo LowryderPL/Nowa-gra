@@ -1,0 +1,65 @@
+[
+    {
+        "nazwa": "Żerca",
+        "opis": "Mistyk łączący się z duchami przodków. Specjalizuje się w zaklęciach ochronnych i duchowej manipulacji.",
+        "rangi": [
+            "Uczeń Rytuałów",
+            "Starszy Żerca",
+            "Przebudzony Duchowo"
+        ]
+    },
+    {
+        "nazwa": "Welesianin",
+        "opis": "Czarnoksiężnik czczący boga podziemi – Welesa. Używa zaklęć iluzji i kontroli umysłu.",
+        "rangi": [
+            "Cień Welesa",
+            "Wysłannik Grobów",
+            "Władca Cienia"
+        ]
+    },
+    {
+        "nazwa": "Znachor",
+        "opis": "Zielarz i alchemik. Mistrz w warzeniu mikstur, zatruwaniu broni i leczeniu.",
+        "rangi": [
+            "Zielny Pomagier",
+            "Mistrz Naparów",
+            "Alchemiczny Wtajemniczony"
+        ]
+    },
+    {
+        "nazwa": "Woj Radogosta",
+        "opis": "Wojownik w służbie boga wojny. Walczy z mieczem i toporem, wspierany błogosławieństwami.",
+        "rangi": [
+            "Tarczownik",
+            "Wybraniec Radogosta",
+            "Błogosławiony Wojownik"
+        ]
+    },
+    {
+        "nazwa": "Szeptucha",
+        "opis": "Mistyczka z bagien, władająca szeptami, klątwami i magią uroku.",
+        "rangi": [
+            "Córka Mgły",
+            "Wiedząca",
+            "Władczyni Słów"
+        ]
+    },
+    {
+        "nazwa": "Pustelnik Górski",
+        "opis": "Samotnik przebywający w jaskiniach. Używa magii natury, ziemi i kamienia.",
+        "rangi": [
+            "Wędrowny Druid",
+            "Kamienny Obserwator",
+            "Strażnik Ziemi"
+        ]
+    },
+    {
+        "nazwa": "Myśliwy Wuków",
+        "opis": "Łowca z północy, brat wilków. Używa łuku, sideł i wspomaga się bestiami.",
+        "rangi": [
+            "Tropiciel",
+            "Alfa",
+            "Władca Wilczej Krwi"
+        ]
+    }
+]
