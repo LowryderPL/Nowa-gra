@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Mikstura Życia",
+        "level": 1,
+        "rarity": "zwykły",
+        "effect": "30HP"
+    },
+    {
+        "name": "Mikstura Many",
+        "level": 2,
+        "rarity": "rzadki",
+        "effect": "20Mana"
+    },
+    {
+        "name": "Runa Krwi",
+        "level": 3,
+        "rarity": "epicki",
+        "effect": "10HP"
+    },
+    {
+        "name": "Zwój Ognia",
+        "level": 4,
+        "rarity": "legendarny",
+        "effect": "50HP"
+    }
+]
