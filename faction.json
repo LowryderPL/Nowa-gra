@@ -1,0 +1,32 @@
+[
+    {
+        "nazwa": "Valgard",
+        "opis": "Starożytna frakcja wojowników Północy. Słynie z lojalności, toporów i wiary w siłę rodu.",
+        "bonus": "+10% do obrażeń fizycznych, odporność na zimno"
+    },
+    {
+        "nazwa": "Czarna Krew",
+        "opis": "Sekta krwi i rytuałów. Ich magia wypacza ziemię i wzmacnia sojuszników.",
+        "bonus": "+15% do czarów krwi, szansa na odrodzenie po śmierci"
+    },
+    {
+        "nazwa": "Synowie Gromu",
+        "opis": "Frakcja najemników i kowali burz. Słyną z runicznych broni i gniewu burzy.",
+        "bonus": "+20% do obrażeń elektrycznych, szybsze ładowanie many"
+    },
+    {
+        "nazwa": "Strażnicy Mroku",
+        "opis": "Strażnicy granicy między życiem a śmiercią. Posługują się nekromancją i cieniami.",
+        "bonus": "Przyzwanie upiora co 3 walki, +10% do magii cienia"
+    },
+    {
+        "nazwa": "Zakon Popiołu",
+        "opis": "Fanatycy ognia i oczyszczenia. Wierzą, że świat musi spłonąć, by się odrodził.",
+        "bonus": "+25% do zaklęć ognia, odporność na zatrucia"
+    },
+    {
+        "nazwa": "Leśni Cienie",
+        "opis": "Cisza, śmierć i sztylet. Frakcja łowców, tropicieli i zwiadowców.",
+        "bonus": "+15% do uniku, atak z zaskoczenia zawsze trafia krytycznie"
+    }
+]
