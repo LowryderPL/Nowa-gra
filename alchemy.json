@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Eliksir Życia",
+        "components": [
+            "Zioło Lecznicze",
+            "Woda Źródlana"
+        ],
+        "effect": "+50 HP",
+        "rarity": "zwykły"
+    },
+    {
+        "name": "Mikstura Many",
+        "components": [
+            "Grzyb Nocny",
+            "Pył Magiczny"
+        ],
+        "effect": "+30 Mana",
+        "rarity": "rzadki"
+    },
+    {
+        "name": "Eliksir Krwi",
+        "components": [
+            "Runa Krwi",
+            "Zioło Lecznicze",
+            "Wino Cienia"
+        ],
+        "effect": "+70 HP, +10 Atak",
+        "rarity": "epicki"
+    },
+    {
+        "name": "Eliksir Widzenia",
+        "components": [
+            "Oko Wilka",
+            "Kryształ Przejrzystości"
+        ],
+        "effect": "Wykrywa ukryte obiekty przez 5 min",
+        "rarity": "legendarny"
+    }
+]
