@@ -1,61 +1,84 @@
-# crafting.py – FIROS: Magic & Magic (rozszerzony system rzemiosła)
-
-import random
+# crafting.py — Pełny system rzemiosła FIROS (Zastępuje wszystko)
 
 class Recipe:
-    def __init__(self, name, ingredients, result, level_required=1, rarity="zwykły", success_rate=100):
+    def __init__(self, name, materials, result, rarity="zwykły", level_required=1, allowed_classes=["All"]):
         self.name = name
-        self.ingredients = ingredients  # Lista składników
-        self.result = result  # Nazwa przedmiotu wynikowego
-        self.level_required = level_required
+        self.materials = materials
+        self.result = result
         self.rarity = rarity
-        self.success_rate = success_rate  # Szansa na powodzenie w %
-
-    def __repr__(self):
-        return f"{self.name} → {self.result} ({self.rarity}, Poziom {self.level_required})"
+        self.level_required = level_required
+        self.allowed_classes = allowed_classes
 
 
 class CraftingSystem:
     def __init__(self):
         self.recipes = self.load_recipes()
-        self.crafted_items = []
 
     def load_recipes(self):
         return [
-            Recipe("Stwórz Żelazny Miecz", ["żelazo", "drewno"], "Żelazny Miecz", 1, "zwykły", 95),
-            Recipe("Stwórz Magiczną Laskę", ["kryształ many", "stare drewno"], "Magiczna Laska", 3, "rzadki", 85),
-            Recipe("Stwórz Elfi Napierśnik", ["skóra elfa", "srebro"], "Elfi Napierśnik", 5, "epicki", 75),
-            Recipe("Rytualny Miecz Cienia", ["czarna stal", "serce demona", "runiczny pył"], "Miecz Cienia", 10, "legendarny", 60),
+            Recipe(
+                name="Mikstura Życia",
+                materials=["Kwiat Życia", "Czerwony Grzyb"],
+                result={"name": "Mikstura Życia", "slot": "Backpack", "level": 1, "rarity": "zwykły", "allowed_classes": ["All"]},
+                rarity="zwykły",
+                level_required=1
+            ),
+            Recipe(
+                name="Zwój Ognia",
+                materials=["Proch", "Kryształ Ognia"],
+                result={"name": "Zwój Ognia", "slot": "Rune", "level": 2, "rarity": "rzadki", "allowed_classes": ["Mag"]}
+            ),
+            Recipe(
+                name="Miecz Żelazny",
+                materials=["Żelazo", "Drewno"],
+                result={"name": "Miecz Żelazny", "slot": "Main Weapon", "level": 3, "rarity": "zwykły", "allowed_classes": ["Wojownik", "Rogue"]}
+            ),
+            Recipe(
+                name="Zbroja Cienia",
+                materials=["Skóra Cienia", "Tkanka Upiora"],
+                result={"name": "Zbroja Cienia", "slot": "Torso", "level": 5, "rarity": "epicki", "allowed_classes": ["Rogue", "Mag"]},
+                rarity="epicki",
+                level_required=5
+            )
         ]
 
-    def craft(self, inventory, ingredients, player_level=1):
+    def list_recipes(self):
+        return [f"{r.name} (lvl {r.level_required}) → {', '.join(r.materials)}" for r in self.recipes]
+
+    def craft(self, selected_name, inventory, player_level, player_class):
         for recipe in self.recipes:
-            if set(recipe.ingredients) <= set(ingredients):
+            if recipe.name == selected_name:
+                # Sprawdź poziom i klasę
                 if player_level < recipe.level_required:
-                    return f"❌ Potrzebujesz poziomu {recipe.level_required}, by stworzyć {recipe.result}."
-                if random.randint(1, 100) <= recipe.success_rate:
-                    self.crafted_items.append(recipe.result)
-                    for i in recipe.ingredients:
-                        if i in inventory:
-                            inventory.remove(i)
-                    return f"🛠️ Sukces! Stworzono: {recipe.result} ({recipe.rarity})"
+                    return f"❌ Potrzebny poziom {recipe.level_required} do stworzenia {recipe.name}."
+
+                if player_class not in recipe.allowed_classes and "All" not in recipe.allowed_classes:
+                    return f"❌ Klasa {player_class} nie może stworzyć {recipe.name}."
+
+                # Sprawdź materiały
+                if all(any(item["name"] == mat for item in inventory) for mat in recipe.materials):
+                    # Usuń materiały
+                    for mat in recipe.materials:
+                        for item in inventory:
+                            if item["name"] == mat:
+                                inventory.remove(item)
+                                break
+                    # Dodaj efekt
+                    inventory.append(recipe.result)
+                    return f"🛠 Stworzono {recipe.result['name']}!"
                 else:
-                    return f"💥 Tworzenie {recipe.result} nie powiodło się."
-        return "❌ Nie znaleziono pasującej receptury."
+                    return f"❌ Brakuje materiałów do {recipe.name}."
+        return "❌ Przepis nie znaleziony."
 
-    def show_recipes(self):
-        return "\n".join([str(r) for r in self.recipes])
-
-    def show_crafted_items(self):
-        return "\n".join([f"- {item}" for item in self.crafted_items]) if self.crafted_items else "🔧 Brak stworzonego ekwipunku."
-
-
-# Test lokalny
+# Przykład użycia — tylko testowo:
 if __name__ == "__main__":
     crafting = CraftingSystem()
-    inventory = ["żelazo", "drewno", "kryształ many", "stare drewno"]
-    print(crafting.show_recipes())
-    print(crafting.craft(inventory, ["żelazo", "drewno"], player_level=2))
-    print(crafting.craft(inventory, ["kryształ many", "stare drewno"], player_level=2))
-    print("🎒 Twój nowy ekwipunek:")
-    print(crafting.show_crafted_items())
+    player_inventory = [
+        {"name": "Kwiat Życia"}, {"name": "Czerwony Grzyb"}, {"name": "Żelazo"}, {"name": "Drewno"}
+    ]
+    print("🧾 Dostępne przepisy:")
+    for r in crafting.list_recipes():
+        print(" -", r)
+
+    result = crafting.craft("Mikstura Życia", player_inventory, player_level=2, player_class="Mag")
+    print(result)
