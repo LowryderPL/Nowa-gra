@@ -1,71 +1,61 @@
-# crafting.py – logika rzemiosła dla Świata Firos: Magic & Magic
-# Obsługuje przepisy, tworzenie przedmiotów, rarity, trudność i tooltips
+# crafting.py – FIROS: Magic & Magic (rozszerzony system rzemiosła)
 
-from rarity import get_rarity_for_result
-from tooltips import generate_tooltip
 import random
 
-
 class Recipe:
-    def __init__(self, name, materials, result, difficulty="normal"):
+    def __init__(self, name, ingredients, result, level_required=1, rarity="zwykły", success_rate=100):
         self.name = name
-        self.materials = materials  # Lista nazw materiałów (str)
+        self.ingredients = ingredients  # Lista składników
         self.result = result  # Nazwa przedmiotu wynikowego
-        self.difficulty = difficulty  # np. "easy", "normal", "hard"
+        self.level_required = level_required
+        self.rarity = rarity
+        self.success_rate = success_rate  # Szansa na powodzenie w %
+
+    def __repr__(self):
+        return f"{self.name} → {self.result} ({self.rarity}, Poziom {self.level_required})"
 
 
 class CraftingSystem:
-    def __init__(self, all_recipes):
-        self.recipes = all_recipes
+    def __init__(self):
+        self.recipes = self.load_recipes()
+        self.crafted_items = []
 
-    def match_recipe(self, materials_input):
-        """
-        Porównuje podane materiały z receptami i zwraca pasującą.
-        """
-        input_set = set([m.lower().strip() for m in materials_input])
+    def load_recipes(self):
+        return [
+            Recipe("Stwórz Żelazny Miecz", ["żelazo", "drewno"], "Żelazny Miecz", 1, "zwykły", 95),
+            Recipe("Stwórz Magiczną Laskę", ["kryształ many", "stare drewno"], "Magiczna Laska", 3, "rzadki", 85),
+            Recipe("Stwórz Elfi Napierśnik", ["skóra elfa", "srebro"], "Elfi Napierśnik", 5, "epicki", 75),
+            Recipe("Rytualny Miecz Cienia", ["czarna stal", "serce demona", "runiczny pył"], "Miecz Cienia", 10, "legendarny", 60),
+        ]
+
+    def craft(self, inventory, ingredients, player_level=1):
         for recipe in self.recipes:
-            if set(recipe.materials) == input_set:
-                return recipe
-        return None
+            if set(recipe.ingredients) <= set(ingredients):
+                if player_level < recipe.level_required:
+                    return f"❌ Potrzebujesz poziomu {recipe.level_required}, by stworzyć {recipe.result}."
+                if random.randint(1, 100) <= recipe.success_rate:
+                    self.crafted_items.append(recipe.result)
+                    for i in recipe.ingredients:
+                        if i in inventory:
+                            inventory.remove(i)
+                    return f"🛠️ Sukces! Stworzono: {recipe.result} ({recipe.rarity})"
+                else:
+                    return f"💥 Tworzenie {recipe.result} nie powiodło się."
+        return "❌ Nie znaleziono pasującej receptury."
 
-    def craft(self, materials_input):
-        """
-        Tworzy przedmiot na podstawie podanych materiałów.
-        """
-        recipe = self.match_recipe(materials_input)
-        if not recipe:
-            return "❌ Nie znaleziono pasującej receptury."
+    def show_recipes(self):
+        return "\n".join([str(r) for r in self.recipes])
 
-        # Losowy wynik na podstawie trudności
-        success_chance = {
-            "easy": 0.95,
-            "normal": 0.80,
-            "hard": 0.60,
-            "legendary": 0.40
-        }.get(recipe.difficulty, 0.75)
-
-        if random.random() > success_chance:
-            return "💥 Tworzenie nie powiodło się..."
-
-        # Ustal rarity
-        rarity = get_rarity_for_result(recipe.result)
-
-        # Generuj tooltip
-        tooltip = generate_tooltip(recipe.result, rarity)
-
-        return f"✅ Stworzono: **{recipe.result}**\n🎖️ Rzadkość: {rarity}\n📜 {tooltip}"
+    def show_crafted_items(self):
+        return "\n".join([f"- {item}" for item in self.crafted_items]) if self.crafted_items else "🔧 Brak stworzonego ekwipunku."
 
 
-# 🔧 Przykładowe recepty (możesz je trzymać też w JSON albo bazie danych)
-default_recipes = [
-    Recipe("Mikstura Leczenia", ["zioło", "woda"], "Mikstura Leczenia", "easy"),
-    Recipe("Eliksir Siły", ["krew trolla", "czarna perła"], "Eliksir Siły", "hard"),
-    Recipe("Miecz Cieni", ["stal", "cień"], "Miecz Cieni", "legendary"),
-    Recipe("Zbroja Łowcy", ["skóra", "srebro", "kość"], "Zbroja Łowcy", "normal"),
-]
-
-# Jeśli chcesz przetestować lokalnie
+# Test lokalny
 if __name__ == "__main__":
-    crafting = CraftingSystem(default_recipes)
-    test_input = ["krew trolla", "czarna perła"]
-    print(crafting.craft(test_input))
+    crafting = CraftingSystem()
+    inventory = ["żelazo", "drewno", "kryształ many", "stare drewno"]
+    print(crafting.show_recipes())
+    print(crafting.craft(inventory, ["żelazo", "drewno"], player_level=2))
+    print(crafting.craft(inventory, ["kryształ many", "stare drewno"], player_level=2))
+    print("🎒 Twój nowy ekwipunek:")
+    print(crafting.show_crafted_items())
