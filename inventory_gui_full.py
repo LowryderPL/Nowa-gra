@@ -1,19 +1,18 @@
-
 import tkinter as tk
 from tkinter import messagebox
-import json
-import os
 
 class InventoryGUI:
-    def __init__(self, master, inventory, character_class):
+    def __init__(self, master, player):
         self.master = master
-        self.master.title("Inventory GUI")
-        self.inventory = inventory
-        self.character_class = character_class
-        self.weight_limit = 100
-        self.player_xp = 0
-        self.player_level = 1
+        self.master.title("Ekwipunek FIROS")
+        self.player = player
+        self.inventory = player["inventory"]
+        self.character_class = player["class"]
+        self.level = player.get("level", 1)
+        self.xp = player.get("xp", 0)
+        self.ton = player.get("ton", 0)
 
+        self.weight_limit = 100
         self.equipped_slots = {
             "Head": None,
             "Torso": None,
@@ -30,104 +29,105 @@ class InventoryGUI:
         }
 
         self.create_widgets()
-        self.update_inventory_display()
+        self.update_display()
 
     def create_widgets(self):
-        tk.Label(self.master, text="Inventory Items:").grid(row=0, column=0)
-        self.inventory_listbox = tk.Listbox(self.master, width=40)
-        self.inventory_listbox.grid(row=1, column=0, rowspan=10)
-        self.inventory_listbox.bind('<Double-1>', self.equip_item)
+        tk.Label(self.master, text="🎒 Plecak:").grid(row=0, column=0, sticky='w')
+        self.inventory_listbox = tk.Listbox(self.master, width=50)
+        self.inventory_listbox.grid(row=1, column=0, rowspan=12)
+        self.inventory_listbox.bind("<Double-1>", self.equip_item)
 
-        tk.Label(self.master, text="Equipped Items:").grid(row=0, column=1)
+        tk.Label(self.master, text="🛡 Wyposażenie:").grid(row=0, column=1, sticky='w')
         self.equipped_labels = {}
-        for idx, slot in enumerate(self.equipped_slots.keys()):
-            tk.Label(self.master, text=f"{slot}:").grid(row=idx+1, column=1, sticky='e')
-            label = tk.Label(self.master, text="None", width=30)
-            label.grid(row=idx+1, column=2, sticky='w')
+        for i, slot in enumerate(self.equipped_slots.keys()):
+            tk.Label(self.master, text=f"{slot}:").grid(row=i+1, column=1, sticky='e')
+            label = tk.Label(self.master, text="(puste)", width=30, anchor='w')
+            label.grid(row=i+1, column=2, sticky='w')
             self.equipped_labels[slot] = label
 
-        self.weight_label = tk.Label(self.master, text="Total Weight: 0 / 100")
-        self.weight_label.grid(row=13, column=0, sticky='w')
+        self.status_label = tk.Label(self.master, text="")
+        self.status_label.grid(row=13, column=0, sticky='w')
 
-        self.xp_label = tk.Label(self.master, text="XP: 0 | Level: 1")
+        self.xp_label = tk.Label(self.master, text="")
         self.xp_label.grid(row=13, column=1, sticky='w')
 
-        self.burn_button = tk.Button(self.master, text="Burn Item for XP", command=self.burn_item)
-        self.burn_button.grid(row=14, column=0, pady=5)
+        tk.Button(self.master, text="🔥 Spal za XP", command=self.burn_item).grid(row=14, column=0)
+        tk.Button(self.master, text="📦 Zobacz plecak", command=self.show_inventory).grid(row=14, column=1)
 
-        self.craft_button = tk.Button(self.master, text="Open Crafting", command=self.open_crafting)
-        self.craft_button.grid(row=14, column=1)
-
-        self.alchemy_button = tk.Button(self.master, text="Open Alchemy", command=self.open_alchemy)
-        self.alchemy_button.grid(row=14, column=2)
-
-    def update_inventory_display(self):
+    def update_display(self):
         self.inventory_listbox.delete(0, tk.END)
         for item in self.inventory:
-            name = item['name']
-            rarity = item.get('rarity', 'common')
-            display = f"{name} [{item['type']}] ({rarity})"
-            self.inventory_listbox.insert(tk.END, display)
+            rarity = item.get("rarity", "zwykły")
+            self.inventory_listbox.insert(tk.END, f"{item['name']} (Rzadkość: {rarity})")
 
-        total_weight = sum(item['weight'] for item in self.inventory)
-        self.weight_label.config(text=f"Total Weight: {total_weight} / {self.weight_limit}")
+        total_weight = sum(item.get("weight", 0) for item in self.inventory)
+        self.status_label.config(text=f"⚖ Waga: {total_weight} / {self.weight_limit}")
+        self.xp_label.config(text=f"🎖 Poziom: {self.level} | XP: {self.xp} | TON: {self.ton}")
 
     def equip_item(self, event):
-        selection = self.inventory_listbox.curselection()
-        if not selection:
+        idx = self.inventory_listbox.curselection()
+        if not idx:
             return
-        index = selection[0]
-        item = self.inventory[index]
+        item = self.inventory[idx[0]]
+        slot = item.get("slot")
+        level_req = item.get("level", 1)
+        allowed = item.get("allowed_classes", ["All"])
 
-        if self.character_class not in item.get("allowed_classes", ["All"]):
-            messagebox.showwarning("Class Restriction", "Your class cannot equip this item.")
+        if self.character_class not in allowed and "All" not in allowed:
+            messagebox.showwarning("❌ Klasa", "Nie możesz założyć tego przedmiotu.")
+            return
+        if self.level < level_req:
+            messagebox.showwarning("❌ Poziom", f"Potrzebny poziom {level_req}.")
             return
 
-        slot = item["slot"]
         self.equipped_slots[slot] = item
-        self.equipped_labels[slot].config(text=item["name"])
-        del self.inventory[index]
-        self.update_inventory_display()
+        self.equipped_labels[slot].config(text=f"{item['name']}")
+        self.inventory.pop(idx[0])
+        self.update_display()
 
     def burn_item(self):
-        selection = self.inventory_listbox.curselection()
-        if not selection:
-            messagebox.showwarning("No Selection", "Select an item to burn.")
+        idx = self.inventory_listbox.curselection()
+        if not idx:
+            messagebox.showwarning("Brak wyboru", "Wybierz przedmiot.")
             return
-        index = selection[0]
-        item = self.inventory.pop(index)
-        gained_xp = item['value'] // 2
-        self.player_xp += gained_xp
+        item = self.inventory.pop(idx[0])
+        gained_xp = item.get("level", 1) * 10
+        self.xp += gained_xp
+        messagebox.showinfo("🔥 Spalone", f"{item['name']} zniszczony.\nZyskano {gained_xp} XP.")
         self.check_level_up()
-        messagebox.showinfo("Item Burned", f"You gained {gained_xp} XP from burning {item['name']}.")
-        self.update_inventory_display()
+        self.update_display()
 
     def check_level_up(self):
-        level_threshold = self.player_level * 100
-        while self.player_xp >= level_threshold:
-            self.player_level += 1
-            self.player_xp -= level_threshold
-            level_threshold = self.player_level * 100
-            messagebox.showinfo("Level Up!", f"You reached level {self.player_level}!")
-        self.xp_label.config(text=f"XP: {self.player_xp} | Level: {self.player_level}")
+        while self.xp >= self.level * 100:
+            self.xp -= self.level * 100
+            self.level += 1
+            messagebox.showinfo("🎉 Awans!", f"Nowy poziom: {self.level}!")
 
-    def open_crafting(self):
-        messagebox.showinfo("Crafting", "Crafting system opening...")
+    def show_inventory(self):
+        if not self.inventory:
+            messagebox.showinfo("📦 Plecak", "Plecak jest pusty.")
+        else:
+            contents = "\n".join([f"{item['name']} (Lvl {item['level']})" for item in self.inventory])
+            messagebox.showinfo("📦 Plecak", contents)
 
-    def open_alchemy(self):
-        messagebox.showinfo("Alchemy", "Alchemy system opening...")
-
-# Wczytywanie inventory.json
-def load_inventory_from_json(path="inventory.json"):
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return []
-
-# Przykład uruchomienia
+# --- PRZYKŁAD UŻYCIA ---
 if __name__ == "__main__":
-    inventory = load_inventory_from_json()
-    character_class = "Warrior"
+    player = {
+        "health": 70,
+        "max_health": 100,
+        "mana": 40,
+        "max_mana": 100,
+        "class": "Mag",
+        "level": 1,
+        "xp": 0,
+        "ton": 1.0,
+        "inventory": [
+            {"name": "Mikstura Życia", "slot": "Backpack", "level": 1, "rarity": "zwykły", "allowed_classes": ["All"]},
+            {"name": "Runa Cienia", "slot": "Rune", "level": 2, "rarity": "rzadki", "allowed_classes": ["Mag"]},
+            {"name": "Hełm Wilka", "slot": "Head", "level": 3, "rarity": "epicki", "allowed_classes": ["Wojownik", "Rogue"]},
+        ]
+    }
+
     root = tk.Tk()
-    app = InventoryGUI(root, inventory, character_class)
+    app = InventoryGUI(root, player)
     root.mainloop()
