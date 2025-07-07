@@ -1,74 +1,85 @@
-# alchemy_gui.py – GUI do systemu alchemii
-# Zintegrowane z alchemy.py
+# alchemy.py – FIROS: Magic & Magic (pełna wersja rozszerzona)
 
-import tkinter as tk
-from tkinter import messagebox
-from alchemy import Alchemy
+class Potion:
+    def __init__(self, name, ingredients, effect, rarity="zwykły", category="Mikstura", level_required=1, special=False):
+        self.name = name
+        self.ingredients = ingredients
+        self.effect = effect
+        self.rarity = rarity
+        self.category = category
+        self.level_required = level_required
+        self.special = special  # np. frakcyjna, rytualna
 
-class AlchemyGUI:
-    def __init__(self, master):
-        self.master = master
-        self.master.title("Warsztat Alchemiczny")
-        self.master.geometry("700x600")
-        self.master.configure(bg="#2d2d2d")
+    def __repr__(self):
+        return f"{self.name} ({self.category}) – {self.effect}"
 
-        self.alchemy = Alchemy()
-        self.selected_ingredients = []
 
-        self.create_widgets()
+class Alchemy:
+    def __init__(self):
+        self.backpack = []
+        self.recipes = self.load_recipes()
 
-    def create_widgets(self):
-        title = tk.Label(self.master, text="🧪 Alchemia: Tworzenie Mikstur", font=("Georgia", 18, "bold"), fg="#00ffcc", bg="#2d2d2d")
-        title.pack(pady=10)
+    def load_recipes(self):
+        return [
+            # Zwykłe mikstury
+            Potion("Mikstura Życia", ["czerwony grzyb", "kwiat życia"], "+30 HP"),
+            Potion("Mikstura Many", ["błękitny kryształ", "łza czarodzieja"], "+20 Mana"),
 
-        # Lista receptur
-        self.recipe_listbox = tk.Listbox(self.master, width=60, height=12, bg="#1e1e1e", fg="#ffffff", font=("Courier", 11))
-        self.recipe_listbox.pack(pady=10)
+            # Rzadkie mikstury
+            Potion("Wywar Mocy", ["serce trolla", "czarna krew"], "+15 Ataku", "rzadki"),
+            Potion("Zatruty Wywar", ["ziele śmierci", "pajęczy jad"], "Zatrucie wroga", "rzadki"),
 
-        for recipe in self.alchemy.recipes:
-            self.recipe_listbox.insert(tk.END, f"{recipe.name} ({recipe.category}) – {', '.join(recipe.ingredients)}")
+            # Epickie mikstury
+            Potion("Eliksir Krwi", ["mlecz czarownicy", "kość demona"], "Kradnie życie", "epicki"),
+            Potion("Niewidzialność", ["cień nietoperza", "mgła z bagien"], "Niewidzialność na 1 turę", "epicki"),
 
-        # Składniki (ręczne wybieranie)
-        ing_frame = tk.Frame(self.master, bg="#2d2d2d")
-        ing_frame.pack()
+            # Legendarne mikstury
+            Potion("Eliksir Cienia", ["krew pradawnego", "cień umarłego"], "+100 do uniku, 3 tury", "legendarny", "Rytuał", 12, True),
+            Potion("Wywar Chaosu", ["oko beholdera", "jądro magmy", "pióro feniksa"], "Efekt losowy: +100 lub -50 HP", "legendarny", "Mutacja", 15, True),
 
-        tk.Label(ing_frame, text="Składnik 1:", fg="#cccccc", bg="#2d2d2d").grid(row=0, column=0)
-        self.ing1_entry = tk.Entry(ing_frame)
-        self.ing1_entry.grid(row=0, column=1, padx=5)
+            # Frakcyjne mikstury
+            Potion("Miód Wilczych Watah", ["czarna mięta", "szpik kości"], "+25% szału", "rzadki", "Frakcyjna", 8, True),
 
-        tk.Label(ing_frame, text="Składnik 2:", fg="#cccccc", bg="#2d2d2d").grid(row=1, column=0)
-        self.ing2_entry = tk.Entry(ing_frame)
-        self.ing2_entry.grid(row=1, column=1, padx=5)
+            # Zwoje
+            Potion("Zwój Płomienia", ["popiół ognistego wilka", "runiczny papier"], "Ogień +40 dmg", "epicki", "Zwój", 6),
+            Potion("Zwój Lodu", ["lodowa rosa", "runiczny papier"], "Zamraża wroga na 1 turę", "rzadki", "Zwój", 4),
+        ]
 
-        tk.Label(ing_frame, text="Składnik 3 (opc.):", fg="#cccccc", bg="#2d2d2d").grid(row=2, column=0)
-        self.ing3_entry = tk.Entry(ing_frame)
-        self.ing3_entry.grid(row=2, column=1, padx=5)
-
-        # Przyciski
-        btn_frame = tk.Frame(self.master, bg="#2d2d2d")
-        btn_frame.pack(pady=10)
-
-        tk.Button(btn_frame, text="Stwórz 🧪", command=self.create_potion, bg="#00cc99", fg="white", font=("Arial", 11, "bold")).grid(row=0, column=0, padx=10)
-        tk.Button(btn_frame, text="📦 Plecak", command=self.show_backpack, bg="#444444", fg="white", font=("Arial", 11)).grid(row=0, column=1, padx=10)
-
-    def create_potion(self):
-        ing1 = self.ing1_entry.get().strip().lower()
-        ing2 = self.ing2_entry.get().strip().lower()
-        ing3 = self.ing3_entry.get().strip().lower()
-
-        ingredients = [i for i in [ing1, ing2, ing3] if i]
-        if not ingredients:
-            messagebox.showwarning("Błąd", "Wprowadź przynajmniej 2 składniki.")
-            return
-
-        result = self.alchemy.craft(ingredients)
-        messagebox.showinfo("Wynik alchemii", result)
+    def craft(self, ingredients, player_level=1):
+        for recipe in self.recipes:
+            if set(recipe.ingredients) <= set(ingredients):
+                if player_level < recipe.level_required:
+                    return f"❌ Potrzebny poziom {recipe.level_required}, by stworzyć: {recipe.name}"
+                self.backpack.append(recipe)
+                return f"🧪 Stworzono: {recipe.name} – {recipe.effect}"
+        return "❌ Nie udało się stworzyć mikstury."
 
     def show_backpack(self):
-        messagebox.showinfo("📦 Plecak", self.alchemy.show_backpack())
+        if not self.backpack:
+            return "🎒 Brak mikstur w plecaku."
+        return "\n".join([f"- {p.name} ({p.rarity}): {p.effect}" for p in self.backpack])
 
-# Uruchomienie GUI (do testów lokalnych)
+    def use_potion(self, potion_name, player):
+        for potion in self.backpack:
+            if potion.name.lower() == potion_name.lower():
+                self.backpack.remove(potion)
+                # Tutaj logika efektu – rozbudowana wersja mogłaby wpływać na player.hp itp.
+                return f"✅ Użyto {potion.name}. Efekt: {potion.effect}"
+        return "❌ Nie znaleziono mikstury."
+
+    def list_recipes(self, category=None):
+        result = []
+        for recipe in self.recipes:
+            if not category or recipe.category.lower() == category.lower():
+                result.append(f"{recipe.name} ({recipe.rarity}) – {recipe.effect}")
+        return "\n".join(result)
+
+
+# Test lokalny
 if __name__ == "__main__":
-    root = tk.Tk()
-    app = AlchemyGUI(root)
-    root.mainloop()
+    alchemy = Alchemy()
+    print(alchemy.craft(["czerwony grzyb", "kwiat życia"]))
+    print(alchemy.craft(["oko beholdera", "jądro magmy", "pióro feniksa"], player_level=16))
+    print(alchemy.show_backpack())
+    print("--- Receptury: ---")
+    print(alchemy.list_recipes())
