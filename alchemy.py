@@ -1,70 +1,85 @@
-# alchemy.py — pełna wersja logiczna bez GUI
-# FIROS: Magic & Magic – system craftingu, run, mikstur, mutacji, zwojów
+# alchemy.py – FIROS: Magic & Magic (pełna wersja rozszerzona)
 
-class Recipe:
-    def __init__(self, name, ingredients, result, description, category):
+class Potion:
+    def __init__(self, name, ingredients, effect, rarity="zwykły", category="Mikstura", level_required=1, special=False):
         self.name = name
         self.ingredients = ingredients
-        self.result = result
-        self.description = description
-        self.category = category  # "mikstura", "zwój", "mutacja"
+        self.effect = effect
+        self.rarity = rarity
+        self.category = category
+        self.level_required = level_required
+        self.special = special  # np. frakcyjna, rytualna
+
+    def __repr__(self):
+        return f"{self.name} ({self.category}) – {self.effect}"
+
 
 class Alchemy:
     def __init__(self):
-        self.recipes = []
-        self.backpack = []  # składniki i efekty trafiają tutaj
-        self.mana = 0
-        self._load_recipes()
+        self.backpack = []
+        self.recipes = self.load_recipes()
 
-    def _load_recipes(self):
-        self.recipes = [
-            Recipe("Mikstura Leczenia", ["ziele życia", "woda źródlana"], "potion_heal", "Leczy 50 HP.", "mikstura"),
-            Recipe("Mikstura Many", ["kwiat many", "błękitna esencja"], "potion_mana", "Przywraca 30 many.", "mikstura"),
-            Recipe("Zwój Ognistej Kuli", ["krew demona", "proch", "kryształ ognia"], "scroll_fireball", "Zadaje 30 obrażeń wszystkim wrogom.", "zwój"),
-            Recipe("Mutacja Wilczego Słuchu", ["ucho wilka", "szara rosa"], "mutacja_hearing", "Zwiększa szansę na unik przez 2 tury.", "mutacja"),
-            Recipe("Zwój Lodowego Wybuchu", ["pazur trolla", "lodowa esencja"], "scroll_ice", "Zamraża wrogów na 1 turę.", "zwój"),
+    def load_recipes(self):
+        return [
+            # Zwykłe mikstury
+            Potion("Mikstura Życia", ["czerwony grzyb", "kwiat życia"], "+30 HP"),
+            Potion("Mikstura Many", ["błękitny kryształ", "łza czarodzieja"], "+20 Mana"),
+
+            # Rzadkie mikstury
+            Potion("Wywar Mocy", ["serce trolla", "czarna krew"], "+15 Ataku", "rzadki"),
+            Potion("Zatruty Wywar", ["ziele śmierci", "pajęczy jad"], "Zatrucie wroga", "rzadki"),
+
+            # Epickie mikstury
+            Potion("Eliksir Krwi", ["mlecz czarownicy", "kość demona"], "Kradnie życie", "epicki"),
+            Potion("Niewidzialność", ["cień nietoperza", "mgła z bagien"], "Niewidzialność na 1 turę", "epicki"),
+
+            # Legendarne mikstury
+            Potion("Eliksir Cienia", ["krew pradawnego", "cień umarłego"], "+100 do uniku, 3 tury", "legendarny", "Rytuał", 12, True),
+            Potion("Wywar Chaosu", ["oko beholdera", "jądro magmy", "pióro feniksa"], "Efekt losowy: +100 lub -50 HP", "legendarny", "Mutacja", 15, True),
+
+            # Frakcyjne mikstury
+            Potion("Miód Wilczych Watah", ["czarna mięta", "szpik kości"], "+25% szału", "rzadki", "Frakcyjna", 8, True),
+
+            # Zwoje
+            Potion("Zwój Płomienia", ["popiół ognistego wilka", "runiczny papier"], "Ogień +40 dmg", "epicki", "Zwój", 6),
+            Potion("Zwój Lodu", ["lodowa rosa", "runiczny papier"], "Zamraża wroga na 1 turę", "rzadki", "Zwój", 4),
         ]
 
-    def craft(self, ingredients):
-        matched = None
+    def craft(self, ingredients, player_level=1):
         for recipe in self.recipes:
-            if sorted(recipe.ingredients) == sorted(ingredients):
-                matched = recipe
-                break
-
-        if matched:
-            self.backpack.append(matched.result)
-            if matched.category == "zwój":
-                self.mana += 5  # każdy zwój zwiększa manę
-            return f"Stworzono: {matched.name} – {matched.description}"
-        else:
-            return "Błąd: nieprawidłowa kombinacja składników."
+            if set(recipe.ingredients) <= set(ingredients):
+                if player_level < recipe.level_required:
+                    return f"❌ Potrzebny poziom {recipe.level_required}, by stworzyć: {recipe.name}"
+                self.backpack.append(recipe)
+                return f"🧪 Stworzono: {recipe.name} – {recipe.effect}"
+        return "❌ Nie udało się stworzyć mikstury."
 
     def show_backpack(self):
         if not self.backpack:
-            return "Plecak pusty."
-        return f"📦 Plecak zawiera: {', '.join(self.backpack)}\n💧 Mana: {self.mana}"
+            return "🎒 Brak mikstur w plecaku."
+        return "\n".join([f"- {p.name} ({p.rarity}): {p.effect}" for p in self.backpack])
+
+    def use_potion(self, potion_name, player):
+        for potion in self.backpack:
+            if potion.name.lower() == potion_name.lower():
+                self.backpack.remove(potion)
+                # Tutaj logika efektu – rozbudowana wersja mogłaby wpływać na player.hp itp.
+                return f"✅ Użyto {potion.name}. Efekt: {potion.effect}"
+        return "❌ Nie znaleziono mikstury."
 
     def list_recipes(self, category=None):
-        lista = []
+        result = []
         for recipe in self.recipes:
-            if category is None or recipe.category == category:
-                lista.append(f"{recipe.name} ({recipe.category}) – {', '.join(recipe.ingredients)} → {recipe.result}")
-        return "\n".join(lista)
+            if not category or recipe.category.lower() == category.lower():
+                result.append(f"{recipe.name} ({recipe.rarity}) – {recipe.effect}")
+        return "\n".join(result)
 
-# Przykład działania – wersja testowa
+
+# Test lokalny
 if __name__ == "__main__":
     alchemy = Alchemy()
-    print("🧪 Dostępne receptury:")
-    print(alchemy.list_recipes())
-
-    print("\n🎯 Tworzymy Miksturę Leczenia...")
-    wynik = alchemy.craft(["ziele życia", "woda źródlana"])
-    print(wynik)
-
-    print("\n🎯 Tworzymy Zwój Ognistej Kuli...")
-    wynik = alchemy.craft(["krew demona", "kryształ ognia", "proch"])
-    print(wynik)
-
-    print("\n📦 Plecak:")
+    print(alchemy.craft(["czerwony grzyb", "kwiat życia"]))
+    print(alchemy.craft(["oko beholdera", "jądro magmy", "pióro feniksa"], player_level=16))
     print(alchemy.show_backpack())
+    print("--- Receptury: ---")
+    print(alchemy.list_recipes())
