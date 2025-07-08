@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Zerywia",
+        "type": "Miasto",
+        "description": "Starodawne miasto otoczone ruinami, centrum wiedzy i tajemnicy.",
+        "faction": "Bractwo Cienia",
+        "danger_level": 3,
+        "boss": "Cień Zerywii",
+        "connected_to": [
+            "Swarogowa Góra",
+            "Ruined Temple"
+        ],
+        "quests": [
+            "Złam Pieczęć",
+            "Zbadaj Zaginione Zwoje"
+        ],
+        "status": "odkryte"
+    },
+    {
+        "name": "Katakumby Redanii",
+        "type": "Lochy",
+        "description": "Zapomniane katakumby pełne duchów i przeklętych strażników.",
+        "faction": "Kult Umarłych",
+        "danger_level": 5,
+        "boss": "Strażnik Grobowca",
+        "connected_to": [
+            "Zerywia",
+            "Vault"
+        ],
+        "quests": [
+            "Przywróć Równowagę"
+        ],
+        "status": "ukryte"
+    },
+    {
+        "name": "Ruined Temple",
+        "type": "Ruiny",
+        "description": "Zgliszcza świątyni dawnych bogów.",
+        "faction": null,
+        "danger_level": 2,
+        "boss": "Upadły Kapłan"
+    },
+    {
+        "name": "Vault",
+        "type": "Skrytka",
+        "description": "Ukryty skarbiec głęboko pod ziemią.",
+        "faction": "Bractwo Cienia",
+        "danger_level": 4,
+        "boss": "Strażnik Cienia"
+    },
+    {
+        "name": "Górnicze Szyby",
+        "type": "Kopalnia",
+        "description": "Stara kopalnia pełna niebezpiecznych korytarzy.",
+        "faction": "Klan Żelaza",
+        "danger_level": 3
+    },
+    {
+        "name": "Pole Bitewne",
+        "type": "Pole Bitew",
+        "description": "Miejsce starcia armii, pełne kości i broni.",
+        "faction": null,
+        "danger_level": 2
+    },
+    {
+        "name": "Fort Skałokrwawy",
+        "type": "Fort",
+        "description": "Twierdza na wzgórzu przejęta przez zbuntowanych.",
+        "faction": "Zbuntowani",
+        "danger_level": 4
+    },
+    {
+        "name": "Zamek Głosu",
+        "type": "Zamek",
+        "description": "Zamek kontrolowany przez magów krwi.",
+        "faction": "Zakon Czerwonego Ostrza",
+        "danger_level": 5
+    },
+    {
+        "name": "Wielka Katedra",
+        "type": "Katedra",
+        "description": "Miejsce kultu Światłości, teraz opuszczone.",
+        "faction": "Dawni Kapłani",
+        "danger_level": 3
+    },
+    {
+        "name": "Młyn Dusz",
+        "type": "Młyn",
+        "description": "Zrujnowany młyn, gdzie słychać szepty przeszłości.",
+        "faction": null,
+        "danger_level": 1
+    },
+    {
+        "name": "Zgliszcza Targu",
+        "type": "Zgliszcza",
+        "description": "Spalone miasto-handlowe po ataku smoków.",
+        "faction": null,
+        "danger_level": 2
+    },
+    {
+        "name": "Obóz Barbarzyńców",
+        "type": "Obóz",
+        "description": "Tymczasowa osada wojowników północy.",
+        "faction": "Barbarzyńcy",
+        "danger_level": 3
+    }
+]

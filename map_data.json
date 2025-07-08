@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Zerywia",
+        "type": "miasto",
+        "description": "Stolica krainy FIROS. Tu zaczyna się los wszystkich bohaterów.",
+        "controlled_by": "Druidzi Puszczy",
+        "danger_level": 2,
+        "faction_access": [
+            "Druidzi Puszczy",
+            "Bagienne Wiedźmy"
+        ],
+        "quests": [
+            "Pierwsze Kroki",
+            "Cienie Nad Zerywią"
+        ],
+        "boss": null,
+        "connected_regions": [
+            "Swarogowa Góra",
+            "Katakumby Redanii",
+            "Port Zerywia"
+        ]
+    },
+    {
+        "name": "Swarogowa Góra",
+        "type": "święte miejsce",
+        "description": "Starożytne sanktuarium poświęcone Swarogowi. Skrywa starą magię.",
+        "controlled_by": "Guślarze",
+        "danger_level": 5,
+        "faction_access": [
+            "Kult Umarłych"
+        ],
+        "quests": [
+            "Rytuał Płomienia",
+            "Pieśń Ze Świtu"
+        ],
+        "boss": "Cień Żercy",
+        "connected_regions": [
+            "Zerywia",
+            "Ruiny Rytualne"
+        ]
+    },
+    {
+        "name": "Katakumby Redanii",
+        "type": "lochy",
+        "description": "Zapomniane podziemia zamieszkane przez upadłych królów.",
+        "controlled_by": "Bractwo Cienia",
+        "danger_level": 8,
+        "faction_access": [
+            "Bractwo Cienia"
+        ],
+        "quests": [
+            "Cienie Dziedzictwa",
+            "Zguba Wilkołaka"
+        ],
+        "boss": "Król Bez Imienia",
+        "connected_regions": [
+            "Zerywia",
+            "Vault",
+            "Ruined Temple"
+        ]
+    },
+    {
+        "name": "Vault",
+        "type": "świątynia",
+        "description": "Starożytne archiwa i magiczne pieczęcie strzeżone przez żywiołaki.",
+        "controlled_by": "Strażnicy Pradawnych",
+        "danger_level": 7,
+        "faction_access": [
+            "Druidzi Puszczy",
+            "Strażnicy Pradawnych"
+        ],
+        "quests": [
+            "Zagubiony Artefakt",
+            "Przysięga Żywiołów"
+        ],
+        "boss": "Kamienny Władca",
+        "connected_regions": [
+            "Katakumby Redanii",
+            "Ruined Temple"
+        ]
+    },
+    {
+        "name": "Ruined Temple",
+        "type": "ruiny",
+        "description": "Zniszczona świątynia, pełna sekretów i pułapek.",
+        "controlled_by": null,
+        "danger_level": 6,
+        "faction_access": [
+            "Wszystkie"
+        ],
+        "quests": [
+            "Szepty Z Otchłani"
+        ],
+        "boss": "Echo Przodków",
+        "connected_regions": [
+            "Vault",
+            "Katakumby Redanii"
+        ]
+    }
+]
