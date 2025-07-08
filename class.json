@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Żerca",
+    "description": "Kapłan dawnych bogów, leczy i rzuca błogosławieństwa.",
+    "specialization": "Leczenie / Wsparcie",
+    "faction": "Druidzi Puszczy",
+    "skills": ["Uzdrowienie", "Boski Dotyk", "Krąg Życia"]
+  },
+  {
+    "name": "Szeptucha",
+    "description": "Mistyczka z bagien, używa trucizn i zaklęć klątw.",
+    "specialization": "Trucizny / Magia Klątw",
+    "faction": "Bagienne Wiedźmy",
+    "skills": ["Klątwa Krwi", "Trupi Oddech", "Eliksir Mroku"]
+  },
+  {
+    "name": "Woj Radogosta",
+    "description": "Wojownik świętych wzgórz, zadaje obrażenia mieczem i duchem.",
+    "specialization": "Walka wręcz / Duchowy gniew",
+    "faction": "Strażnicy Pradawnych",
+    "skills": ["Cios Świętego", "Furia Rodu", "Wola Przodków"]
+  },
+  {
+    "name": "Wilkołak",
+    "description": "Przeklęty wojownik łączący cechy bestii i człowieka.",
+    "specialization": "Transformacja / Szał",
+    "faction": "Dzikie Ziemie",
+    "skills": ["Rozszarpanie", "Wycie", "Regeneracja Krwi"]
+  },
+  {
+    "name": "Guślarz",
+    "description": "Przywołuje duchy i odprawia rytuały.",
+    "specialization": "Przywoływanie / Rytuały",
+    "faction": "Kult Umarłych",
+    "skills": ["Totem Przodków", "Cień Zmarłych", "Pieśń Zaświatów"]
+  },
+  {
+    "name": "Łowca Demonów",
+    "description": "Skrytobójca wyspecjalizowany w walce z istotami magicznymi.",
+    "specialization": "Antymagia / Skrytobójstwo",
+    "faction": "Bractwo Cienia",
+    "skills": ["Znak Ciszy", "Zatruty Sztylet", "Oślepienie"]
+  }
+]
