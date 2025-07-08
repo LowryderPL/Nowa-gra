@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Druidzi Puszczy",
+    "description": "Strażnicy natury, czczą starożytnych bogów lasu. Wierzą w uzdrawiającą siłę życia."
+  },
+  {
+    "name": "Bagienne Wiedźmy",
+    "description": "Tajemnicze istoty z mokradeł, parające się magią trucizn i klątw."
+  },
+  {
+    "name": "Strażnicy Pradawnych",
+    "description": "Wojowniczy zakon obrońców świętych wzgórz i pradawnych duchów przodków."
+  },
+  {
+    "name": "Dzikie Ziemie",
+    "description": "Ziemie nieokiełznane, zamieszkałe przez bestie i wojowników przemiany."
+  },
+  {
+    "name": "Kult Umarłych",
+    "description": "Tajemna sekta nekromantów i rytualistów przyzywających cienie przeszłości."
+  },
+  {
+    "name": "Bractwo Cienia",
+    "description": "Zakon skrytobójców, wojowników antymagii i sabotażystów działających z ukrycia."
+  }
+]
