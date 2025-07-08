@@ -1,0 +1,132 @@
+{
+  "map_name": "Świat FIROS — Mapa Główna",
+  "regions": [
+    {
+      "name": "Zerywia",
+      "type": "miasto",
+      "description": "Stolica starej magii, ukryta wśród górskich lasów. Miejsce rozpoczęcia przygody.",
+      "features": [
+        "targ",
+        "tawerna",
+        "zlecenia",
+        "biblioteka"
+      ],
+      "danger_level": 1
+    },
+    {
+      "name": "Swarogowa Góra",
+      "type": "region",
+      "description": "Ziemia przodków, kryjąca pradawne ruiny i mroczne tajemnice.",
+      "features": [
+        "ruiny",
+        "kopalnia",
+        "fort",
+        "totem"
+      ],
+      "danger_level": 4
+    },
+    {
+      "name": "Vault Quest",
+      "type": "dungeon",
+      "description": "Mistyczny skarbiec przodków, pełen pułapek i strażników.",
+      "features": [
+        "boss",
+        "artefakt",
+        "zaklęcie"
+      ],
+      "danger_level": 5
+    },
+    {
+      "name": "Wyrg",
+      "type": "wild",
+      "description": "Mroczna puszcza pełna dzikich stworzeń. Częste zasadzki.",
+      "features": [
+        "dzikie stwory",
+        "runiczne ślady"
+      ],
+      "danger_level": 3
+    },
+    {
+      "name": "Katakumby Redanii",
+      "type": "ruiny",
+      "description": "Katakumby wypełnione echem przeszłości i duchami przodków.",
+      "features": [
+        "nekromanta",
+        "mumia",
+        "skrzyne z łupem"
+      ],
+      "danger_level": 4
+    },
+    {
+      "name": "Osterog",
+      "type": "forteca",
+      "description": "Warownia zakonu skrytobójców, miejsce prób i rytuałów.",
+      "features": [
+        "trening",
+        "npc mistrz",
+        "ukryta izba"
+      ],
+      "danger_level": 2
+    },
+    {
+      "name": "Ruined Temple",
+      "type": "ruiny",
+      "description": "Zrujnowana świątynia, w której odbywały się rytuały starożytnych kultów.",
+      "features": [
+        "księgi",
+        "freski",
+        "fragmenty relikwii"
+      ],
+      "danger_level": 2
+    },
+    {
+      "name": "Hezmir",
+      "type": "miasto",
+      "description": "Miasto handlowe, pełne karczm i złodziei. Węzeł kontaktowy.",
+      "features": [
+        "market",
+        "port",
+        "dom aukcyjny"
+      ],
+      "danger_level": 1
+    },
+    {
+      "name": "Haunt",
+      "type": "zamek",
+      "description": "Stara forteca z czasów Królów Północy. Obecnie siedziba lorda-widma.",
+      "features": [
+        "boss",
+        "komnata tronu",
+        "złowieszcza wieża"
+      ],
+      "danger_level": 5
+    },
+    {
+      "name": "Altar",
+      "type": "święte miejsce",
+      "description": "Święty ołtarz używany przez drużyny rytualne do wzywania pradawnych bytów.",
+      "features": [
+        "rytuał",
+        "bóstwo",
+        "zaklęcie"
+      ],
+      "danger_level": 3
+    },
+    {
+      "name": "Mine",
+      "type": "kopalnia",
+      "description": "Kopalnia zawierająca złoża rzadkich surowców. Strzeżona przez stwory głębin.",
+      "features": [
+        "surowce",
+        "golem",
+        "ukryte wejście"
+      ],
+      "danger_level": 4
+    }
+  ],
+  "meta": {
+    "fog_of_war": true,
+    "weather": "dynamiczna",
+    "exploration_required": true
+  }
+}
