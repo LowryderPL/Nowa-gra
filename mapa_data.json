@@ -1,0 +1,68 @@
+{
+  "map_name": "FIROS",
+  "regions": [
+    {
+      "name": "Zerywia",
+      "type": "miasto",
+      "description": "Stolica regionu, otoczona ruinami i dziką puszczą.",
+      "interactions": ["handel", "zadania", "karczma", "zaklęcia"],
+      "connected_to": ["Wyrg", "Swarogowa Góra", "Ruined Temple"]
+    },
+    {
+      "name": "Wyrg",
+      "type": "dzicz",
+      "description": "Niebezpieczna kraina pełna wilków i potworów.",
+      "interactions": ["polowanie", "losowe wydarzenie", "obóz"],
+      "connected_to": ["Zerywia", "Osterog"]
+    },
+    {
+      "name": "Katakumby Redanii",
+      "type": "lochy",
+      "description": "Ciemne, przeklęte korytarze pełne pułapek.",
+      "interactions": ["walka", "loot", "boss"],
+      "connected_to": ["Vault Quest"]
+    },
+    {
+      "name": "Ruined Temple",
+      "type": "ruiny",
+      "description": "Opuszczona świątynia, którą można eksplorować.",
+      "interactions": ["eksploracja", "skarby", "zadanie"],
+      "connected_to": ["Zerywia"]
+    },
+    {
+      "name": "Vault Quest",
+      "type": "zadanie",
+      "description": "Mistyczny ołtarz, aktywujący wydarzenia fabularne.",
+      "interactions": ["wybór moralny", "boss", "narracja"],
+      "connected_to": ["Katakumby Redanii"]
+    },
+    {
+      "name": "Port",
+      "type": "rybołówstwo",
+      "description": "Miejsce do połowów i transportu.",
+      "interactions": ["rybołówstwo", "losowe dropy", "karczma"],
+      "connected_to": ["Zerywia"]
+    },
+    {
+      "name": "Pole Bitwy",
+      "type": "pole_bitewne",
+      "description": "Ruiny starej wojny. Miejsce niebezpieczne i nawiedzone.",
+      "interactions": ["walki PvE", "artefakty", "misje frakcyjne"],
+      "connected_to": ["Wyrg"]
+    },
+    {
+      "name": "Swarogowa Góra",
+      "type": "lokacja_specjalna",
+      "description": "Góra zamieszkana przez gigantyczne pająki i trolle.",
+      "interactions": ["boss", "event", "zadanie"],
+      "connected_to": ["Zerywia", "Osterog"]
+    },
+    {
+      "name": "Młyn",
+      "type": "budynek",
+      "description": "Stary młyn – źródło zadań i spotkań z NPC.",
+      "interactions": ["questy", "handlarze", "spotkania"],
+      "connected_to": ["Pole Bitwy"]
+    }
+  ]
+}
