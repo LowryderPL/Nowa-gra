@@ -1,78 +1,33 @@
-
 import tkinter as tk
-from tkinter import ttk, messagebox
 import json
-import os
-
-DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
-
-def load_json(filename):
-    path = os.path.join(DATA_DIR, filename)
-    with open(path, 'r', encoding='utf-8') as f:
-        return json.load(f)
 
 class ClassSelectorGUI:
-    def __init__(self, master):
+    def __init__(self, master, class_file="class.json"):
         self.master = master
-        self.master.title("Wybór Klasy i Frakcji")
-        self.master.geometry("700x600")
+        self.master.title("Wybór Klasy Postaci")
+        self.master.configure(bg="#1a1a1a")
+        self.class_file = class_file
+        self.classes = self.load_classes()
 
-        self.klasy = load_json("klasy.json")
-        self.frakcje = load_json("frakcje.json")
-
-        self.selected_klasa = tk.StringVar()
-        self.selected_frakcja = tk.StringVar()
-
+        self.selected_class = None
         self.create_widgets()
 
+    def load_classes(self):
+        with open(self.class_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+
     def create_widgets(self):
-        tk.Label(self.master, text="🧙 Wybierz klasę postaci:", font=("Arial", 14)).pack(pady=5)
-        self.klasy_box = ttk.Combobox(self.master, values=[k["nazwa"] for k in self.klasy], textvariable=self.selected_klasa)
-        self.klasy_box.pack(pady=5)
-        self.klasy_box.bind("<<ComboboxSelected>>", self.update_klasa_info)
+        title = tk.Label(self.master, text="Wybierz swoją klasę", font=("Georgia", 18, "bold"), fg="white", bg="#1a1a1a")
+        title.pack(pady=10)
 
-        self.klasa_info = tk.Label(self.master, text="", wraplength=650, justify="left")
-        self.klasa_info.pack(pady=10)
+        self.listbox = tk.Listbox(self.master, width=40, height=10, bg="#2a2a2a", fg="white", font=("Courier", 12))
+        self.listbox.pack()
+        for cls in self.classes:
+            self.listbox.insert(tk.END, cls["name"])
 
-        tk.Label(self.master, text="🏰 Wybierz frakcję:", font=("Arial", 14)).pack(pady=5)
-        self.frakcje_box = ttk.Combobox(self.master, values=[f["nazwa"] for f in self.frakcje], textvariable=self.selected_frakcja)
-        self.frakcje_box.pack(pady=5)
+        self.info_text = tk.Text(self.master, height=12, width=60, bg="#202020", fg="#dddddd", font=("Arial", 10))
+        self.info_text.pack(pady=10)
 
-        self.frakcja_info = tk.Label(self.master, text="", wraplength=650, justify="left")
-        self.frakcja_info.pack(pady=10)
-        self.frakcje_box.bind("<<ComboboxSelected>>", self.update_frakcja_info)
+        self.listbox.bind("<<ListboxSelect>>", self.show_class_info)
 
-        tk.Button(self.master, text="✅ Zatwierdź wybór", command=self.submit).pack(pady=20)
-
-    def update_klasa_info(self, event):
-        selected = self.selected_klasa.get()
-        for klasa in self.klasy:
-            if klasa["nazwa"] == selected:
-                opis = f"{klasa['opis']}
-
-Rangi:
-- {klasa['rangi'][0]}
-- {klasa['rangi'][1]}
-- {klasa['rangi'][2]}"
-                self.klasa_info.config(text=opis)
-                break
-
-    def update_frakcja_info(self, event):
-        selected = self.selected_frakcja.get()
-        for frakcja in self.frakcje:
-            if frakcja["nazwa"] == selected:
-                opis = f"{frakcja['opis']}"
-                self.frakcja_info.config(text=opis)
-                break
-
-    def submit(self):
-        if not self.selected_klasa.get() or not self.selected_frakcja.get():
-            messagebox.showwarning("Błąd", "Musisz wybrać klasę i frakcję!")
-            return
-        messagebox.showinfo("Wybrano", f"Wybrałeś klasę: {self.selected_klasa.get()}
-Frakcję: {self.selected_frakcja.get()}")
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = ClassSelectorGUI(root)
-    root.mainloop()
+        self.confirm_button = tk.Button(self.master, text="✅ Wybierz klasę", command=self.confirm_class, bg="#00cc66",
