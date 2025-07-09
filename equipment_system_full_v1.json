@@ -1,0 +1,440 @@
+{
+  "items": [
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 1,
+      "damage": "12-22",
+      "stats": {
+        "crit_chance": "+6%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Common",
+      "price_rfn": 120
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 2,
+      "damage": "14-24",
+      "stats": {
+        "crit_chance": "+7%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Common",
+      "price_rfn": 140
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 3,
+      "damage": "16-26",
+      "stats": {
+        "crit_chance": "+8%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Common",
+      "price_rfn": 160
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 4,
+      "damage": "18-28",
+      "stats": {
+        "crit_chance": "+9%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Common",
+      "price_rfn": 180
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 5,
+      "damage": "20-30",
+      "stats": {
+        "crit_chance": "+10%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Rare",
+      "price_rfn": 200
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 6,
+      "damage": "22-32",
+      "stats": {
+        "crit_chance": "+11%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Rare",
+      "price_rfn": 220
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 7,
+      "damage": "24-34",
+      "stats": {
+        "crit_chance": "+12%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Rare",
+      "price_rfn": 240
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 8,
+      "damage": "26-36",
+      "stats": {
+        "crit_chance": "+13%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Rare",
+      "price_rfn": 260
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 9,
+      "damage": "28-38",
+      "stats": {
+        "crit_chance": "+14%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Rare",
+      "price_rfn": 280
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 10,
+      "damage": "30-40",
+      "stats": {
+        "crit_chance": "+15%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Epic",
+      "price_rfn": 300
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 11,
+      "damage": "32-42",
+      "stats": {
+        "crit_chance": "+16%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Epic",
+      "price_rfn": 320
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 12,
+      "damage": "34-44",
+      "stats": {
+        "crit_chance": "+17%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Epic",
+      "price_rfn": 340
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 13,
+      "damage": "36-46",
+      "stats": {
+        "crit_chance": "+18%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Epic",
+      "price_rfn": 360
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 14,
+      "damage": "38-48",
+      "stats": {
+        "crit_chance": "+19%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Epic",
+      "price_rfn": 380
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 15,
+      "damage": "40-50",
+      "stats": {
+        "crit_chance": "+20%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Legendary",
+      "price_rfn": 400
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 16,
+      "damage": "42-52",
+      "stats": {
+        "crit_chance": "+21%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Legendary",
+      "price_rfn": 420
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 17,
+      "damage": "44-54",
+      "stats": {
+        "crit_chance": "+22%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Legendary",
+      "price_rfn": 440
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 18,
+      "damage": "46-56",
+      "stats": {
+        "crit_chance": "+23%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Legendary",
+      "price_rfn": 460
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 19,
+      "damage": "48-58",
+      "stats": {
+        "crit_chance": "+24%",
+        "bonus": "Poison Resist"
+      },
+      "rarity": "Legendary",
+      "price_rfn": 480
+    },
+    {
+      "name": "Wolfblade Sword",
+      "type": "Weapon",
+      "level": 20,
+      "damage": "50-60",
+      "stats": {
+        "crit_chance": "+25%",
+        "bonus": "Fire Damage"
+      },
+      "rarity": "Legendary",
+      "price_rfn": 500
+    }
+  ],
+  "categories": [
+    "Weapons",
+    "Armor",
+    "Accessories",
+    "Consumables",
+    "Resources"
+  ],
+  "rarities": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary"
+  ],
+  "npc_usage": [
+    {
+      "npc": "Merchant_1",
+      "location": "City_1",
+      "stock": [
+        "Wolfblade Sword Lv1",
+        "Potion Lv1"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 1."
+    },
+    {
+      "npc": "Merchant_2",
+      "location": "City_2",
+      "stock": [
+        "Wolfblade Sword Lv2",
+        "Potion Lv2"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 2."
+    },
+    {
+      "npc": "Merchant_3",
+      "location": "City_3",
+      "stock": [
+        "Wolfblade Sword Lv3",
+        "Potion Lv3"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 3."
+    },
+    {
+      "npc": "Merchant_4",
+      "location": "City_4",
+      "stock": [
+        "Wolfblade Sword Lv4",
+        "Potion Lv4"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 4."
+    },
+    {
+      "npc": "Merchant_5",
+      "location": "City_5",
+      "stock": [
+        "Wolfblade Sword Lv5",
+        "Potion Lv5"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 5."
+    },
+    {
+      "npc": "Merchant_6",
+      "location": "City_6",
+      "stock": [
+        "Wolfblade Sword Lv6",
+        "Potion Lv6"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 6."
+    },
+    {
+      "npc": "Merchant_7",
+      "location": "City_7",
+      "stock": [
+        "Wolfblade Sword Lv7",
+        "Potion Lv7"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 7."
+    },
+    {
+      "npc": "Merchant_8",
+      "location": "City_8",
+      "stock": [
+        "Wolfblade Sword Lv8",
+        "Potion Lv8"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 8."
+    },
+    {
+      "npc": "Merchant_9",
+      "location": "City_9",
+      "stock": [
+        "Wolfblade Sword Lv9",
+        "Potion Lv9"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 9."
+    },
+    {
+      "npc": "Merchant_10",
+      "location": "City_10",
+      "stock": [
+        "Wolfblade Sword Lv10",
+        "Potion Lv10"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 10."
+    },
+    {
+      "npc": "Merchant_11",
+      "location": "City_11",
+      "stock": [
+        "Wolfblade Sword Lv11",
+        "Potion Lv11"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 11."
+    },
+    {
+      "npc": "Merchant_12",
+      "location": "City_12",
+      "stock": [
+        "Wolfblade Sword Lv12",
+        "Potion Lv12"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 12."
+    },
+    {
+      "npc": "Merchant_13",
+      "location": "City_13",
+      "stock": [
+        "Wolfblade Sword Lv13",
+        "Potion Lv13"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 13."
+    },
+    {
+      "npc": "Merchant_14",
+      "location": "City_14",
+      "stock": [
+        "Wolfblade Sword Lv14",
+        "Potion Lv14"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 14."
+    },
+    {
+      "npc": "Merchant_15",
+      "location": "City_15",
+      "stock": [
+        "Wolfblade Sword Lv15",
+        "Potion Lv15"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 15."
+    },
+    {
+      "npc": "Merchant_16",
+      "location": "City_16",
+      "stock": [
+        "Wolfblade Sword Lv16",
+        "Potion Lv16"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 16."
+    },
+    {
+      "npc": "Merchant_17",
+      "location": "City_17",
+      "stock": [
+        "Wolfblade Sword Lv17",
+        "Potion Lv17"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 17."
+    },
+    {
+      "npc": "Merchant_18",
+      "location": "City_18",
+      "stock": [
+        "Wolfblade Sword Lv18",
+        "Potion Lv18"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 18."
+    },
+    {
+      "npc": "Merchant_19",
+      "location": "City_19",
+      "stock": [
+        "Wolfblade Sword Lv19",
+        "Potion Lv19"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 19."
+    },
+    {
+      "npc": "Merchant_20",
+      "location": "City_20",
+      "stock": [
+        "Wolfblade Sword Lv20",
+        "Potion Lv20"
+      ],
+      "dialogue": "Looking for something powerful? Try this at level 20."
+    }
+  ]
+}
