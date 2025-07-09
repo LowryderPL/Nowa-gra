@@ -1,0 +1,87 @@
+{
+  "weapons": [
+    {
+      "id": "w001",
+      "name": "Wolfblade Sword",
+      "type": "Sword",
+      "level_required": 5,
+      "damage": "+15% Critical Hit Damage",
+      "effects": [
+        "-6% Stamina Regen"
+      ],
+      "rarity": "Rare",
+      "description": "A sword favored by the ancient wolf clans. Swift and deadly.",
+      "value": 300
+    },
+    {
+      "id": "w002",
+      "name": "Reaper's Scythe",
+      "type": "Scythe",
+      "level_required": 10,
+      "damage": "+50% Damage vs Humanoid",
+      "effects": [
+        "-2% Poison Resist"
+      ],
+      "rarity": "Epic",
+      "description": "Forged by cursed monks to harvest souls of the damned.",
+      "value": 1200
+    },
+    {
+      "id": "w003",
+      "name": "Elderkin Wand",
+      "type": "Wand",
+      "level_required": 12,
+      "damage": "+10% Nature Damage",
+      "effects": [
+        "-18% Shock Resist"
+      ],
+      "rarity": "Legendary",
+      "description": "Crafted from ancient druidic trees. Pulses with wild energy.",
+      "value": 1600
+    }
+  ],
+  "armor": [
+    {
+      "id": "a001",
+      "name": "Steel Helm",
+      "type": "Helmet",
+      "level_required": 3,
+      "defense": "+10 DEF",
+      "bonus": "+2 CON",
+      "rarity": "Common",
+      "description": "A solid steel helmet used by the Redanian infantry.",
+      "value": 180
+    },
+    {
+      "id": "a002",
+      "name": "Mutant Brotherhood Chestplate",
+      "type": "Chest Armor",
+      "level_required": 14,
+      "defense": "+35 DEF",
+      "effects": [
+        "+10 Toxic Resistance"
+      ],
+      "rarity": "Set Piece",
+      "description": "Armor worn by twisted abominations of the Bractwo Mutantów.",
+      "value": 2000
+    }
+  ],
+  "consumables": [
+    {
+      "id": "c001",
+      "name": "Health Potion",
+      "effect": "+50 HP",
+      "rarity": "Common",
+      "description": "A red vial that restores health when consumed.",
+      "value": 50
+    },
+    {
+      "id": "c002",
+      "name": "Mana Potion",
+      "effect": "+40 Mana",
+      "rarity": "Common",
+      "description": "A blue elixir that replenishes magical energy.",
+      "value": 60
+    }
+  ]
+}
