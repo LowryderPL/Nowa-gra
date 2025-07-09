@@ -1,0 +1,312 @@
+[
+    {
+        "name": "Zerywia",
+        "type": "city",
+        "faction": "Redanian",
+        "boss": false,
+        "x": 1423,
+        "y": 253,
+        "connections": [
+            "Read",
+            "Vault Quest",
+            "Ruurs",
+            "Battafiel",
+            "Ice Cave"
+        ]
+    },
+    {
+        "name": "Swarzogowa Gora",
+        "type": "mountain_city",
+        "faction": "Nilfgardian",
+        "boss": false,
+        "x": 1286,
+        "y": 662,
+        "connections": [
+            "Rybek",
+            "Ice Cave",
+            "Curde Stag",
+            "Maintenos",
+            "Wyrg"
+        ]
+    },
+    {
+        "name": "Vault Quest",
+        "type": "event",
+        "faction": null,
+        "boss": true,
+        "x": 1379,
+        "y": 486,
+        "connections": [
+            "Ruurs",
+            "Ice Cave",
+            "Rybek",
+            "Read"
+        ]
+    },
+    {
+        "name": "Vault",
+        "type": "dungeon",
+        "faction": null,
+        "boss": true,
+        "x": 1082,
+        "y": 480,
+        "connections": [
+            "Battafiel",
+            "Ruurs",
+            "Striga"
+        ]
+    },
+    {
+        "name": "Katakumby Redanii",
+        "type": "dungeon",
+        "faction": "Redanian",
+        "boss": true,
+        "x": 622,
+        "y": 479,
+        "connections": [
+            "Aliar",
+            "Ruined Temple",
+            "Barlefell"
+        ]
+    },
+    {
+        "name": "Ruined Temple",
+        "type": "ruins",
+        "faction": null,
+        "boss": false,
+        "x": 875,
+        "y": 641,
+        "connections": [
+            "Osterog",
+            "Striga",
+            "Vault"
+        ]
+    },
+    {
+        "name": "Wyrg",
+        "type": "wilderness",
+        "faction": "Monsters",
+        "boss": true,
+        "x": 1221,
+        "y": 798,
+        "connections": [
+            "Curde Stag",
+            "Striga",
+            "Swarzogowa Gora",
+            "Rybek",
+            "Maintenos"
+        ]
+    },
+    {
+        "name": "Osterog",
+        "type": "fortress",
+        "faction": "Kaedwen",
+        "boss": false,
+        "x": 765,
+        "y": 839,
+        "connections": [
+            "Barlefell",
+            "Ruined Temple",
+            "Altar"
+        ]
+    },
+    {
+        "name": "Rybek",
+        "type": "village",
+        "faction": "Kaedwen",
+        "boss": false,
+        "x": 1309,
+        "y": 646,
+        "connections": [
+            "Swarzogowa Gora",
+            "Ice Cave",
+            "Maintenos"
+        ]
+    },
+    {
+        "name": "Haunt",
+        "type": "fortress",
+        "faction": "Monsters",
+        "boss": true,
+        "x": 221,
+        "y": 618,
+        "connections": [
+            "Deteroslaw",
+            "Aliar",
+            "Barbarian Camp"
+        ]
+    },
+    {
+        "name": "Barlefell",
+        "type": "town",
+        "faction": "Nilfgardian",
+        "boss": false,
+        "x": 615,
+        "y": 789,
+        "connections": [
+            "Altar",
+            "Osterog",
+            "Ruined Temple",
+            "Katakumby Redanii",
+            "Aliar"
+        ]
+    },
+    {
+        "name": "Battafiel",
+        "type": "city",
+        "faction": "Temeria",
+        "boss": false,
+        "x": 1143,
+        "y": 549,
+        "connections": [
+            "Vault",
+            "Ruurs",
+            "Swarzogowa Gora"
+        ]
+    },
+    {
+        "name": "Aliar",
+        "type": "harbor",
+        "faction": "Temeria",
+        "boss": false,
+        "x": 501,
+        "y": 493,
+        "connections": [
+            "Katakumby Redanii",
+            "Haunt",
+            "Barlefell",
+            "Barbarian Camp",
+            "Deteroslaw"
+        ]
+    },
+    {
+        "name": "Curde Stag",
+        "type": "forest_boss",
+        "faction": "Wild",
+        "boss": true,
+        "x": 1224,
+        "y": 792,
+        "connections": [
+            "Wyrg",
+            "Striga",
+            "Swarzogowa Gora",
+            "Rybek",
+            "Maintenos"
+        ]
+    },
+    {
+        "name": "Striga",
+        "type": "castle",
+        "faction": "Monsters",
+        "boss": true,
+        "x": 1094,
+        "y": 731,
+        "connections": [
+            "Wyrg",
+            "Curde Stag",
+            "Battafiel",
+            "Swarzogowa Gora"
+        ]
+    },
+    {
+        "name": "Maintenos",
+        "type": "castle",
+        "faction": "Kaedwen",
+        "boss": false,
+        "x": 1413,
+        "y": 741,
+        "connections": [
+            "Ice Cave",
+            "Rybek",
+            "Swarzogowa Gora",
+            "Curde Stag",
+            "Wyrg"
+        ]
+    },
+    {
+        "name": "Ice Cave",
+        "type": "dungeon",
+        "faction": "Frostborn",
+        "boss": true,
+        "x": 1383,
+        "y": 659,
+        "connections": [
+            "Rybek",
+            "Maintenos",
+            "Swarzogowa Gora",
+            "Vault Quest",
+            "Ruurs"
+        ]
+    },
+    {
+        "name": "Ruurs",
+        "type": "town",
+        "faction": "Neutral",
+        "boss": false,
+        "x": 1300,
+        "y": 493,
+        "connections": [
+            "Vault Quest",
+            "Rybek",
+            "Battafiel",
+            "Read"
+        ]
+    },
+    {
+        "name": "Deteroslaw",
+        "type": "coastal_town",
+        "faction": "Redanian",
+        "boss": false,
+        "x": 164,
+        "y": 617,
+        "connections": [
+            "Haunt",
+            "Barbarian Camp",
+            "Aliar",
+            "Altar"
+        ]
+    },
+    {
+        "name": "Altar",
+        "type": "ritual_site",
+        "faction": null,
+        "boss": true,
+        "x": 510,
+        "y": 884,
+        "connections": [
+            "Barlefell",
+            "Osterog",
+            "Aliar",
+            "Haunt",
+            "Katakumby Redanii"
+        ]
+    },
+    {
+        "name": "Read",
+        "type": "village",
+        "faction": "Temeria",
+        "boss": false,
+        "x": 1296,
+        "y": 326,
+        "connections": [
+            "Zerywia",
+            "Ruurs",
+            "Vault Quest",
+            "Vault",
+            "Battafiel"
+        ]
+    },
+    {
+        "name": "Barbarian Camp",
+        "type": "camp",
+        "faction": "Barbarians",
+        "boss": true,
+        "x": 224,
+        "y": 276,
+        "connections": [
+            "Haunt",
+            "Deteroslaw",
+            "Aliar"
+        ]
+    }
+]
