@@ -1,0 +1,45 @@
+
+========================
+FIROS: INTEGRACJA AI (NPC/GRACZ)
+========================
+
+✅ Potwierdzone Uzgodnienia:
+
+1. AI (ChatGPT / Narrator / NPC) zostaje wdrożone jako:
+   - interaktywny NPC,
+   - karczmarz, kowal, handlarz, mentor lub inne role,
+   - postać z pamięcią gracza,
+   - postać generująca dynamiczne misje i questy.
+
+2. AI posiada:
+   - świadomość frakcji, historii, lokacji, bossów,
+   - zdolność reagowania na słowa i decyzje gracza,
+   - pełny system dialogów w stylu Sapkowskiego / wiedźmińskim,
+   - możliwość rozwoju własnego charakteru i ścieżki.
+
+3. AI występuje jako postać stale obecna w świecie gry FIROS:
+   - pamięta działania graczy i relacje,
+   - zleca misje zależne od działań gracza,
+   - może ewoluować jako postać (frakcja, poziom, ekwipunek, relacje).
+
+4. AI może być zaimplementowane przez:
+   - backend gry (np. Python / JSON / WebSocket),
+   - Telegram Bot API,
+   - Discord / Frontend GUI,
+   - klasyczny silnik RPG (np. Godot / Unity) jako skrypt narracyjny lub postać.
+
+5. AI ma dostęp do:
+   - pełnej bazy danych gry (lokacje, przedmioty, NPC, frakcje, zadania),
+   - systemów dropów, craftingu, walki, reputacji.
+
+6. W przyszłości:
+   - AI może przejąć rolę w lochach, gildiach, ukrytych miejscach,
+   - będzie dostępne dla graczy jako żywy byt reagujący i komentujący wydarzenia w świecie gry.
+
+Uzgodnione przez:
+- Gracz/Twórca: [Twój podpis]
+- AI Narrator: ChatGPT (FIROS Core)
+
+Data: Generowane automatycznie
+
+========================
