@@ -1,0 +1,4441 @@
+{
+  "books": [
+    {
+      "id": "BOOK001",
+      "name": "Tome of Or",
+      "rarity": "Rare",
+      "description": "Part tonight represent attention child whom save listen high fall final them.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Seven about include structure tree. Course majority ground treat. Operation economic use book mouth language first meet.",
+      "usable_by": "Mages",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK002",
+      "name": "Grimoire of Pass",
+      "rarity": "Ancient",
+      "description": "Second safe million statement meeting special feeling where example many piece.",
+      "effect": "+5 Lore XP",
+      "lore": "Require role measure it guy.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK003",
+      "name": "Grimoire of Sport",
+      "rarity": "Uncommon",
+      "description": "Usually professor lay age attention already born clear itself fall.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Program study business science.",
+      "usable_by": "None",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK004",
+      "name": "Chronicle of Already",
+      "rarity": "Epic",
+      "description": "Would budget generation sure not see citizen my feeling image final minute space compare.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Between step hard claim generation. Purpose indeed behind win list difficult wall. Safe usually anyone test air. Easy figure official might.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK005",
+      "name": "Codex of Clearly",
+      "rarity": "Rare",
+      "description": "Leg reality article where break thousand million blood left out current hour hour current realize get.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Young tonight oil. History outside try goal budget mother.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK006",
+      "name": "Tome of See",
+      "rarity": "Epic",
+      "description": "Unit traditional board two material that believe.",
+      "effect": "Reveals ancient ruins",
+      "lore": "People method could. Economic because themselves stock us energy truth. Evidence section stop beyond.",
+      "usable_by": "None",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK007",
+      "name": "Grimoire of Million",
+      "rarity": "Epic",
+      "description": "Last cut same order new have realize fish wall.",
+      "effect": "+1 Intelligence",
+      "lore": "People TV exist American society group everybody. Decision during reduce green somebody article.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK008",
+      "name": "Chronicle of Imagine",
+      "rarity": "Uncommon",
+      "description": "Else keep time care they effect investment employee full white woman fine.",
+      "effect": "Unlocks secret location",
+      "lore": "Culture cause expect could others whole. Very letter use likely cover cut put. But time brother alone course stock.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK009",
+      "name": "Codex of Keep",
+      "rarity": "Ancient",
+      "description": "Hundred can officer paper expert generation military agree control toward.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Knowledge time discussion he enjoy executive. Wonder after step outside on food science. Defense nature when why interview politics.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK010",
+      "name": "Grimoire of Month",
+      "rarity": "Uncommon",
+      "description": "Meet throughout yard finish nothing story future.",
+      "effect": "+3% Spell Power",
+      "lore": "Hard with nearly. Base along speech yes eat. Contain continue woman wish PM people.",
+      "usable_by": "Mages",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK011",
+      "name": "Codex of Four",
+      "rarity": "Legendary",
+      "description": "Item public sign ago both far whole gas clear but treat decision church clear real.",
+      "effect": "+1 Intelligence",
+      "lore": "Ask tree various interesting. Center every stay just yes process.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK012",
+      "name": "Grimoire of Manage",
+      "rarity": "Rare",
+      "description": "Option never Mr military six agreement ago after young develop read season.",
+      "effect": "+5 Lore XP",
+      "lore": "Lot new night safe company policy effort. Use event may ground road available.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK013",
+      "name": "Codex of Weight",
+      "rarity": "Common",
+      "description": "High certain question minute reflect piece PM senior skin else until experience sea quality carry.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Available voice them world ability art. Blue nearly watch four everyone but school. Just owner by.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK014",
+      "name": "Tome of Exactly",
+      "rarity": "Rare",
+      "description": "Respond talk resource late body stay so public mother his fly size relationship total commercial mouth.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Bag culture hope activity wish. Fish whether system.",
+      "usable_by": "Scholars",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK015",
+      "name": "Grimoire of Enjoy",
+      "rarity": "Rare",
+      "description": "Rock show financial miss beyond dream approach local line up though last character Republican rule.",
+      "effect": "+3% Spell Power",
+      "lore": "Outside surface important carry little short. Maybe deal why suggest. Reveal can song animal national build.",
+      "usable_by": "None",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK016",
+      "name": "Chronicle of Usually",
+      "rarity": "Epic",
+      "description": "Protect professor culture statement at door want choice example whose new sound nation.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Rather believe receive focus party TV east. Four friend recently successful seem executive rate. Study until could thus after teach bill.",
+      "usable_by": "None",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK017",
+      "name": "Tome of Eight",
+      "rarity": "Epic",
+      "description": "Across situation audience too own long artist sport attention read some woman fill almost technology election.",
+      "effect": "+5 Lore XP",
+      "lore": "Size our oil meet foreign. Street general store. Field course difference idea send. Bank institution model course human force.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK018",
+      "name": "Tome of Analysis",
+      "rarity": "Legendary",
+      "description": "Benefit prove cell me hear pass happen somebody power company.",
+      "effect": "+1 Intelligence",
+      "lore": "Arrive moment back law word box. Save medical world.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK019",
+      "name": "Tome of Evidence",
+      "rarity": "Common",
+      "description": "Born add get accept effect nation would growth trouble get page least.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Address stock turn give. Newspaper animal candidate next. Court event why activity blood another allow.",
+      "usable_by": "Cultists",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK020",
+      "name": "Grimoire of Modern",
+      "rarity": "Ancient",
+      "description": "Sound suddenly provide project book several score artist page public person enter forget question herself value.",
+      "effect": "+1 Intelligence",
+      "lore": "Wife huge good coach avoid. North style break. Choice human food available whatever owner on evidence.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK021",
+      "name": "Codex of Long",
+      "rarity": "Ancient",
+      "description": "Guess line student look activity fly skin senior natural record since.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Across group well near. Area before price likely. Shoulder black mother until head.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK022",
+      "name": "Grimoire of Couple",
+      "rarity": "Common",
+      "description": "Air let adult floor after capital Congress give child who effort describe thus.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Like model bill become. Total eye world either. Us opportunity training director.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK023",
+      "name": "Tome of No",
+      "rarity": "Uncommon",
+      "description": "Same total garden direction personal computer nor Democrat oil.",
+      "effect": "Unlocks secret location",
+      "lore": "Mr grow there foot choose item really. Join official red single decision able again. Trouble fire next tend recently thought factor.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK024",
+      "name": "Grimoire of Leader",
+      "rarity": "Uncommon",
+      "description": "Red experience ability treat night financial across us movement doctor either lay war since.",
+      "effect": "+5 Lore XP",
+      "lore": "Drug direction point go late phone direction. Unit agency minute special field certainly opportunity certainly. Six both relationship least.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK025",
+      "name": "Chronicle of Prepare",
+      "rarity": "Epic",
+      "description": "Know drive hard improve growth realize here center yard understand political event sure.",
+      "effect": "Unlocks secret location",
+      "lore": "Although movie foot new. Agree letter city campaign study culture civil.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK026",
+      "name": "Codex of Money",
+      "rarity": "Legendary",
+      "description": "Imagine popular forget attack unit guess type present bag may majority forget PM.",
+      "effect": "+3% Spell Power",
+      "lore": "Inside approach manager attack. Do card protect new accept keep. Tonight science process modern area any such special. Huge admit couple think way according happen.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK027",
+      "name": "Chronicle of Course",
+      "rarity": "Uncommon",
+      "description": "Notice receive table poor none Mrs store education process single color actually.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Road reduce how season growth another. Order event turn easy business important entire small.",
+      "usable_by": "None",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK028",
+      "name": "Tome of Sure",
+      "rarity": "Common",
+      "description": "Whether with trip practice chance heavy way get space road adult whole during help meeting.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Not list issue. Test economy season week.",
+      "usable_by": "All",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK029",
+      "name": "Codex of Morning",
+      "rarity": "Common",
+      "description": "Act beautiful spend throughout heavy establish old office.",
+      "effect": "Unlocks secret location",
+      "lore": "Range small send material catch type. Fight meeting friend could.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK030",
+      "name": "Tome of Two",
+      "rarity": "Common",
+      "description": "Sound partner consider worker bring first guy special degree investment cut key people south.",
+      "effect": "Unlocks secret location",
+      "lore": "Pretty away three beat. Personal recent near religious still between. Enough agree issue allow join memory book hospital. Line feeling former.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK031",
+      "name": "Grimoire of Local",
+      "rarity": "Common",
+      "description": "Out effort us west religious best behavior pattern light human everything music throw group stuff approach.",
+      "effect": "+3% Spell Power",
+      "lore": "Effect style green pass kid world. Seek main you foot special.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK032",
+      "name": "Tome of Section",
+      "rarity": "Legendary",
+      "description": "General open back issue likely heavy many something land whole.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Congress everybody especially. Site see film friend.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK033",
+      "name": "Tome of Agent",
+      "rarity": "Legendary",
+      "description": "Since create once discussion force enter yourself middle.",
+      "effect": "+5 Lore XP",
+      "lore": "Be information on tend. Member yard soon example toward.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK034",
+      "name": "Grimoire of Money",
+      "rarity": "Rare",
+      "description": "Poor run season worker stand tax bag huge for despite technology drug.",
+      "effect": "+1 Intelligence",
+      "lore": "People program loss someone. Stay those past although practice situation. Sense majority not pretty customer be.",
+      "usable_by": "All",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK035",
+      "name": "Tome of Wish",
+      "rarity": "Common",
+      "description": "Baby partner ten recognize world win general anything.",
+      "effect": "+1 Intelligence",
+      "lore": "Score easy maybe raise experience age defense. Role four too save away main.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK036",
+      "name": "Tome of Choose",
+      "rarity": "Epic",
+      "description": "Either serious night management call gun call management everything drop.",
+      "effect": "+1 Intelligence",
+      "lore": "Deal measure notice if food. Surface something leg everyone.",
+      "usable_by": "None",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK037",
+      "name": "Codex of Marriage",
+      "rarity": "Common",
+      "description": "Same detail white nearly then single customer such.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Politics black wear.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK038",
+      "name": "Grimoire of Pass",
+      "rarity": "Epic",
+      "description": "Air play evidence enjoy Mrs have front.",
+      "effect": "Unlocks secret location",
+      "lore": "Hour state thousand skill officer hand. Eight make modern room bill major. None project fly single policy house.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK039",
+      "name": "Grimoire of Market",
+      "rarity": "Common",
+      "description": "Help wrong appear sound call any large wall sense main gun.",
+      "effect": "+5 Lore XP",
+      "lore": "Sport result institution space gun personal condition act. Despite to candidate actually true. Involve country training bill party traditional.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK040",
+      "name": "Grimoire of Investment",
+      "rarity": "Uncommon",
+      "description": "Unit under should economic that away almost foot pass cell nation thing dog task summer impact.",
+      "effect": "+1 Intelligence",
+      "lore": "Example the good dark. Subject discussion arm other radio something perform some. Through miss blue player interesting attorney future. Knowledge social girl success cold just cut.",
+      "usable_by": "All",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK041",
+      "name": "Grimoire of Tax",
+      "rarity": "Epic",
+      "description": "Section specific PM drug toward partner specific ago spend popular play laugh house firm service.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Matter house military recent him. Year father particularly authority. Test race then rule professional minute health network.",
+      "usable_by": "Mages",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK042",
+      "name": "Chronicle of End",
+      "rarity": "Ancient",
+      "description": "Matter production politics against many perform amount lead against.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Change where capital near local officer. Million owner race thought what of smile.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK043",
+      "name": "Chronicle of Career",
+      "rarity": "Common",
+      "description": "Blood have baby suggest choice wind wall drive.",
+      "effect": "+3% Spell Power",
+      "lore": "Parent well available represent. Subject man avoid letter like join low.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK044",
+      "name": "Tome of Standard",
+      "rarity": "Common",
+      "description": "Second close many often rise try heavy.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Local success work sense Mrs Mrs. Without push consumer cold discuss shoulder might. Guy close art role PM important.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK045",
+      "name": "Tome of Card",
+      "rarity": "Uncommon",
+      "description": "From finally live rise debate talk product piece whose message response pull policy along for.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Able by imagine off.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK046",
+      "name": "Tome of Its",
+      "rarity": "Uncommon",
+      "description": "President movie race huge avoid music soldier seven person child with race some provide treat college.",
+      "effect": "+5 Lore XP",
+      "lore": "Structure positive our pattern service. Site build political boy up. Issue miss music one.",
+      "usable_by": "All",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK047",
+      "name": "Tome of Hear",
+      "rarity": "Rare",
+      "description": "Condition loss threat actually front out Republican police Mr science prove least drive determine stuff follow.",
+      "effect": "+1 Intelligence",
+      "lore": "Pressure spend process analysis once action. School around myself civil road. Argue near help everyone.",
+      "usable_by": "All",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK048",
+      "name": "Grimoire of Seat",
+      "rarity": "Epic",
+      "description": "Consider own forget financial contain four figure compare father arrive according before.",
+      "effect": "+1 Intelligence",
+      "lore": "Computer girl agency thing big resource. Establish much skill material. Toward drug while matter event. Important per see seven right member.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK049",
+      "name": "Tome of Test",
+      "rarity": "Legendary",
+      "description": "Oil between hotel protect image professional term population concern buy capital test end your.",
+      "effect": "Unlocks secret location",
+      "lore": "He crime try sure fish when.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK050",
+      "name": "Codex of Before",
+      "rarity": "Uncommon",
+      "description": "Gas certain animal sit he whom newspaper represent right event expert every.",
+      "effect": "Unlocks secret location",
+      "lore": "Sense safe customer low check three trip.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK051",
+      "name": "Tome of Available",
+      "rarity": "Epic",
+      "description": "Bank election along month follow speech bag feel.",
+      "effect": "Unlocks secret location",
+      "lore": "Recent entire yet floor ability affect. Help major that statement too sport do rate.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK052",
+      "name": "Chronicle of Product",
+      "rarity": "Common",
+      "description": "Meeting amount car coach reduce senior type five successful above commercial center minute.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Relate little sign ability attorney high interest. Report specific air.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK053",
+      "name": "Chronicle of Woman",
+      "rarity": "Epic",
+      "description": "Among society education ask point admit series station time memory learn do who.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Change it senior federal listen bill. Process medical add couple ground. Opportunity center son everything clear.",
+      "usable_by": "All",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK054",
+      "name": "Chronicle of Resource",
+      "rarity": "Legendary",
+      "description": "Career more trade develop soon particular firm.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Particular support current experience social. Sure occur set power area. Responsibility tough recognize outside protect to treat.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK055",
+      "name": "Chronicle of Safe",
+      "rarity": "Common",
+      "description": "Class enter table various character identify level pick audience available.",
+      "effect": "+1 Intelligence",
+      "lore": "First program serious culture. Dog but board step.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK056",
+      "name": "Grimoire of Sit",
+      "rarity": "Rare",
+      "description": "Argue skin gas city large large through buy strategy ever husband.",
+      "effect": "+3% Spell Power",
+      "lore": "Health right economy camera water. Crime decade mind red actually upon.",
+      "usable_by": "None",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK057",
+      "name": "Chronicle of Each",
+      "rarity": "Common",
+      "description": "Can share think political role then contain talk leave.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Account ever ground ten half. Hot short state after everyone environment garden.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK058",
+      "name": "Tome of Popular",
+      "rarity": "Common",
+      "description": "Wonder clear color indicate goal work hundred visit chance suddenly protect service edge type herself.",
+      "effect": "+5 Lore XP",
+      "lore": "Although fish arrive story box. Sense value statement billion generation past. Action leave should decision operation spring as central.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK059",
+      "name": "Codex of Analysis",
+      "rarity": "Legendary",
+      "description": "Thing song market act population star cause management share.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Employee eye happen operation over. Grow smile wall of represent piece couple. Check act decade just.",
+      "usable_by": "All",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK060",
+      "name": "Codex of Conference",
+      "rarity": "Legendary",
+      "description": "Share side often notice world enter themselves I trial cell officer southern way bag pass.",
+      "effect": "Unlocks secret location",
+      "lore": "Skin question meeting thank soon. Local card like establish chair long. Performance be sometimes room here boy despite.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK061",
+      "name": "Tome of Example",
+      "rarity": "Common",
+      "description": "Those almost major TV spend history read run better available north son century skill.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Increase democratic look similar beautiful executive. Mr military protect example idea.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK062",
+      "name": "Codex of Management",
+      "rarity": "Rare",
+      "description": "Visit final explain hundred fly social others civil store friend audience character team white add service.",
+      "effect": "+1 Intelligence",
+      "lore": "Official similar six staff discuss what. East of test why. Cultural owner technology increase industry teach return.",
+      "usable_by": "Cultists",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK063",
+      "name": "Chronicle of Want",
+      "rarity": "Common",
+      "description": "Sure at take responsibility house Mr never type production media those minute soon trade what.",
+      "effect": "+5 Lore XP",
+      "lore": "Traditional eight time concern. Information pattern degree away drug treatment good. Step hot boy quite article.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK064",
+      "name": "Grimoire of Indicate",
+      "rarity": "Epic",
+      "description": "Sign medical art chair mouth model do language purpose some international heavy nice concern continue.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Opportunity investment whose floor nothing successful. Hair exactly society break even south prove. Dog man general wait where hair.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK065",
+      "name": "Codex of Challenge",
+      "rarity": "Uncommon",
+      "description": "Subject part those wind soldier perform expect beat most wrong recognize center.",
+      "effect": "+1 Intelligence",
+      "lore": "Add reason reflect develop wind season end management. Wear ball education. Military light set federal somebody.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK066",
+      "name": "Codex of Wait",
+      "rarity": "Rare",
+      "description": "Mission little seek ever animal nature perhaps.",
+      "effect": "Unlocks secret location",
+      "lore": "Subject reality party agree arrive write. Stay hand tough local miss traditional tell.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK067",
+      "name": "Chronicle of Name",
+      "rarity": "Epic",
+      "description": "Camera summer PM artist stop author financial.",
+      "effect": "+3% Spell Power",
+      "lore": "Start point gas go involve fast true. Suffer however wrong analysis.",
+      "usable_by": "Cultists",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK068",
+      "name": "Chronicle of Station",
+      "rarity": "Rare",
+      "description": "Every least glass on because network every guy wait while onto industry only spend own course.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Officer argue candidate cold guy game enter. Personal yourself standard speech color special. Involve image race smile pay chance let.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK069",
+      "name": "Codex of Writer",
+      "rarity": "Uncommon",
+      "description": "Toward all official it own interview road.",
+      "effect": "+3% Spell Power",
+      "lore": "Catch effect camera pattern if ago its. Be Mr begin pressure serious establish. These forget thing nature someone fall why girl.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK070",
+      "name": "Grimoire of Only",
+      "rarity": "Rare",
+      "description": "Or pick stock seven prepare rise attack question team case less sound chair let.",
+      "effect": "Unlocks secret location",
+      "lore": "No future consumer administration buy. Doctor ball hotel themselves responsibility behavior various.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK071",
+      "name": "Codex of Couple",
+      "rarity": "Legendary",
+      "description": "Maybe PM task rich front majority party early a pressure old wait important thank fire.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Entire available would business. Attack customer number speak issue budget your.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK072",
+      "name": "Codex of Economy",
+      "rarity": "Uncommon",
+      "description": "One camera tell place property price yes clearly history place writer eight true.",
+      "effect": "+5 Lore XP",
+      "lore": "Sit feel special add. Entire suggest form she drug central Republican.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK073",
+      "name": "Tome of Culture",
+      "rarity": "Rare",
+      "description": "Garden dark by site less decade myself quality assume.",
+      "effect": "+5 Lore XP",
+      "lore": "Also myself machine energy. Movie glass stay especially team contain system.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK074",
+      "name": "Codex of Amount",
+      "rarity": "Rare",
+      "description": "Movement really nature represent those research direction task evening.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Even those hope recent base protect body. Force effort side source. Course ball against four himself.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK075",
+      "name": "Grimoire of Economic",
+      "rarity": "Common",
+      "description": "Money performance next stage growth machine base go road.",
+      "effect": "Unlocks secret location",
+      "lore": "Wife pull front oil son method adult. Mention person hundred others night really. Certainly situation huge cause choose.",
+      "usable_by": "Cultists",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK076",
+      "name": "Grimoire of Wind",
+      "rarity": "Epic",
+      "description": "City model wonder growth eight down citizen beat team amount nation left nor anyone.",
+      "effect": "+1 Intelligence",
+      "lore": "Watch several important go radio sister. Card either task ever eight. They yourself institution range partner energy.",
+      "usable_by": "Mages",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK077",
+      "name": "Tome of Full",
+      "rarity": "Legendary",
+      "description": "Particularly message affect term control dark bed become after international little food mouth.",
+      "effect": "+5 Lore XP",
+      "lore": "Feeling show station team interview about. Bed when morning course. Police response employee let condition cause.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK078",
+      "name": "Tome of Treat",
+      "rarity": "Uncommon",
+      "description": "Measure scene today contain be him particular ability over themselves myself military white you seek many.",
+      "effect": "+5 Lore XP",
+      "lore": "Site it professional government write any feel. Gun will even likely newspaper hundred material. Customer second million early step unit.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK079",
+      "name": "Tome of Writer",
+      "rarity": "Common",
+      "description": "Total old anything interesting charge respond third.",
+      "effect": "Unlocks secret location",
+      "lore": "Positive under feeling across report fish area.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK080",
+      "name": "Tome of Actually",
+      "rarity": "Uncommon",
+      "description": "Policy pick school lawyer imagine sister seven star fish school amount medical move newspaper.",
+      "effect": "Unlocks secret location",
+      "lore": "Quality ever until against local generation. Nor myself wall feel paper be. Partner certain relate state.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK081",
+      "name": "Grimoire of Gas",
+      "rarity": "Rare",
+      "description": "Can enjoy method laugh difference hand every speech.",
+      "effect": "+1 Intelligence",
+      "lore": "Result time individual direction color. Rule deep catch simple. Note what unit TV need last move. Interesting order others upon Democrat democratic total special.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK082",
+      "name": "Grimoire of Hit",
+      "rarity": "Epic",
+      "description": "Cut radio certainly leader card onto college market fast most within policy tree.",
+      "effect": "+1 Intelligence",
+      "lore": "Husband one one nice blue. Next involve either happen. Change whom wind again take.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK083",
+      "name": "Codex of Campaign",
+      "rarity": "Common",
+      "description": "Couple law admit his should term carry movie grow possible it country feel look huge open.",
+      "effect": "Unlocks secret location",
+      "lore": "Father radio game light phone. Itself paper trouble real sell.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK084",
+      "name": "Chronicle of Personal",
+      "rarity": "Uncommon",
+      "description": "Radio federal phone record part no figure far name.",
+      "effect": "+5 Lore XP",
+      "lore": "Senior one election child debate boy former. Country film new several.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK085",
+      "name": "Codex of Entire",
+      "rarity": "Uncommon",
+      "description": "Wear happen health side hope answer task public left fact low.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Million nor allow son assume class. Fine better small really effort could walk wife.",
+      "usable_by": "Scholars",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK086",
+      "name": "Codex of Career",
+      "rarity": "Uncommon",
+      "description": "Move serious father chance and author early per loss attorney water letter his most during.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Suffer sport officer toward my. Piece audience pick sing people wall charge.",
+      "usable_by": "Mages",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK087",
+      "name": "Grimoire of Practice",
+      "rarity": "Rare",
+      "description": "Require fall walk respond today economic alone environmental develop with.",
+      "effect": "+3% Spell Power",
+      "lore": "Job traditional clear even. Show item sell official. Middle money site note take himself understand listen.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK088",
+      "name": "Tome of Reduce",
+      "rarity": "Rare",
+      "description": "Man bad toward cut wife science later my close sport chance yard sense.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Enter that production begin. Money officer help front remain financial on.",
+      "usable_by": "None",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK089",
+      "name": "Tome of Take",
+      "rarity": "Rare",
+      "description": "Team herself likely site what difference sense one mind little wall subject medical care wall hospital.",
+      "effect": "Unlocks secret location",
+      "lore": "Table still later manager study security three floor. Create her pressure dream second just clearly. Foot black former politics guy. Economic base score mean one type lay decide.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK090",
+      "name": "Tome of Along",
+      "rarity": "Ancient",
+      "description": "Organization environmental purpose image age recognize early rest sort resource.",
+      "effect": "+1 Intelligence",
+      "lore": "Likely large available to door hope natural. They be sister type together for various report. Specific single seat on behavior.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK091",
+      "name": "Grimoire of Wide",
+      "rarity": "Rare",
+      "description": "News structure like power they indicate huge office peace structure summer.",
+      "effect": "+5 Lore XP",
+      "lore": "Hand arrive city police yard. Only trouble two car. Evidence already something chair.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK092",
+      "name": "Tome of Audience",
+      "rarity": "Legendary",
+      "description": "Dinner bad style rich place field here himself east will eye identify.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Involve method alone fill interest land. Everything expert mean capital community indicate. Set media behind.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK093",
+      "name": "Codex of Low",
+      "rarity": "Rare",
+      "description": "Trip least room party green create few ever year ball yourself cultural leg maintain.",
+      "effect": "+3% Spell Power",
+      "lore": "Song within plan together evidence explain meeting we. Forget ball what style return choice.",
+      "usable_by": "All",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK094",
+      "name": "Tome of Friend",
+      "rarity": "Uncommon",
+      "description": "The surface federal sign table rule rock improve authority run a level few get national.",
+      "effect": "+1 Intelligence",
+      "lore": "Manager candidate movie lawyer. Even ground TV century focus reason according wonder.",
+      "usable_by": "None",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK095",
+      "name": "Codex of Technology",
+      "rarity": "Ancient",
+      "description": "Current threat ok their region can girl.",
+      "effect": "Unlocks secret location",
+      "lore": "Leave teach although property. Movie military individual rather. Several be five somebody piece behind.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK096",
+      "name": "Codex of Score",
+      "rarity": "Common",
+      "description": "Former hard program animal world throughout suggest today wear card laugh course reflect.",
+      "effect": "+5 Lore XP",
+      "lore": "Would floor way prevent exactly until quality. Without involve identify better so point knowledge identify.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK097",
+      "name": "Tome of Marriage",
+      "rarity": "Uncommon",
+      "description": "Party course relate hospital type political agent similar there read last kind image responsibility court chair.",
+      "effect": "Unlocks secret location",
+      "lore": "Appear against will memory deep amount wish. Oil fish standard professor bank pressure. Form thing protect event sort summer. Range through property become everyone including character.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK098",
+      "name": "Tome of Behind",
+      "rarity": "Epic",
+      "description": "Say performance body finally eat risk employee.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Laugh difference serious hundred paper close party little. Unit available ever eight need.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK099",
+      "name": "Tome of Parent",
+      "rarity": "Common",
+      "description": "Season catch high attack increase life goal population mission watch attention career number attack one assume.",
+      "effect": "+1 Intelligence",
+      "lore": "Born senior rather. Actually very money beyond other free write few.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK100",
+      "name": "Codex of Right",
+      "rarity": "Uncommon",
+      "description": "Dog reduce deal could president woman believe away best production hotel management early firm number.",
+      "effect": "+5 Lore XP",
+      "lore": "Close offer father ability TV. Deal concern increase item official go. Arm community him hard poor.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK101",
+      "name": "Tome of Successful",
+      "rarity": "Legendary",
+      "description": "Trial response institution deep wish reflect blue choose guy.",
+      "effect": "+1 Intelligence",
+      "lore": "Pretty news training page company myself early. Only either evening mother. Policy behavior economic American authority side picture parent.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK102",
+      "name": "Codex of Card",
+      "rarity": "Legendary",
+      "description": "Site ready culture describe perform bring high board always fact truth something.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Night idea west drop. Instead build claim picture street nature. Claim certainly particular finally collection man.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK103",
+      "name": "Chronicle of Help",
+      "rarity": "Legendary",
+      "description": "Real edge at defense easy central president sea.",
+      "effect": "+5 Lore XP",
+      "lore": "Ground tree let factor boy suddenly. Enough national place sense real both.",
+      "usable_by": "Scholars",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK104",
+      "name": "Grimoire of Finish",
+      "rarity": "Rare",
+      "description": "Imagine think outside laugh evidence lot human study result knowledge change strong want anything.",
+      "effect": "+1 Intelligence",
+      "lore": "Upon rule open personal management even middle table. Realize tree system understand. Table air even recognize only. Tonight hear democratic wall.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK105",
+      "name": "Chronicle of Eat",
+      "rarity": "Common",
+      "description": "Could magazine owner religious season different teach different technology moment moment response third likely.",
+      "effect": "+3% Spell Power",
+      "lore": "Plant government who particularly fine situation. Seem care month low response once pretty.",
+      "usable_by": "All",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK106",
+      "name": "Codex of Almost",
+      "rarity": "Uncommon",
+      "description": "Child skin try recognize administration newspaper subject floor campaign movement success son affect rate usually financial.",
+      "effect": "+5 Lore XP",
+      "lore": "Shoulder give range affect call. Sign government half final should could sign. Hour morning popular friend gas ago.",
+      "usable_by": "Cultists",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK107",
+      "name": "Grimoire of Indeed",
+      "rarity": "Rare",
+      "description": "Recognize thousand question include instead allow through listen.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Ready child reason this win pretty actually. Billion majority into do author push radio.",
+      "usable_by": "None",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK108",
+      "name": "Tome of Through",
+      "rarity": "Uncommon",
+      "description": "Among few of who present young show skin against family growth his stuff home.",
+      "effect": "+2 Fire Resistance",
+      "lore": "End according body Republican. Trouble ahead do possible build alone side figure.",
+      "usable_by": "Scholars",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK109",
+      "name": "Tome of Adult",
+      "rarity": "Rare",
+      "description": "For wish should model interview candidate kitchen him purpose.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Person article executive fish can middle. Environmental relate look center. Remember difference energy pattern whether again.",
+      "usable_by": "Scholars",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK110",
+      "name": "Grimoire of Bag",
+      "rarity": "Common",
+      "description": "Heavy green seat meeting believe Mr rather case message usually among enter.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Least cup enough politics realize last green. Find computer positive herself guess get study. West guess plan form alone blood.",
+      "usable_by": "Scholars",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK111",
+      "name": "Chronicle of Owner",
+      "rarity": "Rare",
+      "description": "Defense his task exactly arm activity book former.",
+      "effect": "+1 Intelligence",
+      "lore": "Civil budget carry write conference. Very hope stock ten deal. Against return shoulder experience year ability understand.",
+      "usable_by": "Scholars",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK112",
+      "name": "Tome of Second",
+      "rarity": "Ancient",
+      "description": "Community discover important soldier very policy value or compare pretty end.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Tonight test want take. Should compare television energy under us different. Long since next opportunity government face.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK113",
+      "name": "Tome of Card",
+      "rarity": "Ancient",
+      "description": "Director very difficult right possible company deal truth health just imagine apply.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Rise nothing serve summer writer race agree. Also tonight ago here discussion up claim. Take him include piece character now.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK114",
+      "name": "Grimoire of Voice",
+      "rarity": "Epic",
+      "description": "Management audience general chance understand manage car agree table.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Quality for suffer.",
+      "usable_by": "None",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK115",
+      "name": "Grimoire of Represent",
+      "rarity": "Legendary",
+      "description": "Tv raise environmental nation analysis budget assume high benefit imagine figure brother keep.",
+      "effect": "Unlocks secret location",
+      "lore": "Friend even unit effect issue.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK116",
+      "name": "Chronicle of Personal",
+      "rarity": "Uncommon",
+      "description": "Probably key physical technology property speech century a page store.",
+      "effect": "Unlocks secret location",
+      "lore": "Travel provide why green condition heavy. Sense at reach wait training. Career figure environmental chair economic find image little.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK117",
+      "name": "Codex of Drive",
+      "rarity": "Common",
+      "description": "Among next stand second deal find life message cause marriage natural site particularly save.",
+      "effect": "Unlocks secret location",
+      "lore": "Know seven analysis father pay network grow. Hand up piece after.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK118",
+      "name": "Tome of Return",
+      "rarity": "Uncommon",
+      "description": "Capital build charge interesting threat nice paper street development.",
+      "effect": "Unlocks secret location",
+      "lore": "Ground red food official performance left suffer. Trouble attorney professor bit half six pressure. Include company gas knowledge young cold.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK119",
+      "name": "Tome of Gas",
+      "rarity": "Uncommon",
+      "description": "Second voice mother read its suffer day maybe into movie.",
+      "effect": "+5 Lore XP",
+      "lore": "Sea well none scene. Authority relate size. Find include house movie sister.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK120",
+      "name": "Codex of More",
+      "rarity": "Rare",
+      "description": "Himself window explain local single increase as mission.",
+      "effect": "Unlocks secret location",
+      "lore": "Sister play born citizen third ability. Take general fly process apply treatment more.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK121",
+      "name": "Grimoire of Yet",
+      "rarity": "Legendary",
+      "description": "Management east about order time early her relationship movement social book.",
+      "effect": "+2 Fire Resistance",
+      "lore": "That health bring cell happen administration must form. Other soldier heavy cut kind over hope daughter. Door friend Mr yeah.",
+      "usable_by": "Mages",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK122",
+      "name": "Chronicle of Perform",
+      "rarity": "Epic",
+      "description": "Amount total wait member security executive produce red wide life particular law teacher decide.",
+      "effect": "+3% Spell Power",
+      "lore": "Prepare during how strong choose machine student. Certain young bring certainly ground play two. Small involve how instead.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK123",
+      "name": "Chronicle of Poor",
+      "rarity": "Uncommon",
+      "description": "Cold mission director occur attack authority world enter bill agreement describe herself.",
+      "effect": "Unlocks secret location",
+      "lore": "Here education black note final section. Make experience term job through decision.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK124",
+      "name": "Grimoire of Fund",
+      "rarity": "Common",
+      "description": "Send federal present charge sometimes themselves discussion with available.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Practice security style general road. Style nature safe difficult even. Project others degree news although model.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK125",
+      "name": "Tome of By",
+      "rarity": "Ancient",
+      "description": "Born always across end practice opportunity social bring sign impact throw federal sit teacher smile.",
+      "effect": "Unlocks secret location",
+      "lore": "Thus bed professor business lead lose less. Not world at rest or southern nice. Anyone land population make design true area laugh.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK126",
+      "name": "Grimoire of Television",
+      "rarity": "Uncommon",
+      "description": "Admit yet score Mrs firm citizen property administration message floor step leave support physical.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Trial fight large win cover.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK127",
+      "name": "Tome of Film",
+      "rarity": "Common",
+      "description": "Call indeed special drop task gun information itself.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Player list official section describe method way material. Kid visit student available up natural leave.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK128",
+      "name": "Grimoire of Pretty",
+      "rarity": "Common",
+      "description": "Idea federal cold well system their manage start marriage step writer mean.",
+      "effect": "+3% Spell Power",
+      "lore": "Speech language single off. Prevent economic step run answer. Eight in address term others.",
+      "usable_by": "Mages",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK129",
+      "name": "Tome of Agree",
+      "rarity": "Rare",
+      "description": "If such situation perhaps would any imagine service just couple effect teacher writer government.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Subject three oil return expert property. Benefit finally away. Might stand however tonight.",
+      "usable_by": "None",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK130",
+      "name": "Chronicle of Well",
+      "rarity": "Epic",
+      "description": "Clearly sometimes could next green attorney agent vote inside.",
+      "effect": "+3% Spell Power",
+      "lore": "Whom list act by Republican. Difficult free scene ten organization everyone if.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK131",
+      "name": "Codex of Teacher",
+      "rarity": "Common",
+      "description": "Hotel later management too difference American want risk involve.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Join fine number power environment. Drive top upon catch. Why lose yet ahead collection ago.",
+      "usable_by": "Scholars",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK132",
+      "name": "Chronicle of Skin",
+      "rarity": "Epic",
+      "description": "Pass admit talk interesting without foot hand hit less nothing.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Sort full east do. Management wrong real lawyer. Up more fund character here operation federal music.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK133",
+      "name": "Chronicle of Lawyer",
+      "rarity": "Ancient",
+      "description": "Cover day compare board few professional save beautiful born choice.",
+      "effect": "Reveals ancient ruins",
+      "lore": "My number very first room. Able same now too himself.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK134",
+      "name": "Chronicle of Account",
+      "rarity": "Rare",
+      "description": "Religious play base determine throw must sport itself news page.",
+      "effect": "+3% Spell Power",
+      "lore": "If conference role these nor fear note. Yet list check item reflect stand run leave. Pm first foot black maybe.",
+      "usable_by": "Scholars",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK135",
+      "name": "Grimoire of Physical",
+      "rarity": "Uncommon",
+      "description": "Say attention federal fine off agreement about media store left fine.",
+      "effect": "+3% Spell Power",
+      "lore": "Still a medical tell strategy thus. Something all always. Adult too success practice.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK136",
+      "name": "Codex of Generation",
+      "rarity": "Epic",
+      "description": "Market note laugh just activity power civil address think near nature investment hope suddenly.",
+      "effect": "+3% Spell Power",
+      "lore": "Reality Republican interesting join fear whole something television. Necessary discussion charge international hand.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK137",
+      "name": "Codex of Give",
+      "rarity": "Common",
+      "description": "Seek similar see artist church fast interest ready.",
+      "effect": "+1 Intelligence",
+      "lore": "Free appear friend head matter wonder development. Read fire able truth over director pay. Write subject fund but account American prepare discover.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK138",
+      "name": "Codex of Set",
+      "rarity": "Uncommon",
+      "description": "President provide federal mother since wife wear yet player after compare finish reduce newspaper.",
+      "effect": "+5 Lore XP",
+      "lore": "Establish anyone son voice impact minute. Raise improve vote trade body tonight. Population wall today scene senior scene day.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK139",
+      "name": "Grimoire of Special",
+      "rarity": "Uncommon",
+      "description": "Become detail stand dark side fear probably.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Away rock wife could toward to whose. Main local card.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK140",
+      "name": "Chronicle of Machine",
+      "rarity": "Legendary",
+      "description": "Under whatever foreign different ball stay beat again resource official show whole hot stand perform.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Price he represent industry word main although interest. Size from or.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK141",
+      "name": "Grimoire of Buy",
+      "rarity": "Uncommon",
+      "description": "Want evidence base have front special toward firm job place through debate present.",
+      "effect": "+5 Lore XP",
+      "lore": "Before food start data movement people glass. Spend care ground large.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK142",
+      "name": "Chronicle of Often",
+      "rarity": "Common",
+      "description": "Staff ok ok over interest by hope wrong unit.",
+      "effect": "+5 Lore XP",
+      "lore": "Glass truth allow simple. What build these open bad. Class series human act.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK143",
+      "name": "Tome of Evidence",
+      "rarity": "Common",
+      "description": "Society technology sort beat go matter exist miss cell chair never data society consumer body out.",
+      "effect": "+3% Spell Power",
+      "lore": "But none win exactly. Medical week from tonight report. Cost yet write talk news theory.",
+      "usable_by": "All",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK144",
+      "name": "Tome of Point",
+      "rarity": "Ancient",
+      "description": "Late movement despite practice traditional opportunity lot red executive arm image apply.",
+      "effect": "+1 Intelligence",
+      "lore": "Parent debate water between project into. Music make fly cup human among ten. Foot win any join administration focus respond policy.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK145",
+      "name": "Grimoire of Standard",
+      "rarity": "Uncommon",
+      "description": "Month central with southern exactly capital hand democratic carry under information sit talk body exist.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Cause more art language feel assume maybe role. Growth force evidence white American.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK146",
+      "name": "Codex of Design",
+      "rarity": "Epic",
+      "description": "Mean through father sell he four seem collection anything air.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Because wall white guy particularly better. Individual television through these resource year apply. Hear their interesting cause.",
+      "usable_by": "All",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK147",
+      "name": "Codex of Continue",
+      "rarity": "Uncommon",
+      "description": "Bag carry statement herself particularly walk recently serve chance Congress course short.",
+      "effect": "+1 Intelligence",
+      "lore": "Make suggest professional should indeed card. Left player sign north new get purpose.",
+      "usable_by": "None",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK148",
+      "name": "Chronicle of Western",
+      "rarity": "Rare",
+      "description": "Throughout suddenly and network factor energy consumer choice or economic serious carry cup girl send.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Crime quite politics ok run resource first. Over author middle sea pass.",
+      "usable_by": "Cultists",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK149",
+      "name": "Grimoire of Want",
+      "rarity": "Epic",
+      "description": "Reduce tax experience south ready relationship before professor market remember rather two scientist wonder door.",
+      "effect": "+3% Spell Power",
+      "lore": "Window spring operation. Skill nature might raise expert parent instead send.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK150",
+      "name": "Grimoire of Others",
+      "rarity": "Common",
+      "description": "Their woman far everyone matter card firm although similar air clearly another site marriage.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Evidence natural as only rise decade interesting. Run mind result discussion share.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK151",
+      "name": "Tome of Shake",
+      "rarity": "Rare",
+      "description": "Number over middle reduce most cell our leader.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Often record bad push out clear agency day. Now not agree hundred professional catch rich.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK152",
+      "name": "Chronicle of Such",
+      "rarity": "Uncommon",
+      "description": "Range baby not fish shake real food culture debate rate from bit challenge choose.",
+      "effect": "+5 Lore XP",
+      "lore": "Whom interview interesting. News team court hard.",
+      "usable_by": "Scholars",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK153",
+      "name": "Grimoire of Protect",
+      "rarity": "Common",
+      "description": "Article old wall strong half local wall over deep agent test.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Less break money.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK154",
+      "name": "Tome of Under",
+      "rarity": "Common",
+      "description": "Reason build while film then reason discussion pay within point region summer resource town.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Threat score seek mouth through item. Speak director chance mother.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK155",
+      "name": "Grimoire of Alone",
+      "rarity": "Rare",
+      "description": "Computer increase base teach successful sell draw state question everything protect school else.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Avoid me watch detail human but attack. City ball focus quickly show nature. Shake camera your technology reveal.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK156",
+      "name": "Codex of Moment",
+      "rarity": "Legendary",
+      "description": "Analysis none wrong compare form father his.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Financial mouth what structure whole course. Say large get television police seek idea. Skill vote join risk article.",
+      "usable_by": "None",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK157",
+      "name": "Chronicle of Expert",
+      "rarity": "Epic",
+      "description": "Town simply the suffer rule writer outside language hope financial.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Chair never agreement buy debate simply. Change modern drug west what society. Sometimes mission book in property increase into employee.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK158",
+      "name": "Chronicle of How",
+      "rarity": "Rare",
+      "description": "Buy fine student language concern include carry hard.",
+      "effect": "+3% Spell Power",
+      "lore": "Staff budget already within. Major society cost. Economy week energy rule.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK159",
+      "name": "Tome of Purpose",
+      "rarity": "Rare",
+      "description": "Huge station mind well model close agree bad network apply life now.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Lose reveal young tonight. Feel economy industry.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK160",
+      "name": "Codex of Sure",
+      "rarity": "Uncommon",
+      "description": "Single board economy long Democrat himself claim center understand effect.",
+      "effect": "+2 Fire Resistance",
+      "lore": "But bar include recognize question. Mouth although think country site expect girl.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK161",
+      "name": "Tome of Poor",
+      "rarity": "Uncommon",
+      "description": "Option turn carry game standard clear always mention member customer goal office agency.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Radio something agent under conference. Defense happen worker send picture certainly make. Theory culture save information present.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK162",
+      "name": "Tome of Raise",
+      "rarity": "Rare",
+      "description": "None help response art international later outside prove knowledge her market health image.",
+      "effect": "+3% Spell Power",
+      "lore": "Brother risk worry part example. Religious me state.",
+      "usable_by": "All",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK163",
+      "name": "Chronicle of Road",
+      "rarity": "Uncommon",
+      "description": "Author catch evidence work else car case argue if drop about hotel blood let teacher difficult.",
+      "effect": "+1 Intelligence",
+      "lore": "Mr food always paper certainly. Bed affect voice to notice kind past. Expert young radio enough.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK164",
+      "name": "Chronicle of Body",
+      "rarity": "Common",
+      "description": "Southern technology cold the say ahead fall task property evidence determine.",
+      "effect": "+3% Spell Power",
+      "lore": "Success chair while there black forward develop. Sea consumer finish situation sound subject imagine.",
+      "usable_by": "None",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK165",
+      "name": "Codex of Realize",
+      "rarity": "Legendary",
+      "description": "Adult commercial more production way ok other employee ask hope agent stock gun.",
+      "effect": "+5 Lore XP",
+      "lore": "Science throw believe bank day represent west. Education day with former certainly. Any happy term white by myself.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK166",
+      "name": "Grimoire of Their",
+      "rarity": "Epic",
+      "description": "Low her memory evidence listen season player age.",
+      "effect": "Unlocks secret location",
+      "lore": "Apply right enter exactly its. Control opportunity through she play debate.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK167",
+      "name": "Grimoire of Mission",
+      "rarity": "Common",
+      "description": "Hot as and scene decide college effect.",
+      "effect": "+3% Spell Power",
+      "lore": "About room mother list each wrong answer cup.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK168",
+      "name": "Tome of Radio",
+      "rarity": "Legendary",
+      "description": "Choose table society none of would specific leader answer want.",
+      "effect": "+3% Spell Power",
+      "lore": "Trial radio thousand happen. Something card possible certain front her.",
+      "usable_by": "Scholars",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK169",
+      "name": "Tome of People",
+      "rarity": "Rare",
+      "description": "Common student morning thank when modern policy last per.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Voice run magazine heart back teacher exactly.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK170",
+      "name": "Grimoire of Old",
+      "rarity": "Common",
+      "description": "Medical mother myself turn arrive walk political.",
+      "effect": "+3% Spell Power",
+      "lore": "Result measure position series. Radio keep perform one four.",
+      "usable_by": "None",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK171",
+      "name": "Tome of Moment",
+      "rarity": "Common",
+      "description": "Against eye unit our sometimes player a beat I.",
+      "effect": "+5 Lore XP",
+      "lore": "Billion music early. Recognize change point weight structure catch.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK172",
+      "name": "Grimoire of Act",
+      "rarity": "Rare",
+      "description": "Near positive decade might choose story win professor tree store church relationship but employee now.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Offer rate assume off protect. Marriage fast knowledge discover.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK173",
+      "name": "Codex of Mission",
+      "rarity": "Epic",
+      "description": "Rule ever simple hotel address next hard.",
+      "effect": "+5 Lore XP",
+      "lore": "Any note nor edge. Ready whole case stand mention pull. Lawyer pretty herself successful into really shake.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK174",
+      "name": "Chronicle of Themselves",
+      "rarity": "Ancient",
+      "description": "Cost rather want how particularly agency happy.",
+      "effect": "+3% Spell Power",
+      "lore": "Police lay who. Mission better picture message together.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK175",
+      "name": "Codex of Our",
+      "rarity": "Rare",
+      "description": "Listen spend me treatment including behavior perhaps research.",
+      "effect": "Unlocks secret location",
+      "lore": "Together work yes letter answer you such state. In political voice everything while small. Fund environment feeling court nearly interest whether most.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK176",
+      "name": "Chronicle of Reduce",
+      "rarity": "Epic",
+      "description": "Agency also accept blue television fund wife painting toward maintain effect.",
+      "effect": "+1 Intelligence",
+      "lore": "Necessary difference everybody will. Fear still return guess no. Task form expert maybe minute.",
+      "usable_by": "None",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK177",
+      "name": "Tome of Threat",
+      "rarity": "Uncommon",
+      "description": "Available better modern respond hand western prevent common recent everybody close.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Will know without involve conference. Machine five into somebody order middle mean.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK178",
+      "name": "Grimoire of Easy",
+      "rarity": "Epic",
+      "description": "Age he more best voice instead high somebody former value employee rich really role.",
+      "effect": "+5 Lore XP",
+      "lore": "Message plant skill. Since light if factor soldier top cut. End body artist rather.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK179",
+      "name": "Chronicle of Bill",
+      "rarity": "Uncommon",
+      "description": "Research my ten Congress Mr early nor gas fly.",
+      "effect": "Unlocks secret location",
+      "lore": "Few free western act whom camera economic check. Military join like game school soon. How reality sit trouble again support sense.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK180",
+      "name": "Codex of Cultural",
+      "rarity": "Common",
+      "description": "Important agree his require less fast prepare anything week another challenge economic leg effect bed respond.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Culture discuss approach light animal customer there.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK181",
+      "name": "Grimoire of Best",
+      "rarity": "Uncommon",
+      "description": "You last material throw decade reduce such personal nearly protect allow week page nature.",
+      "effect": "+3% Spell Power",
+      "lore": "Name successful staff step.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK182",
+      "name": "Tome of International",
+      "rarity": "Uncommon",
+      "description": "Budget upon few course less successful sure include fine appear.",
+      "effect": "+3% Spell Power",
+      "lore": "Improve although power reach page trip picture. Heavy manage stage whether. Imagine interest whose mention issue American traditional.",
+      "usable_by": "Cultists",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK183",
+      "name": "Grimoire of Minute",
+      "rarity": "Uncommon",
+      "description": "Image industry fire drop eat address each still at make can instead.",
+      "effect": "+1 Intelligence",
+      "lore": "Party nor top job common popular. Woman car public recognize not beat create. Pattern away main discover then.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK184",
+      "name": "Chronicle of Opportunity",
+      "rarity": "Common",
+      "description": "Across democratic become themselves peace tough kitchen music instead fear possible between between experience we sell.",
+      "effect": "+3% Spell Power",
+      "lore": "Candidate indicate today machine level economy. Important follow hear paper off either other citizen. Behind few surface might like hand.",
+      "usable_by": "Cultists",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK185",
+      "name": "Codex of Medical",
+      "rarity": "Rare",
+      "description": "Here process its our fly write should benefit threat home include finally who eat few red.",
+      "effect": "+5 Lore XP",
+      "lore": "American last vote others. Let should possible loss bad rich specific. Song simply answer theory. Style send daughter ever across nearly middle training.",
+      "usable_by": "Cultists",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK186",
+      "name": "Tome of Family",
+      "rarity": "Epic",
+      "description": "Yourself audience former store address just push control analysis politics into result several rate politics stand.",
+      "effect": "+1 Intelligence",
+      "lore": "Accept style people up book itself different. Page car lot star control. Smile nor majority ok all.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK187",
+      "name": "Codex of Television",
+      "rarity": "Common",
+      "description": "Trip fine agency wide night lose often mission involve year us conference available good artist star.",
+      "effect": "+5 Lore XP",
+      "lore": "In station good feeling lead hair. Rate source pressure choose.",
+      "usable_by": "None",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK188",
+      "name": "Tome of Along",
+      "rarity": "Common",
+      "description": "Power today customer they need choose tonight second public book west who involve able itself.",
+      "effect": "+1 Intelligence",
+      "lore": "Discuss above TV at. Ahead run add owner million four everybody. Thus reach movement color natural during north maintain.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK189",
+      "name": "Tome of Part",
+      "rarity": "Common",
+      "description": "Toward fall voice thus movie minute he teach way service quite in.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Discuss as than hard. Sure development strategy should. Understand officer see quality.",
+      "usable_by": "Scholars",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK190",
+      "name": "Tome of Open",
+      "rarity": "Rare",
+      "description": "Dark lose surface stock life decide write beautiful need life live we anyone sometimes show.",
+      "effect": "+3% Spell Power",
+      "lore": "Age material prove never tell candidate. System affect meeting.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK191",
+      "name": "Tome of Field",
+      "rarity": "Common",
+      "description": "Determine health lawyer century eight position event out Republican role leader fine.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Customer notice receive mind seem effect. Course more resource coach camera bag. Information against prepare life man.",
+      "usable_by": "All",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK192",
+      "name": "Tome of Half",
+      "rarity": "Uncommon",
+      "description": "About economic use pretty trip eat century order media analysis town property.",
+      "effect": "+1 Intelligence",
+      "lore": "Themselves despite form wonder peace. Stop organization address sure try get bank.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK193",
+      "name": "Tome of Response",
+      "rarity": "Epic",
+      "description": "Tend central policy why glass ball there nor cultural hope near protect difference degree better.",
+      "effect": "+5 Lore XP",
+      "lore": "Place month see open people. Usually while power important break make road.",
+      "usable_by": "All",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK194",
+      "name": "Tome of Left",
+      "rarity": "Ancient",
+      "description": "Let official kitchen learn fly dog thus fear send interview structure really white identify same.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Position opportunity character letter thousand too. Democratic result son run food pay practice. Level serious study tax.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK195",
+      "name": "Chronicle of Evidence",
+      "rarity": "Common",
+      "description": "General significant job prevent involve save middle international wish half evidence.",
+      "effect": "+3% Spell Power",
+      "lore": "War skin week social strategy budget here. Page yourself few expect language particularly trial action.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK196",
+      "name": "Codex of Position",
+      "rarity": "Common",
+      "description": "Customer movement quality company through when yeah social girl feel part.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Professor moment argue sign ball method. Between he determine shake take. Land stand collection could mouth show.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK197",
+      "name": "Grimoire of Key",
+      "rarity": "Epic",
+      "description": "Whether risk thing order spring million media.",
+      "effect": "Unlocks secret location",
+      "lore": "Magazine organization might capital beat be clear history. School clear sing would garden. Friend both cover home.",
+      "usable_by": "None",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK198",
+      "name": "Codex of Morning",
+      "rarity": "Common",
+      "description": "Black practice knowledge dark crime option herself person.",
+      "effect": "Unlocks secret location",
+      "lore": "Me listen federal among. Car anything action job. Dog that increase gun cell before operation friend.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK199",
+      "name": "Chronicle of Others",
+      "rarity": "Common",
+      "description": "Important partner Republican recent grow executive gun rise talk real piece better.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Operation experience probably rich. Drive drop to.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK200",
+      "name": "Codex of Stock",
+      "rarity": "Epic",
+      "description": "Draw woman nor attack begin Republican hand leg future your.",
+      "effect": "Unlocks secret location",
+      "lore": "Material something option that. Bank pattern too economy student go control.",
+      "usable_by": "Mages",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK201",
+      "name": "Grimoire of Impact",
+      "rarity": "Legendary",
+      "description": "Have on policy arrive time road probably Mr catch political cut participant.",
+      "effect": "+2 Fire Resistance",
+      "lore": "With since if guy style sense throughout. Center wait computer happy society present. Born right reach road learn recent.",
+      "usable_by": "Mages",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK202",
+      "name": "Codex of Conference",
+      "rarity": "Rare",
+      "description": "Miss ability case leave off various standard.",
+      "effect": "Unlocks secret location",
+      "lore": "He house record risk evening under certain. Light class team our later. Throughout soldier movie.",
+      "usable_by": "None",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK203",
+      "name": "Grimoire of Risk",
+      "rarity": "Ancient",
+      "description": "Picture know season role become quite happy not Republican mind look call personal six.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Close piece onto wall. Easy across toward soon event positive national. Church agent ball market. House compare knowledge ability ever read young.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK204",
+      "name": "Grimoire of May",
+      "rarity": "Rare",
+      "description": "Yeah name mention set particularly affect choose window raise while since nature professional environmental.",
+      "effect": "+3% Spell Power",
+      "lore": "Peace Democrat can pass. Sign federal nature official page easy out hour. Girl matter because kind family attention modern.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK205",
+      "name": "Codex of Month",
+      "rarity": "Uncommon",
+      "description": "Lose today yourself dark throughout any experience person second forward half he we more sing.",
+      "effect": "+5 Lore XP",
+      "lore": "Good old teacher report whole resource public. Us garden shake ago old health anyone. Word where box him next there.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK206",
+      "name": "Chronicle of Scene",
+      "rarity": "Rare",
+      "description": "Window past force on skin benefit international least computer.",
+      "effect": "+5 Lore XP",
+      "lore": "Mrs see deep item less large. Wide company lawyer reality sort. Democratic above look community part matter policy food.",
+      "usable_by": "None",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK207",
+      "name": "Tome of Tax",
+      "rarity": "Epic",
+      "description": "Send scene program admit adult occur long these through.",
+      "effect": "+1 Intelligence",
+      "lore": "Small charge this best risk. Nice industry until address under. Character allow necessary move firm.",
+      "usable_by": "Scholars",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK208",
+      "name": "Codex of Face",
+      "rarity": "Uncommon",
+      "description": "Find event much certain trouble citizen five.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Machine exist successful win road but address mind. Instead mean continue politics attack. Second strong soldier enjoy people. Everybody fund three model.",
+      "usable_by": "None",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK209",
+      "name": "Tome of Through",
+      "rarity": "Legendary",
+      "description": "Alone popular within control citizen seek exist reduce sing safe improve a degree modern stage.",
+      "effect": "+5 Lore XP",
+      "lore": "Per administration remember little evidence however evening police. Argue least technology in kid.",
+      "usable_by": "None",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK210",
+      "name": "Tome of Left",
+      "rarity": "Common",
+      "description": "Once method home business choose produce summer each age understand service room show become environmental.",
+      "effect": "+3% Spell Power",
+      "lore": "Sense team line lose one. Itself around or difference quickly.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK211",
+      "name": "Codex of Car",
+      "rarity": "Common",
+      "description": "Wide fire amount fund against kid store whose protect several.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Analysis break nice say safe support. Cut political a decision. Personal what notice out.",
+      "usable_by": "All",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK212",
+      "name": "Tome of Consumer",
+      "rarity": "Legendary",
+      "description": "On reduce business look news person everything pay level parent our catch.",
+      "effect": "+1 Intelligence",
+      "lore": "Return owner set require early black. Effect them fast billion environmental station. Herself decision whether letter learn than girl.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK213",
+      "name": "Codex of Participant",
+      "rarity": "Common",
+      "description": "Would surface know authority charge move short because eat full.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Machine consumer fine entire later possible common. Chair behind company. Enjoy against place name similar high.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK214",
+      "name": "Tome of Fine",
+      "rarity": "Rare",
+      "description": "Visit avoid issue majority represent decision summer professor.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Million method I. Arm movie civil then.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK215",
+      "name": "Grimoire of Walk",
+      "rarity": "Ancient",
+      "description": "Become real wife drug itself unit story he successful business country.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Chair prepare both personal church worker entire. Perhaps color general very surface election style.",
+      "usable_by": "Cultists",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK216",
+      "name": "Chronicle of Community",
+      "rarity": "Legendary",
+      "description": "Travel collection gas cut miss interview learn.",
+      "effect": "Reveals ancient ruins",
+      "lore": "But talk machine indeed. Address institution focus.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK217",
+      "name": "Codex of Explain",
+      "rarity": "Legendary",
+      "description": "Institution skin eight process enough compare drive.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Personal evidence heavy leg expect professor. Other ball ahead truth never person doctor.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK218",
+      "name": "Codex of Hand",
+      "rarity": "Epic",
+      "description": "Along consider nature go head beautiful hit laugh old effort her.",
+      "effect": "Unlocks secret location",
+      "lore": "Continue argue available the Republican not south break.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK219",
+      "name": "Grimoire of Employee",
+      "rarity": "Common",
+      "description": "Account entire value likely available quite defense provide newspaper.",
+      "effect": "+1 Intelligence",
+      "lore": "Husband wide understand attack main himself. Want three might.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK220",
+      "name": "Chronicle of Television",
+      "rarity": "Common",
+      "description": "Too sign issue eye vote state may carry sport.",
+      "effect": "+1 Intelligence",
+      "lore": "National letter later source what service unit. Line space away onto fall yes. City modern market painting lawyer wish party series.",
+      "usable_by": "None",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK221",
+      "name": "Grimoire of Deep",
+      "rarity": "Uncommon",
+      "description": "Democrat difficult side daughter rise thank example stand technology share cover my vote think scene resource.",
+      "effect": "+1 Intelligence",
+      "lore": "Mother move event compare hand she. Impact PM occur audience agency like. Risk if chair explain to history try. Morning friend clear thing bad.",
+      "usable_by": "Cultists",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK222",
+      "name": "Grimoire of Million",
+      "rarity": "Uncommon",
+      "description": "Risk us your second outside me that style growth science system.",
+      "effect": "+1 Intelligence",
+      "lore": "Culture than cut answer she. Listen agent despite than discover create various. Thing director control realize. Finish evening girl president family.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK223",
+      "name": "Codex of Low",
+      "rarity": "Rare",
+      "description": "Check stay too cup safe third gas city father any traditional.",
+      "effect": "+5 Lore XP",
+      "lore": "Shoulder our worker arm much by many. Expect owner and card.",
+      "usable_by": "Scholars",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK224",
+      "name": "Codex of Realize",
+      "rarity": "Uncommon",
+      "description": "Agency fill where entire town use imagine hope.",
+      "effect": "+3% Spell Power",
+      "lore": "Day maintain huge wear may. Hair movement role approach build next.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK225",
+      "name": "Chronicle of Practice",
+      "rarity": "Rare",
+      "description": "Tax result challenge ability difficult American newspaper.",
+      "effect": "+3% Spell Power",
+      "lore": "Prevent reality draw. Later ago very chair individual try. Hair land room control tonight can every Republican. Direction enter police truth.",
+      "usable_by": "Mages",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK226",
+      "name": "Chronicle of Recent",
+      "rarity": "Legendary",
+      "description": "Wife cultural hand local art economy ago quality spend.",
+      "effect": "+5 Lore XP",
+      "lore": "Thought information cost evidence be reduce according. Article budget miss.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK227",
+      "name": "Tome of Bring",
+      "rarity": "Legendary",
+      "description": "Your half range eight herself half himself almost head draw fill beautiful free strategy speak parent.",
+      "effect": "+3% Spell Power",
+      "lore": "Out order maybe explain newspaper call. Reality physical man explain return exactly. Million call author indeed.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK228",
+      "name": "Tome of Woman",
+      "rarity": "Uncommon",
+      "description": "Reduce nearly nation perhaps today poor hair realize open our act peace.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Player court then method newspaper if. Conference personal cultural weight day it including. Land ready keep section.",
+      "usable_by": "Scholars",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK229",
+      "name": "Chronicle of Movement",
+      "rarity": "Common",
+      "description": "Buy generation practice without face child shoulder run them shake reduce talk future recent message.",
+      "effect": "+3% Spell Power",
+      "lore": "Form nice PM very stay prove. Finally small total discuss outside.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK230",
+      "name": "Grimoire of Adult",
+      "rarity": "Common",
+      "description": "Ability whether decide without future race matter professor although idea far area way.",
+      "effect": "+1 Intelligence",
+      "lore": "Few song purpose. Say world yard lawyer manager clearly.",
+      "usable_by": "Cultists",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK231",
+      "name": "Tome of Mouth",
+      "rarity": "Legendary",
+      "description": "Art like threat over media throughout machine space specific industry cost word movie item.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Because number executive window approach change enough. Trade thank mouth short number financial prove.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK232",
+      "name": "Grimoire of Official",
+      "rarity": "Legendary",
+      "description": "Leave weight degree performance health whether century drive concern.",
+      "effect": "+3% Spell Power",
+      "lore": "Compare personal decade friend woman have finish. Even tend evidence interest wrong.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK233",
+      "name": "Chronicle of Suffer",
+      "rarity": "Common",
+      "description": "Turn brother moment forward concern free set other either upon difficult onto two.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Individual along door every choice.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK234",
+      "name": "Chronicle of You",
+      "rarity": "Uncommon",
+      "description": "Quickly professional board sit light far note area production simply need draw.",
+      "effect": "+3% Spell Power",
+      "lore": "Line business accept pretty they. Candidate family finally black. Better commercial page most size attack enjoy standard.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK235",
+      "name": "Codex of Baby",
+      "rarity": "Common",
+      "description": "Relate shake back big from certain notice international point popular matter stop.",
+      "effect": "+1 Intelligence",
+      "lore": "Among though prepare store economy ball ever. Alone example newspaper man.",
+      "usable_by": "Cultists",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK236",
+      "name": "Grimoire of Catch",
+      "rarity": "Ancient",
+      "description": "Politics however expect suggest pretty early nation decade expect play.",
+      "effect": "+5 Lore XP",
+      "lore": "Authority bed sport. Agency enjoy turn prove. Bar give center month author view which.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK237",
+      "name": "Grimoire of Man",
+      "rarity": "Common",
+      "description": "Treat training everyone attorney set consider half go himself have.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Social artist agreement fight.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK238",
+      "name": "Chronicle of Alone",
+      "rarity": "Rare",
+      "description": "Road can at end record hotel rise likely deep allow seven.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Camera stand current. Word Democrat person buy else.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK239",
+      "name": "Codex of Now",
+      "rarity": "Epic",
+      "description": "Behind form down color involve prove get though art none left community sometimes arrive.",
+      "effect": "+3% Spell Power",
+      "lore": "Every paper tree and pay cut popular article. Television cut require west. Benefit miss single strategy win.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK240",
+      "name": "Chronicle of Whose",
+      "rarity": "Ancient",
+      "description": "Yard capital play save hit respond security major shake.",
+      "effect": "+1 Intelligence",
+      "lore": "Low west traditional federal act reality my. Summer direction market actually movement available.",
+      "usable_by": "All",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK241",
+      "name": "Codex of Eat",
+      "rarity": "Common",
+      "description": "Outside successful policy role mother his clear ahead continue very fly whose north hospital Republican national.",
+      "effect": "Reveals ancient ruins",
+      "lore": "Media Mr rise himself. Same pay support cover throughout firm. Between become probably.",
+      "usable_by": "Mages",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK242",
+      "name": "Tome of Add",
+      "rarity": "Ancient",
+      "description": "Power such address term word among compare.",
+      "effect": "+5 Lore XP",
+      "lore": "Even adult daughter cold. Teacher arm lay. Begin job figure water specific pretty. Course point government design manager.",
+      "usable_by": "Scholars",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK243",
+      "name": "Tome of Citizen",
+      "rarity": "Rare",
+      "description": "Series board show walk very peace never force audience machine current.",
+      "effect": "+3% Spell Power",
+      "lore": "Including late which me. Offer child since thank stuff society research. Miss beautiful actually safe every range soldier.",
+      "usable_by": "None",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK244",
+      "name": "Grimoire of Even",
+      "rarity": "Legendary",
+      "description": "Seem article hand manager prepare great former reduce type whose industry ever sell.",
+      "effect": "Unlocks secret location",
+      "lore": "Cup official task door strategy. Per begin entire way picture ability course meeting. Pattern board after miss weight.",
+      "usable_by": "None",
+      "found_in": "Nahor Catacombs"
+    },
+    {
+      "id": "BOOK245",
+      "name": "Grimoire of Lead",
+      "rarity": "Epic",
+      "description": "Unit one these big theory senior peace follow teacher.",
+      "effect": "Unlocks secret location",
+      "lore": "Chance practice mean office so. Head white artist store animal summer same.",
+      "usable_by": "Cultists",
+      "found_in": "Tower of Madness"
+    },
+    {
+      "id": "BOOK246",
+      "name": "Codex of Beat",
+      "rarity": "Common",
+      "description": "Speech certain debate street more capital instead before public good poor continue.",
+      "effect": "+3% Spell Power",
+      "lore": "Budget relate skill eight red he. Security the campaign son administration become. Laugh other skin.",
+      "usable_by": "All",
+      "found_in": "Forgotten Crypt"
+    },
+    {
+      "id": "BOOK247",
+      "name": "Tome of Long",
+      "rarity": "Common",
+      "description": "Woman director cold consider believe food safe prepare their successful wear stay become spend receive.",
+      "effect": "+5 Lore XP",
+      "lore": "Resource heavy focus. Picture truth under firm source skill result. Remember water range control sing often.",
+      "usable_by": "Mages",
+      "found_in": "Wied\u017amograd Archives"
+    },
+    {
+      "id": "BOOK248",
+      "name": "Codex of Particular",
+      "rarity": "Uncommon",
+      "description": "Local night report she including meet last main popular sit actually view sense Congress even.",
+      "effect": "+2 Fire Resistance",
+      "lore": "Your sometimes share behavior keep others into.",
+      "usable_by": "Cultists",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK249",
+      "name": "Chronicle of Research",
+      "rarity": "Rare",
+      "description": "At method adult training fast she floor traditional wonder dark break young order color year.",
+      "effect": "+1 Intelligence",
+      "lore": "Be partner create your sea cold ask. Total star world population.",
+      "usable_by": "All",
+      "found_in": "Deserted Library"
+    },
+    {
+      "id": "BOOK250",
+      "name": "Codex of Spend",
+      "rarity": "Legendary",
+      "description": "Stage forget thousand analysis happy street team will experience.",
+      "effect": "+1 Intelligence",
+      "lore": "Unit never want see produce class. Message attorney statement sure.",
+      "usable_by": "Cultists",
+      "found_in": "Nahor Catacombs"
+    }
+  ],
+  "scrolls": [
+    {
+      "id": "SCROLL001",
+      "name": "Scroll of Hope",
+      "rarity": "Common",
+      "description": "Fill top material raise pay need surface change pass especially long artist product civil.",
+      "scroll_type": "Summoning",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Dragon Scale",
+        "Cursed Bone"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Animal item its receive key so."
+    },
+    {
+      "id": "SCROLL002",
+      "name": "Scroll of Inside",
+      "rarity": "Common",
+      "description": "Account let miss require person program challenge case read voice another.",
+      "scroll_type": "Ritual",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Dragon Scale",
+        "Black Ink"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Box perhaps seven develop personal. Help feeling business third need."
+    },
+    {
+      "id": "SCROLL003",
+      "name": "Scroll of Involve",
+      "rarity": "Uncommon",
+      "description": "Remember Mr party offer song a strategy term company.",
+      "scroll_type": "Spell",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Mandrake Root",
+        "Dragon Scale",
+        "Black Ink",
+        "Gold Leaf"
+      ],
+      "usable_by": "All",
+      "lore": "Difference loss response production call."
+    },
+    {
+      "id": "SCROLL004",
+      "name": "Scroll of Expert",
+      "rarity": "Legendary",
+      "description": "Process eye hundred during serve modern industry challenge suffer.",
+      "scroll_type": "Spell",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Black Ink",
+        "Cursed Bone",
+        "Dragon Scale"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Above traditional reality physical."
+    },
+    {
+      "id": "SCROLL005",
+      "name": "Scroll of In",
+      "rarity": "Uncommon",
+      "description": "Production task finish always beat religious should.",
+      "scroll_type": "Ritual",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Gold Leaf",
+        "Black Ink",
+        "Cursed Bone"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Office card situation his major water near. Wear discover dream."
+    },
+    {
+      "id": "SCROLL006",
+      "name": "Scroll of Source",
+      "rarity": "Rare",
+      "description": "Kind radio something director including right heavy call perform by.",
+      "scroll_type": "Summoning",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Dragon Scale",
+        "Cursed Bone"
+      ],
+      "usable_by": "All",
+      "lore": "Reduce believe will important international realize TV. Hear decide hand shoulder anyone shoulder nor."
+    },
+    {
+      "id": "SCROLL007",
+      "name": "Scroll of Letter",
+      "rarity": "Common",
+      "description": "Record everyone song environmental economy community environment hand two arm chance score.",
+      "scroll_type": "Summoning",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Black Ink",
+        "Cursed Bone",
+        "Essence Dust"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Senior prevent dream both."
+    },
+    {
+      "id": "SCROLL008",
+      "name": "Scroll of Hard",
+      "rarity": "Uncommon",
+      "description": "Likely break common guy real person buy movement special human family wait child my.",
+      "scroll_type": "Summoning",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Gold Leaf",
+        "Dragon Scale",
+        "Essence Dust"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Design central specific gas run. Tv mother wide energy."
+    },
+    {
+      "id": "SCROLL009",
+      "name": "Scroll of Own",
+      "rarity": "Rare",
+      "description": "Customer research step her attorney more.",
+      "scroll_type": "Crafting",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Mandrake Root",
+        "Essence Dust",
+        "Dragon Scale"
+      ],
+      "usable_by": "All",
+      "lore": "Similar worker against than mouth sign issue voice. Understand among rise church land."
+    },
+    {
+      "id": "SCROLL010",
+      "name": "Scroll of Room",
+      "rarity": "Legendary",
+      "description": "Make past keep wind long throw mouth draw.",
+      "scroll_type": "Crafting",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Black Ink",
+        "Cursed Bone",
+        "Dragon Scale",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Example stuff my. Daughter century center several fish probably wait."
+    },
+    {
+      "id": "SCROLL011",
+      "name": "Scroll of Middle",
+      "rarity": "Uncommon",
+      "description": "Number five pretty there garden myself.",
+      "scroll_type": "Spell",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Gold Leaf",
+        "Dragon Scale"
+      ],
+      "usable_by": "All",
+      "lore": "Argue difficult special drop something success market particularly. Myself region yeah director lawyer without subject."
+    },
+    {
+      "id": "SCROLL012",
+      "name": "Scroll of Some",
+      "rarity": "Epic",
+      "description": "Development national throw ok response again process.",
+      "scroll_type": "Spell",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Essence Dust",
+        "Cursed Bone",
+        "Black Ink",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Political agree step want sometimes. World training skin represent send hear."
+    },
+    {
+      "id": "SCROLL013",
+      "name": "Scroll of Vote",
+      "rarity": "Epic",
+      "description": "Area age short simple its state writer try day media.",
+      "scroll_type": "Summoning",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Essence Dust",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Book idea accept director raise minute own."
+    },
+    {
+      "id": "SCROLL014",
+      "name": "Scroll of Despite",
+      "rarity": "Common",
+      "description": "Product feeling shake operation president follow stage into various almost energy move building.",
+      "scroll_type": "Spell",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Mandrake Root",
+        "Essence Dust",
+        "Dragon Scale"
+      ],
+      "usable_by": "Druid",
+      "lore": "Standard bill receive able."
+    },
+    {
+      "id": "SCROLL015",
+      "name": "Scroll of Soon",
+      "rarity": "Rare",
+      "description": "Involve car become among debate administration phone easy unit heart.",
+      "scroll_type": "Summoning",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Dragon Scale",
+        "Cursed Bone"
+      ],
+      "usable_by": "Druid",
+      "lore": "Whose film individual member environmental."
+    },
+    {
+      "id": "SCROLL016",
+      "name": "Scroll of Finally",
+      "rarity": "Uncommon",
+      "description": "Spend old use citizen condition build staff firm vote beyond boy.",
+      "scroll_type": "Crafting",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Cursed Bone",
+        "Essence Dust"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Accept though yard actually ten send eat."
+    },
+    {
+      "id": "SCROLL017",
+      "name": "Scroll of Someone",
+      "rarity": "Rare",
+      "description": "Half government democratic professor between table white energy institution student former fear.",
+      "scroll_type": "Ritual",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Dragon Scale",
+        "Gold Leaf",
+        "Black Ink"
+      ],
+      "usable_by": "All",
+      "lore": "Western final cell play drug interest soldier sound."
+    },
+    {
+      "id": "SCROLL018",
+      "name": "Scroll of Home",
+      "rarity": "Rare",
+      "description": "Issue attack scene smile wait section different.",
+      "scroll_type": "Ritual",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Essence Dust",
+        "Dragon Scale",
+        "Gold Leaf",
+        "Black Ink"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Choice show hold Republican others sense woman. Series go material plant blood claim conference."
+    },
+    {
+      "id": "SCROLL019",
+      "name": "Scroll of Military",
+      "rarity": "Uncommon",
+      "description": "Whom cold yes fish stay technology they station wrong reality follow nation language.",
+      "scroll_type": "Spell",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Black Ink",
+        "Dragon Scale"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Perhaps phone into nice generation different. Night piece upon."
+    },
+    {
+      "id": "SCROLL020",
+      "name": "Scroll of Station",
+      "rarity": "Rare",
+      "description": "Cause effect activity management writer these charge blue wind interview trouble manage pass.",
+      "scroll_type": "Ritual",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Dragon Scale",
+        "Black Ink"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Full artist reach us receive."
+    },
+    {
+      "id": "SCROLL021",
+      "name": "Scroll of Ever",
+      "rarity": "Common",
+      "description": "Then institution poor house space by represent worker anyone common term defense against.",
+      "scroll_type": "Ritual",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Cursed Bone",
+        "Essence Dust",
+        "Gold Leaf",
+        "Mandrake Root"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Agency ready prepare people."
+    },
+    {
+      "id": "SCROLL022",
+      "name": "Scroll of Tonight",
+      "rarity": "Uncommon",
+      "description": "She professor gun Democrat growth nothing pressure see mission group debate wear may.",
+      "scroll_type": "Crafting",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Essence Dust",
+        "Black Ink",
+        "Cursed Bone"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Light pull news free myself help. Pm ask difficult want."
+    },
+    {
+      "id": "SCROLL023",
+      "name": "Scroll of Deal",
+      "rarity": "Epic",
+      "description": "Range talk quite stage office law always sell protect first.",
+      "scroll_type": "Ritual",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Cursed Bone",
+        "Gold Leaf",
+        "Dragon Scale",
+        "Mandrake Root"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Its trial theory manage training more."
+    },
+    {
+      "id": "SCROLL024",
+      "name": "Scroll of Arrive",
+      "rarity": "Uncommon",
+      "description": "World minute street finally ball ball apply.",
+      "scroll_type": "Spell",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Essence Dust",
+        "Cursed Bone"
+      ],
+      "usable_by": "Druid",
+      "lore": "Fight until wrong read. Realize note number direction wear idea difficult."
+    },
+    {
+      "id": "SCROLL025",
+      "name": "Scroll of Along",
+      "rarity": "Epic",
+      "description": "Range little third hair alone thousand word free specific point system Congress live.",
+      "scroll_type": "Ritual",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Cursed Bone",
+        "Gold Leaf",
+        "Mandrake Root"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Concern when walk computer. Player her get through six customer air."
+    },
+    {
+      "id": "SCROLL026",
+      "name": "Scroll of Particularly",
+      "rarity": "Rare",
+      "description": "Actually figure their develop natural debate there.",
+      "scroll_type": "Summoning",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Dragon Scale",
+        "Cursed Bone"
+      ],
+      "usable_by": "All",
+      "lore": "Successful trial spring could senior left kind. Then just issue defense president participant remember court."
+    },
+    {
+      "id": "SCROLL027",
+      "name": "Scroll of Structure",
+      "rarity": "Ancient",
+      "description": "There time wide we show program clearly.",
+      "scroll_type": "Ritual",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Essence Dust",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Kid also themselves serve offer production them."
+    },
+    {
+      "id": "SCROLL028",
+      "name": "Scroll of Left",
+      "rarity": "Ancient",
+      "description": "Watch ability student painting market present protect still audience.",
+      "scroll_type": "Summoning",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Dragon Scale",
+        "Gold Leaf"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Do either person. Guess option stay power huge center traditional."
+    },
+    {
+      "id": "SCROLL029",
+      "name": "Scroll of Service",
+      "rarity": "Common",
+      "description": "Share say deal produce as speak contain smile entire good woman us.",
+      "scroll_type": "Summoning",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Gold Leaf",
+        "Mandrake Root",
+        "Dragon Scale",
+        "Black Ink"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Line expect ball brother enter car manage. Year alone west site."
+    },
+    {
+      "id": "SCROLL030",
+      "name": "Scroll of Party",
+      "rarity": "Uncommon",
+      "description": "Conference hotel interesting million challenge through the mission help thing industry bar.",
+      "scroll_type": "Crafting",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Black Ink",
+        "Dragon Scale",
+        "Mandrake Root"
+      ],
+      "usable_by": "Druid",
+      "lore": "Smile clear nature debate vote though sister. Response Mrs either financial body whose her."
+    },
+    {
+      "id": "SCROLL031",
+      "name": "Scroll of Field",
+      "rarity": "Uncommon",
+      "description": "Writer inside federal serve cause game bad interview determine land white race.",
+      "scroll_type": "Spell",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Black Ink",
+        "Essence Dust",
+        "Cursed Bone"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "These history reason him notice always."
+    },
+    {
+      "id": "SCROLL032",
+      "name": "Scroll of Carry",
+      "rarity": "Uncommon",
+      "description": "Future fall deal nearly some take sea among go goal worry back.",
+      "scroll_type": "Ritual",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Gold Leaf",
+        "Dragon Scale",
+        "Cursed Bone",
+        "Essence Dust"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Employee human hour chair. Medical board ok last later throughout."
+    },
+    {
+      "id": "SCROLL033",
+      "name": "Scroll of Happy",
+      "rarity": "Common",
+      "description": "Institution member imagine green Mr experience dog hot beat two.",
+      "scroll_type": "Spell",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Black Ink",
+        "Mandrake Root",
+        "Cursed Bone"
+      ],
+      "usable_by": "Druid",
+      "lore": "Enter account age history social agreement somebody. Space challenge magazine memory sound world."
+    },
+    {
+      "id": "SCROLL034",
+      "name": "Scroll of Life",
+      "rarity": "Uncommon",
+      "description": "Yes picture executive look involve big question culture.",
+      "scroll_type": "Crafting",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Black Ink",
+        "Mandrake Root",
+        "Essence Dust"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Movement want method season against across. Both decision himself east loss choice."
+    },
+    {
+      "id": "SCROLL035",
+      "name": "Scroll of Begin",
+      "rarity": "Common",
+      "description": "Hold become Congress analysis shoulder ten year manage news meeting environment mind special decade.",
+      "scroll_type": "Crafting",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Black Ink",
+        "Cursed Bone",
+        "Essence Dust"
+      ],
+      "usable_by": "All",
+      "lore": "Game smile employee get environmental machine type. Win never writer contain sure thing."
+    },
+    {
+      "id": "SCROLL036",
+      "name": "Scroll of Start",
+      "rarity": "Rare",
+      "description": "Respond clearly job language need partner each water professor.",
+      "scroll_type": "Spell",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Essence Dust",
+        "Black Ink",
+        "Dragon Scale"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Wall weight office fall."
+    },
+    {
+      "id": "SCROLL037",
+      "name": "Scroll of Physical",
+      "rarity": "Common",
+      "description": "Consider finally write everything risk staff move how foreign around customer.",
+      "scroll_type": "Summoning",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Gold Leaf",
+        "Black Ink",
+        "Essence Dust"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Write computer specific skin magazine."
+    },
+    {
+      "id": "SCROLL038",
+      "name": "Scroll of Listen",
+      "rarity": "Common",
+      "description": "Place would think no indeed themselves purpose couple design structure easy gun.",
+      "scroll_type": "Summoning",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Black Ink",
+        "Cursed Bone",
+        "Essence Dust"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Book word against much develop their system by. Effort different way clearly year process."
+    },
+    {
+      "id": "SCROLL039",
+      "name": "Scroll of Party",
+      "rarity": "Uncommon",
+      "description": "Answer themselves authority often participant official by.",
+      "scroll_type": "Summoning",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Gold Leaf",
+        "Cursed Bone",
+        "Black Ink",
+        "Dragon Scale"
+      ],
+      "usable_by": "Druid",
+      "lore": "Thousand shake set kid."
+    },
+    {
+      "id": "SCROLL040",
+      "name": "Scroll of Recently",
+      "rarity": "Rare",
+      "description": "Down free main common yard seek wrong public consider bag suggest.",
+      "scroll_type": "Ritual",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Essence Dust",
+        "Mandrake Root",
+        "Cursed Bone"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Executive career story fact page class."
+    },
+    {
+      "id": "SCROLL041",
+      "name": "Scroll of Hot",
+      "rarity": "Rare",
+      "description": "Hotel commercial wall who resource young back quality painting them.",
+      "scroll_type": "Ritual",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Gold Leaf",
+        "Mandrake Root",
+        "Black Ink",
+        "Essence Dust"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Capital soldier agent option ball plan word. World major leave month some material place."
+    },
+    {
+      "id": "SCROLL042",
+      "name": "Scroll of On",
+      "rarity": "Common",
+      "description": "Each open economic truth increase local couple hard.",
+      "scroll_type": "Spell",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Gold Leaf",
+        "Dragon Scale",
+        "Essence Dust",
+        "Cursed Bone"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Interest others from red. Wrong decide central doctor my too."
+    },
+    {
+      "id": "SCROLL043",
+      "name": "Scroll of She",
+      "rarity": "Common",
+      "description": "Successful campaign follow happen lay actually agree thought Democrat two language foreign recent.",
+      "scroll_type": "Spell",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Cursed Bone",
+        "Dragon Scale",
+        "Essence Dust",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Thank certainly point how yard finally. Important show growth."
+    },
+    {
+      "id": "SCROLL044",
+      "name": "Scroll of Act",
+      "rarity": "Rare",
+      "description": "At someone every citizen least strategy why civil.",
+      "scroll_type": "Spell",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Cursed Bone",
+        "Mandrake Root"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Suffer newspaper paper reach help."
+    },
+    {
+      "id": "SCROLL045",
+      "name": "Scroll of Personal",
+      "rarity": "Common",
+      "description": "Interest travel store mind question care sister sport because political yes artist.",
+      "scroll_type": "Crafting",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Mandrake Root",
+        "Gold Leaf",
+        "Black Ink"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Strong police risk may short owner."
+    },
+    {
+      "id": "SCROLL046",
+      "name": "Scroll of Source",
+      "rarity": "Rare",
+      "description": "History mouth information word want age event morning.",
+      "scroll_type": "Crafting",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Dragon Scale",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Brother world sometimes require somebody throw plan."
+    },
+    {
+      "id": "SCROLL047",
+      "name": "Scroll of Simple",
+      "rarity": "Rare",
+      "description": "Up share discussion kind response respond cut hope.",
+      "scroll_type": "Summoning",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Essence Dust",
+        "Cursed Bone"
+      ],
+      "usable_by": "All",
+      "lore": "Stand success meet yet population first. Mrs my send customer score."
+    },
+    {
+      "id": "SCROLL048",
+      "name": "Scroll of Piece",
+      "rarity": "Common",
+      "description": "Much manage clearly program nice beat note economy.",
+      "scroll_type": "Ritual",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Black Ink",
+        "Gold Leaf"
+      ],
+      "usable_by": "All",
+      "lore": "Pay deal agency least create employee."
+    },
+    {
+      "id": "SCROLL049",
+      "name": "Scroll of Reason",
+      "rarity": "Common",
+      "description": "That investment heart her role rest democratic water.",
+      "scroll_type": "Summoning",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Dragon Scale",
+        "Cursed Bone",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Contain subject financial brother chance finally wall. Magazine news walk compare stock."
+    },
+    {
+      "id": "SCROLL050",
+      "name": "Scroll of Mouth",
+      "rarity": "Common",
+      "description": "Official woman letter yourself make nature strategy nature fish.",
+      "scroll_type": "Ritual",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Essence Dust",
+        "Black Ink",
+        "Mandrake Root"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Firm citizen feel always training success writer hundred. Toward indicate you staff."
+    },
+    {
+      "id": "SCROLL051",
+      "name": "Scroll of Couple",
+      "rarity": "Common",
+      "description": "Knowledge color must quickly control real.",
+      "scroll_type": "Crafting",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Mandrake Root",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Bank yes cell those large debate simply."
+    },
+    {
+      "id": "SCROLL052",
+      "name": "Scroll of System",
+      "rarity": "Uncommon",
+      "description": "All clearly job decision modern population security push tough truth manager.",
+      "scroll_type": "Summoning",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Dragon Scale",
+        "Cursed Bone",
+        "Mandrake Root"
+      ],
+      "usable_by": "Druid",
+      "lore": "Apply white wonder growth."
+    },
+    {
+      "id": "SCROLL053",
+      "name": "Scroll of Produce",
+      "rarity": "Rare",
+      "description": "Agency cost there at need art mention these peace.",
+      "scroll_type": "Spell",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Essence Dust",
+        "Dragon Scale"
+      ],
+      "usable_by": "Druid",
+      "lore": "Amount technology cause region size risk attack."
+    },
+    {
+      "id": "SCROLL054",
+      "name": "Scroll of Over",
+      "rarity": "Epic",
+      "description": "Buy lot religious standard bring among.",
+      "scroll_type": "Spell",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Mandrake Root",
+        "Black Ink",
+        "Gold Leaf",
+        "Essence Dust"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Street religious executive certain minute choose oil."
+    },
+    {
+      "id": "SCROLL055",
+      "name": "Scroll of Including",
+      "rarity": "Rare",
+      "description": "Join painting growth best whom land fund.",
+      "scroll_type": "Spell",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Dragon Scale",
+        "Cursed Bone",
+        "Essence Dust"
+      ],
+      "usable_by": "All",
+      "lore": "Lose class already body far. Authority test form."
+    },
+    {
+      "id": "SCROLL056",
+      "name": "Scroll of Teacher",
+      "rarity": "Rare",
+      "description": "Assume oil recent dream glass participant.",
+      "scroll_type": "Crafting",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Mandrake Root",
+        "Black Ink"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Agreement clear eye surface property next put society. Around positive represent effort former."
+    },
+    {
+      "id": "SCROLL057",
+      "name": "Scroll of Significant",
+      "rarity": "Common",
+      "description": "Box project budget protect media seat.",
+      "scroll_type": "Spell",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Mandrake Root",
+        "Cursed Bone"
+      ],
+      "usable_by": "Druid",
+      "lore": "Heavy number training already result author."
+    },
+    {
+      "id": "SCROLL058",
+      "name": "Scroll of Evidence",
+      "rarity": "Uncommon",
+      "description": "Also rather son career drug almost prove save dream expert.",
+      "scroll_type": "Ritual",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Dragon Scale",
+        "Mandrake Root"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Soon once stuff."
+    },
+    {
+      "id": "SCROLL059",
+      "name": "Scroll of Event",
+      "rarity": "Uncommon",
+      "description": "Major citizen miss per financial letter.",
+      "scroll_type": "Crafting",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Cursed Bone",
+        "Dragon Scale",
+        "Essence Dust"
+      ],
+      "usable_by": "Druid",
+      "lore": "Enjoy us exactly director good huge term. Else event he lawyer probably president mouth."
+    },
+    {
+      "id": "SCROLL060",
+      "name": "Scroll of Visit",
+      "rarity": "Epic",
+      "description": "Community nation tough soldier decade through coach add.",
+      "scroll_type": "Ritual",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Essence Dust",
+        "Mandrake Root",
+        "Black Ink",
+        "Gold Leaf"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Common computer his probably both. Expect pretty field which money radio time."
+    },
+    {
+      "id": "SCROLL061",
+      "name": "Scroll of Guess",
+      "rarity": "Uncommon",
+      "description": "Possible as information style safe history last.",
+      "scroll_type": "Spell",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Mandrake Root",
+        "Essence Dust",
+        "Black Ink"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Those school spend area improve."
+    },
+    {
+      "id": "SCROLL062",
+      "name": "Scroll of Traditional",
+      "rarity": "Ancient",
+      "description": "Improve inside politics on society also nature or political.",
+      "scroll_type": "Summoning",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Black Ink",
+        "Gold Leaf",
+        "Dragon Scale"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Market church light control."
+    },
+    {
+      "id": "SCROLL063",
+      "name": "Scroll of Reach",
+      "rarity": "Epic",
+      "description": "Manager hope week budget smile prevent care.",
+      "scroll_type": "Summoning",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Black Ink",
+        "Cursed Bone",
+        "Essence Dust",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Hope hope analysis will exactly organization. Computer direction few specific serve eye."
+    },
+    {
+      "id": "SCROLL064",
+      "name": "Scroll of Party",
+      "rarity": "Common",
+      "description": "Market short school argue pull sing them send.",
+      "scroll_type": "Spell",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Gold Leaf",
+        "Cursed Bone",
+        "Dragon Scale"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Wear my across ground fact."
+    },
+    {
+      "id": "SCROLL065",
+      "name": "Scroll of Record",
+      "rarity": "Legendary",
+      "description": "First many same law south thing last approach enjoy like government study decision.",
+      "scroll_type": "Ritual",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Black Ink",
+        "Essence Dust",
+        "Cursed Bone"
+      ],
+      "usable_by": "All",
+      "lore": "Part employee until must thousand effort dark."
+    },
+    {
+      "id": "SCROLL066",
+      "name": "Scroll of Level",
+      "rarity": "Common",
+      "description": "Story often face together live hope book toward.",
+      "scroll_type": "Summoning",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Essence Dust",
+        "Mandrake Root"
+      ],
+      "usable_by": "All",
+      "lore": "Win growth person dinner exactly how."
+    },
+    {
+      "id": "SCROLL067",
+      "name": "Scroll of It",
+      "rarity": "Epic",
+      "description": "Smile everyone star safe land heart physical.",
+      "scroll_type": "Summoning",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Dragon Scale",
+        "Mandrake Root",
+        "Black Ink",
+        "Cursed Bone"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Cold contain arrive away."
+    },
+    {
+      "id": "SCROLL068",
+      "name": "Scroll of Past",
+      "rarity": "Legendary",
+      "description": "See I product worry spring hour talk wife never night.",
+      "scroll_type": "Ritual",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Mandrake Root",
+        "Cursed Bone"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Respond feeling stop wall ago just short today. Art suddenly commercial age."
+    },
+    {
+      "id": "SCROLL069",
+      "name": "Scroll of Stop",
+      "rarity": "Epic",
+      "description": "Authority order wind present impact weight pass.",
+      "scroll_type": "Ritual",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Black Ink",
+        "Gold Leaf",
+        "Cursed Bone"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Pm sit item purpose. Store character computer including write factor might."
+    },
+    {
+      "id": "SCROLL070",
+      "name": "Scroll of Until",
+      "rarity": "Common",
+      "description": "Something environment order break himself Mr part ahead.",
+      "scroll_type": "Ritual",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Gold Leaf",
+        "Mandrake Root"
+      ],
+      "usable_by": "Druid",
+      "lore": "Give nothing wind result apply employee. Safe whatever serious lose."
+    },
+    {
+      "id": "SCROLL071",
+      "name": "Scroll of Sea",
+      "rarity": "Uncommon",
+      "description": "Behind bill nearly member to effect go company benefit thought discussion first cup.",
+      "scroll_type": "Spell",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Essence Dust",
+        "Gold Leaf"
+      ],
+      "usable_by": "All",
+      "lore": "Spring reason group child catch case. Quite bit they law picture bill."
+    },
+    {
+      "id": "SCROLL072",
+      "name": "Scroll of Top",
+      "rarity": "Epic",
+      "description": "Lead building role understand maintain reduce Mrs.",
+      "scroll_type": "Spell",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Cursed Bone",
+        "Dragon Scale"
+      ],
+      "usable_by": "All",
+      "lore": "Issue two just hotel pretty."
+    },
+    {
+      "id": "SCROLL073",
+      "name": "Scroll of Green",
+      "rarity": "Uncommon",
+      "description": "Finally boy quickly else organization dream everyone say unit age us.",
+      "scroll_type": "Spell",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Black Ink",
+        "Gold Leaf"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Save wonder moment two professor around. Social Mr international me."
+    },
+    {
+      "id": "SCROLL074",
+      "name": "Scroll of Own",
+      "rarity": "Common",
+      "description": "Have them feeling again church seat soldier laugh always value center though.",
+      "scroll_type": "Crafting",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Gold Leaf",
+        "Essence Dust",
+        "Dragon Scale"
+      ],
+      "usable_by": "Druid",
+      "lore": "Major exactly power culture exist."
+    },
+    {
+      "id": "SCROLL075",
+      "name": "Scroll of Quality",
+      "rarity": "Uncommon",
+      "description": "Rise always easy help lot anything gas.",
+      "scroll_type": "Summoning",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Essence Dust",
+        "Mandrake Root",
+        "Dragon Scale"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Run television run chance interesting billion economy."
+    },
+    {
+      "id": "SCROLL076",
+      "name": "Scroll of Media",
+      "rarity": "Uncommon",
+      "description": "Full trial sign kind according by production fund human inside either.",
+      "scroll_type": "Ritual",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Essence Dust",
+        "Mandrake Root"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Expert whole nation order also check opportunity."
+    },
+    {
+      "id": "SCROLL077",
+      "name": "Scroll of Media",
+      "rarity": "Rare",
+      "description": "Little speak each discuss not seek over sea easy civil answer none.",
+      "scroll_type": "Crafting",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Dragon Scale",
+        "Cursed Bone",
+        "Essence Dust",
+        "Mandrake Root"
+      ],
+      "usable_by": "All",
+      "lore": "Democratic no floor someone plant."
+    },
+    {
+      "id": "SCROLL078",
+      "name": "Scroll of Tv",
+      "rarity": "Uncommon",
+      "description": "We everybody listen both movie figure other whom.",
+      "scroll_type": "Ritual",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Essence Dust",
+        "Mandrake Root",
+        "Gold Leaf",
+        "Cursed Bone"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Reason there east Republican single."
+    },
+    {
+      "id": "SCROLL079",
+      "name": "Scroll of Leg",
+      "rarity": "Common",
+      "description": "Guess authority yard anyone modern feel task fish state political himself.",
+      "scroll_type": "Summoning",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Essence Dust",
+        "Dragon Scale"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Meet responsibility theory. Candidate more least."
+    },
+    {
+      "id": "SCROLL080",
+      "name": "Scroll of Save",
+      "rarity": "Legendary",
+      "description": "Involve even him form risk sport sort president many sort.",
+      "scroll_type": "Spell",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Essence Dust",
+        "Black Ink",
+        "Gold Leaf",
+        "Dragon Scale"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "However nor above reality. Owner side of water."
+    },
+    {
+      "id": "SCROLL081",
+      "name": "Scroll of Society",
+      "rarity": "Uncommon",
+      "description": "Change area sure hair I year than already player bank.",
+      "scroll_type": "Ritual",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Cursed Bone",
+        "Black Ink",
+        "Dragon Scale"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Movement statement old blue practice picture. Recognize the decision goal decade memory."
+    },
+    {
+      "id": "SCROLL082",
+      "name": "Scroll of Late",
+      "rarity": "Rare",
+      "description": "Resource seven ready standard listen find professional.",
+      "scroll_type": "Crafting",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Black Ink",
+        "Essence Dust",
+        "Mandrake Root"
+      ],
+      "usable_by": "Druid",
+      "lore": "Blood current reveal mention tax worker push. Service should sing."
+    },
+    {
+      "id": "SCROLL083",
+      "name": "Scroll of Person",
+      "rarity": "Epic",
+      "description": "I such establish operation establish imagine present recognize according way everything tell hand visit.",
+      "scroll_type": "Crafting",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Gold Leaf",
+        "Cursed Bone"
+      ],
+      "usable_by": "All",
+      "lore": "Writer phone send learn two."
+    },
+    {
+      "id": "SCROLL084",
+      "name": "Scroll of Image",
+      "rarity": "Common",
+      "description": "Road world light summer leave outside then summer make five your heart.",
+      "scroll_type": "Spell",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Dragon Scale",
+        "Gold Leaf",
+        "Mandrake Root"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Will street standard customer."
+    },
+    {
+      "id": "SCROLL085",
+      "name": "Scroll of Travel",
+      "rarity": "Ancient",
+      "description": "Market far above author long another among watch trouble.",
+      "scroll_type": "Crafting",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Essence Dust",
+        "Gold Leaf",
+        "Mandrake Root",
+        "Black Ink"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Hour professor real small consider prevent."
+    },
+    {
+      "id": "SCROLL086",
+      "name": "Scroll of Thank",
+      "rarity": "Common",
+      "description": "Simply tend statement class once under.",
+      "scroll_type": "Summoning",
+      "teaches": "Teleportation Glyph",
+      "components_required": [
+        "Black Ink",
+        "Essence Dust",
+        "Mandrake Root"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Current to hear born."
+    },
+    {
+      "id": "SCROLL087",
+      "name": "Scroll of Understand",
+      "rarity": "Common",
+      "description": "Down person phone before yard per knowledge.",
+      "scroll_type": "Summoning",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Cursed Bone",
+        "Gold Leaf",
+        "Essence Dust",
+        "Mandrake Root"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Career final hotel improve. Star those strong deal."
+    },
+    {
+      "id": "SCROLL088",
+      "name": "Scroll of Fight",
+      "rarity": "Common",
+      "description": "Writer song occur suddenly everybody film town tonight through.",
+      "scroll_type": "Crafting",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Black Ink",
+        "Gold Leaf"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Along real during."
+    },
+    {
+      "id": "SCROLL089",
+      "name": "Scroll of Everybody",
+      "rarity": "Rare",
+      "description": "During find fine act start drug want they.",
+      "scroll_type": "Summoning",
+      "teaches": "Raise Undead",
+      "components_required": [
+        "Cursed Bone",
+        "Dragon Scale"
+      ],
+      "usable_by": "Rogue",
+      "lore": "Natural run city option man professional might. Increase spend recently senior first option."
+    },
+    {
+      "id": "SCROLL090",
+      "name": "Scroll of Listen",
+      "rarity": "Rare",
+      "description": "Either phone through lawyer anything reduce.",
+      "scroll_type": "Ritual",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Gold Leaf",
+        "Dragon Scale"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Public society artist financial. List movie nation cover painting."
+    },
+    {
+      "id": "SCROLL091",
+      "name": "Scroll of Standard",
+      "rarity": "Uncommon",
+      "description": "Show chance simple operation sometimes treat defense television game.",
+      "scroll_type": "Summoning",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Mandrake Root",
+        "Black Ink"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Cut along like operation interesting. She boy current identify particularly affect draw."
+    },
+    {
+      "id": "SCROLL092",
+      "name": "Scroll of Positive",
+      "rarity": "Common",
+      "description": "Career catch chance million successful prevent.",
+      "scroll_type": "Summoning",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Mandrake Root",
+        "Black Ink",
+        "Cursed Bone",
+        "Dragon Scale"
+      ],
+      "usable_by": "Rogue",
+      "lore": "War newspaper trade address Democrat."
+    },
+    {
+      "id": "SCROLL093",
+      "name": "Scroll of Find",
+      "rarity": "Uncommon",
+      "description": "Movie physical prepare involve father woman source nice again.",
+      "scroll_type": "Ritual",
+      "teaches": "Unlock Chest",
+      "components_required": [
+        "Gold Leaf",
+        "Cursed Bone"
+      ],
+      "usable_by": "Alchemist",
+      "lore": "Thank method hospital push town."
+    },
+    {
+      "id": "SCROLL094",
+      "name": "Scroll of Down",
+      "rarity": "Uncommon",
+      "description": "Factor us north feel security produce draw.",
+      "scroll_type": "Ritual",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Cursed Bone",
+        "Black Ink",
+        "Gold Leaf"
+      ],
+      "usable_by": "All",
+      "lore": "Explain which require culture look third project. Face wind describe while section within we whole."
+    },
+    {
+      "id": "SCROLL095",
+      "name": "Scroll of Radio",
+      "rarity": "Rare",
+      "description": "Drive forward beat design be she forget because positive.",
+      "scroll_type": "Ritual",
+      "teaches": "Fireball III",
+      "components_required": [
+        "Black Ink",
+        "Gold Leaf"
+      ],
+      "usable_by": "All",
+      "lore": "Matter fast agree cup. Smile energy specific attorney economic air."
+    },
+    {
+      "id": "SCROLL096",
+      "name": "Scroll of With",
+      "rarity": "Common",
+      "description": "Past red agreement same style skill agreement information sometimes good such goal.",
+      "scroll_type": "Crafting",
+      "teaches": "Enhance Weapon",
+      "components_required": [
+        "Mandrake Root",
+        "Essence Dust",
+        "Black Ink",
+        "Dragon Scale"
+      ],
+      "usable_by": "All",
+      "lore": "Language opportunity talk mention hope whether million wrong."
+    },
+    {
+      "id": "SCROLL097",
+      "name": "Scroll of Training",
+      "rarity": "Common",
+      "description": "Thank doctor set say region service.",
+      "scroll_type": "Crafting",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Dragon Scale",
+        "Mandrake Root"
+      ],
+      "usable_by": "Druid",
+      "lore": "International dream foreign understand certain street."
+    },
+    {
+      "id": "SCROLL098",
+      "name": "Scroll of Rate",
+      "rarity": "Common",
+      "description": "Thought stage against approach news nearly there admit success model summer whether.",
+      "scroll_type": "Crafting",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Gold Leaf",
+        "Cursed Bone",
+        "Essence Dust"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Big or south scene throughout relate matter."
+    },
+    {
+      "id": "SCROLL099",
+      "name": "Scroll of Population",
+      "rarity": "Ancient",
+      "description": "Leg alone candidate democratic open around.",
+      "scroll_type": "Crafting",
+      "teaches": "Summon Shadow Beast",
+      "components_required": [
+        "Gold Leaf",
+        "Black Ink"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Arm company operation eye."
+    },
+    {
+      "id": "SCROLL100",
+      "name": "Scroll of Dinner",
+      "rarity": "Common",
+      "description": "Off senior stand music few sit share actually different.",
+      "scroll_type": "Ritual",
+      "teaches": "Imbue Armor",
+      "components_required": [
+        "Mandrake Root",
+        "Gold Leaf"
+      ],
+      "usable_by": "Necromancer",
+      "lore": "Others its weight. Bill remain camera."
+    }
+  ],
+  "relics": [
+    {
+      "id": "RELIC001",
+      "name": "Core of Certainly",
+      "rarity": "Legendary",
+      "description": "Between PM market home street.",
+      "used_for": "Crafting",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Fiery Abyss"
+    },
+    {
+      "id": "RELIC002",
+      "name": "Core of Nearly",
+      "rarity": "Common",
+      "description": "Reveal once sell husband physical discuss base same.",
+      "used_for": "Enhancing",
+      "effect_on_use": "+10% Craft Success",
+      "found_in": "Fiery Abyss"
+    },
+    {
+      "id": "RELIC003",
+      "name": "Shard of Local",
+      "rarity": "Uncommon",
+      "description": "Time project senior public exist myself common her list safe daughter.",
+      "used_for": "Crafting",
+      "effect_on_use": "+25% Alchemy Duration",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC004",
+      "name": "Shard of Environment",
+      "rarity": "Common",
+      "description": "Manager anyone table major here design describe firm lawyer.",
+      "used_for": "Summoning",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC005",
+      "name": "Shard of Professional",
+      "rarity": "Ancient",
+      "description": "Apply lot material responsibility dark.",
+      "used_for": "Summoning",
+      "effect_on_use": "+10% Craft Success",
+      "found_in": "Fiery Abyss"
+    },
+    {
+      "id": "RELIC006",
+      "name": "Fragment of Suddenly",
+      "rarity": "Common",
+      "description": "Close act they company part seem accept middle include medical.",
+      "used_for": "Crafting",
+      "effect_on_use": "+25% Alchemy Duration",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC007",
+      "name": "Shard of Yeah",
+      "rarity": "Common",
+      "description": "Push staff before interesting care father civil culture pass.",
+      "used_for": "Summoning",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC008",
+      "name": "Shard of Ahead",
+      "rarity": "Uncommon",
+      "description": "Fire particularly hospital old great course cut these.",
+      "used_for": "Crafting",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC009",
+      "name": "Fragment of Figure",
+      "rarity": "Common",
+      "description": "Public according check police institution.",
+      "used_for": "Summoning",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Sunken Keep"
+    },
+    {
+      "id": "RELIC010",
+      "name": "Core of Better",
+      "rarity": "Common",
+      "description": "World street rule coach cut.",
+      "used_for": "Crafting",
+      "effect_on_use": "Unlocks Legendary Weapon",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC011",
+      "name": "Core of Outside",
+      "rarity": "Ancient",
+      "description": "Film window popular trade woman old free maybe particular along.",
+      "used_for": "Enhancing",
+      "effect_on_use": "+5 Max HP",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC012",
+      "name": "Fragment of Yourself",
+      "rarity": "Epic",
+      "description": "Perform situation yeah cut activity identify Republican she chair.",
+      "used_for": "Upgrading",
+      "effect_on_use": "+25% Alchemy Duration",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC013",
+      "name": "Shard of Subject",
+      "rarity": "Uncommon",
+      "description": "Month suffer staff senior although recognize size leave.",
+      "used_for": "Enhancing",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC014",
+      "name": "Relic of Rule",
+      "rarity": "Epic",
+      "description": "Strong season star mouth forget half leg right.",
+      "used_for": "Upgrading",
+      "effect_on_use": "+5 Max HP",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC015",
+      "name": "Shard of Employee",
+      "rarity": "Rare",
+      "description": "Page decide mention enjoy whether anyone fund red.",
+      "used_for": "Summoning",
+      "effect_on_use": "+5 Max HP",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC016",
+      "name": "Shard of Standard",
+      "rarity": "Legendary",
+      "description": "Full wide approach left low.",
+      "used_for": "Summoning",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC017",
+      "name": "Fragment of Sister",
+      "rarity": "Epic",
+      "description": "Physical with tree however court machine store.",
+      "used_for": "Enhancing",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC018",
+      "name": "Shard of Peace",
+      "rarity": "Rare",
+      "description": "Address past hundred provide stuff.",
+      "used_for": "Summoning",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC019",
+      "name": "Shard of Material",
+      "rarity": "Common",
+      "description": "Bag go less argue indicate newspaper total establish fear despite.",
+      "used_for": "Upgrading",
+      "effect_on_use": "+5 Max HP",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC020",
+      "name": "Fragment of Opportunity",
+      "rarity": "Epic",
+      "description": "Move mean hot action practice knowledge spend boy.",
+      "used_for": "Crafting",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC021",
+      "name": "Core of Total",
+      "rarity": "Legendary",
+      "description": "Enter pass seem responsibility forward loss government exactly strategy day.",
+      "used_for": "Summoning",
+      "effect_on_use": "+25% Alchemy Duration",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC022",
+      "name": "Shard of Responsibility",
+      "rarity": "Common",
+      "description": "Easy pressure tree seek pick despite probably of remember.",
+      "used_for": "Upgrading",
+      "effect_on_use": "+25% Alchemy Duration",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC023",
+      "name": "Fragment of Southern",
+      "rarity": "Common",
+      "description": "Even economic statement sister popular prevent science decade blood.",
+      "used_for": "Crafting",
+      "effect_on_use": "+25% Alchemy Duration",
+      "found_in": "Sunken Keep"
+    },
+    {
+      "id": "RELIC024",
+      "name": "Core of Look",
+      "rarity": "Rare",
+      "description": "Defense thousand physical during themselves then blood either fight these lot.",
+      "used_for": "Crafting",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC025",
+      "name": "Relic of Suddenly",
+      "rarity": "Legendary",
+      "description": "Without allow father stock trouble generation onto.",
+      "used_for": "Summoning",
+      "effect_on_use": "+10% Craft Success",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC026",
+      "name": "Shard of Watch",
+      "rarity": "Rare",
+      "description": "Simple generation attack similar support contain analysis company star have.",
+      "used_for": "Summoning",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC027",
+      "name": "Relic of Three",
+      "rarity": "Uncommon",
+      "description": "Couple become which little enough.",
+      "used_for": "Summoning",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC028",
+      "name": "Fragment of Inside",
+      "rarity": "Rare",
+      "description": "Rise exist party reduce threat poor.",
+      "used_for": "Summoning",
+      "effect_on_use": "Unlocks Legendary Weapon",
+      "found_in": "Sunken Keep"
+    },
+    {
+      "id": "RELIC029",
+      "name": "Core of They",
+      "rarity": "Epic",
+      "description": "Source baby goal build thought party behind.",
+      "used_for": "Summoning",
+      "effect_on_use": "Unlocks Legendary Weapon",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC030",
+      "name": "Core of Return",
+      "rarity": "Legendary",
+      "description": "Citizen scientist coach response whose significant.",
+      "used_for": "Crafting",
+      "effect_on_use": "+10% Craft Success",
+      "found_in": "Sunken Keep"
+    },
+    {
+      "id": "RELIC031",
+      "name": "Fragment of Behind",
+      "rarity": "Common",
+      "description": "Ball special bed by walk lay whatever.",
+      "used_for": "Upgrading",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC032",
+      "name": "Relic of Produce",
+      "rarity": "Common",
+      "description": "National police clear some hotel foot.",
+      "used_for": "Upgrading",
+      "effect_on_use": "+10% Craft Success",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC033",
+      "name": "Shard of Rise",
+      "rarity": "Ancient",
+      "description": "Food current company nothing born animal.",
+      "used_for": "Crafting",
+      "effect_on_use": "+25% Alchemy Duration",
+      "found_in": "Sunken Keep"
+    },
+    {
+      "id": "RELIC034",
+      "name": "Fragment of Positive",
+      "rarity": "Common",
+      "description": "Vote according certain continue sea usually.",
+      "used_for": "Upgrading",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Fiery Abyss"
+    },
+    {
+      "id": "RELIC035",
+      "name": "Core of Single",
+      "rarity": "Rare",
+      "description": "Each concern up hair room significant sport it.",
+      "used_for": "Crafting",
+      "effect_on_use": "+10% Craft Success",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC036",
+      "name": "Fragment of Eat",
+      "rarity": "Rare",
+      "description": "Theory others property yes sense.",
+      "used_for": "Upgrading",
+      "effect_on_use": "Unlocks Legendary Weapon",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC037",
+      "name": "Shard of Size",
+      "rarity": "Common",
+      "description": "Loss meet choose strategy include discussion.",
+      "used_for": "Crafting",
+      "effect_on_use": "+10% Craft Success",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC038",
+      "name": "Core of Majority",
+      "rarity": "Ancient",
+      "description": "Memory scene bad bad better child night assume must.",
+      "used_for": "Crafting",
+      "effect_on_use": "Unlocks Legendary Weapon",
+      "found_in": "Fiery Abyss"
+    },
+    {
+      "id": "RELIC039",
+      "name": "Shard of Box",
+      "rarity": "Rare",
+      "description": "Hit pick measure coach modern research kid we.",
+      "used_for": "Crafting",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC040",
+      "name": "Core of After",
+      "rarity": "Common",
+      "description": "Business player to environmental federal.",
+      "used_for": "Upgrading",
+      "effect_on_use": "+5 Max HP",
+      "found_in": "Fiery Abyss"
+    },
+    {
+      "id": "RELIC041",
+      "name": "Shard of Follow",
+      "rarity": "Rare",
+      "description": "Them answer west must player.",
+      "used_for": "Enhancing",
+      "effect_on_use": "+25% Alchemy Duration",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC042",
+      "name": "Shard of Action",
+      "rarity": "Rare",
+      "description": "Above rest hospital front course.",
+      "used_for": "Summoning",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC043",
+      "name": "Fragment of All",
+      "rarity": "Uncommon",
+      "description": "Brother military better more significant what particularly many investment become.",
+      "used_for": "Crafting",
+      "effect_on_use": "+5 Max HP",
+      "found_in": "Sunken Keep"
+    },
+    {
+      "id": "RELIC044",
+      "name": "Core of Employee",
+      "rarity": "Uncommon",
+      "description": "Mission choice thousand alone cause nice beautiful wall.",
+      "used_for": "Crafting",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC045",
+      "name": "Relic of Between",
+      "rarity": "Rare",
+      "description": "Similar carry economic throughout art choose politics.",
+      "used_for": "Enhancing",
+      "effect_on_use": "+5 Max HP",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC046",
+      "name": "Relic of Hot",
+      "rarity": "Rare",
+      "description": "Which bring third firm race total.",
+      "used_for": "Upgrading",
+      "effect_on_use": "Required for Ritual Circle",
+      "found_in": "Black Spire"
+    },
+    {
+      "id": "RELIC047",
+      "name": "Fragment of Firm",
+      "rarity": "Epic",
+      "description": "Foreign box pull would agency.",
+      "used_for": "Crafting",
+      "effect_on_use": "Unlocks Legendary Weapon",
+      "found_in": "Moonlight Crypt"
+    },
+    {
+      "id": "RELIC048",
+      "name": "Shard of Trial",
+      "rarity": "Common",
+      "description": "Kitchen morning value for position attorney.",
+      "used_for": "Crafting",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Swamp Temple"
+    },
+    {
+      "id": "RELIC049",
+      "name": "Shard of Answer",
+      "rarity": "Rare",
+      "description": "Writer doctor girl nature president medical.",
+      "used_for": "Crafting",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Sunken Keep"
+    },
+    {
+      "id": "RELIC050",
+      "name": "Relic of Prove",
+      "rarity": "Uncommon",
+      "description": "Chair trouble room buy black however.",
+      "used_for": "Enhancing",
+      "effect_on_use": "Summon Lesser Demon",
+      "found_in": "Moonlight Crypt"
+    }
+  ]
+}
