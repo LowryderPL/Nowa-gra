@@ -1,0 +1,2252 @@
+[
+  {
+    "name": "Grubobrzuch Mutant 1",
+    "hp": 203,
+    "attack": 39,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Swamp of Decay 4",
+    "loot_chance": "27%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 2",
+    "hp": 2197,
+    "attack": 219,
+    "special_ability": "Poison",
+    "rarity": "Uncommon",
+    "location_hint": "Swamp of Decay 13",
+    "loot_chance": "59%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 3",
+    "hp": 1193,
+    "attack": 250,
+    "special_ability": "Fire Aura",
+    "rarity": "Uncommon",
+    "location_hint": "Wied\u017amograd District 9",
+    "loot_chance": "27%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 4",
+    "hp": 2072,
+    "attack": 267,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Forsaken Border 10",
+    "loot_chance": "38%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 5",
+    "hp": 165,
+    "attack": 336,
+    "special_ability": "Mutate",
+    "rarity": "Rare",
+    "location_hint": "Burning Chapel 3",
+    "loot_chance": "81%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 6",
+    "hp": 1459,
+    "attack": 248,
+    "special_ability": "Fear",
+    "rarity": "Legendary",
+    "location_hint": "Swamp of Decay 4",
+    "loot_chance": "66%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 7",
+    "hp": 1989,
+    "attack": 154,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "Forgotten Mines 9",
+    "loot_chance": "18%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 8",
+    "hp": 1443,
+    "attack": 207,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Forgotten Mines 21",
+    "loot_chance": "68%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 9",
+    "hp": 2116,
+    "attack": 182,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Swamp of Decay 18",
+    "loot_chance": "60%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 10",
+    "hp": 1958,
+    "attack": 128,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 16",
+    "loot_chance": "22%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 11",
+    "hp": 1669,
+    "attack": 167,
+    "special_ability": "Bleed",
+    "rarity": "Epic",
+    "location_hint": "Swamp of Decay 21",
+    "loot_chance": "50%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 12",
+    "hp": 1999,
+    "attack": 51,
+    "special_ability": "Fire Aura",
+    "rarity": "Common",
+    "location_hint": "Forgotten Mines 2",
+    "loot_chance": "65%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 13",
+    "hp": 429,
+    "attack": 126,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Shattered Tower 18",
+    "loot_chance": "56%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 14",
+    "hp": 543,
+    "attack": 287,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 23",
+    "loot_chance": "32%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 15",
+    "hp": 986,
+    "attack": 332,
+    "special_ability": "Fire Aura",
+    "rarity": "Common",
+    "location_hint": "Catacombs of Zalos 18",
+    "loot_chance": "41%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 16",
+    "hp": 2237,
+    "attack": 118,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 17",
+    "loot_chance": "42%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 17",
+    "hp": 1771,
+    "attack": 290,
+    "special_ability": "Bleed",
+    "rarity": "Rare",
+    "location_hint": "Shattered Tower 14",
+    "loot_chance": "35%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 18",
+    "hp": 701,
+    "attack": 336,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 1",
+    "loot_chance": "69%"
+  },
+  {
+    "name": "Grubobrzuch Mutant 19",
+    "hp": 2474,
+    "attack": 342,
+    "special_ability": "Mutate",
+    "rarity": "Rare",
+    "location_hint": "Swamp of Decay 16",
+    "loot_chance": "42%"
+  },
+  {
+    "name": "Swamp Horror 1",
+    "hp": 1842,
+    "attack": 256,
+    "special_ability": "Fear",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 22",
+    "loot_chance": "40%"
+  },
+  {
+    "name": "Swamp Horror 2",
+    "hp": 1493,
+    "attack": 75,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Ghost Hamlet 3",
+    "loot_chance": "25%"
+  },
+  {
+    "name": "Swamp Horror 3",
+    "hp": 210,
+    "attack": 202,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Swamp of Decay 10",
+    "loot_chance": "25%"
+  },
+  {
+    "name": "Swamp Horror 4",
+    "hp": 2414,
+    "attack": 306,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "Forgotten Mines 28",
+    "loot_chance": "74%"
+  },
+  {
+    "name": "Swamp Horror 5",
+    "hp": 1404,
+    "attack": 48,
+    "special_ability": "Fire Aura",
+    "rarity": "Common",
+    "location_hint": "Burning Chapel 2",
+    "loot_chance": "25%"
+  },
+  {
+    "name": "Swamp Horror 6",
+    "hp": 1136,
+    "attack": 63,
+    "special_ability": "Bleed",
+    "rarity": "Rare",
+    "location_hint": "Shattered Tower 9",
+    "loot_chance": "80%"
+  },
+  {
+    "name": "Swamp Horror 7",
+    "hp": 1601,
+    "attack": 213,
+    "special_ability": "Poison",
+    "rarity": "Uncommon",
+    "location_hint": "Ghost Hamlet 2",
+    "loot_chance": "53%"
+  },
+  {
+    "name": "Swamp Horror 8",
+    "hp": 1162,
+    "attack": 47,
+    "special_ability": "Fear",
+    "rarity": "Legendary",
+    "location_hint": "Forsaken Border 17",
+    "loot_chance": "47%"
+  },
+  {
+    "name": "Swamp Horror 9",
+    "hp": 1643,
+    "attack": 36,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "Ghost Hamlet 9",
+    "loot_chance": "71%"
+  },
+  {
+    "name": "Swamp Horror 10",
+    "hp": 2085,
+    "attack": 190,
+    "special_ability": "Fear",
+    "rarity": "Uncommon",
+    "location_hint": "Ruins of Nahor 5",
+    "loot_chance": "38%"
+  },
+  {
+    "name": "Swamp Horror 11",
+    "hp": 2119,
+    "attack": 256,
+    "special_ability": "Poison",
+    "rarity": "Uncommon",
+    "location_hint": "Forgotten Mines 15",
+    "loot_chance": "13%"
+  },
+  {
+    "name": "Swamp Horror 12",
+    "hp": 1052,
+    "attack": 158,
+    "special_ability": "Fear",
+    "rarity": "Rare",
+    "location_hint": "Forgotten Mines 25",
+    "loot_chance": "21%"
+  },
+  {
+    "name": "Swamp Horror 13",
+    "hp": 1704,
+    "attack": 348,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Swamp of Decay 8",
+    "loot_chance": "27%"
+  },
+  {
+    "name": "Swamp Horror 14",
+    "hp": 1428,
+    "attack": 208,
+    "special_ability": "Fire Aura",
+    "rarity": "Uncommon",
+    "location_hint": "Ghost Hamlet 9",
+    "loot_chance": "16%"
+  },
+  {
+    "name": "Swamp Horror 15",
+    "hp": 1645,
+    "attack": 53,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Shattered Tower 6",
+    "loot_chance": "48%"
+  },
+  {
+    "name": "Swamp Horror 16",
+    "hp": 285,
+    "attack": 318,
+    "special_ability": "Slow",
+    "rarity": "Epic",
+    "location_hint": "Swamp of Decay 23",
+    "loot_chance": "51%"
+  },
+  {
+    "name": "Swamp Horror 17",
+    "hp": 632,
+    "attack": 85,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Obsidian Fortress 7",
+    "loot_chance": "15%"
+  },
+  {
+    "name": "Swamp Horror 18",
+    "hp": 810,
+    "attack": 342,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Forsaken Border 12",
+    "loot_chance": "24%"
+  },
+  {
+    "name": "Swamp Horror 19",
+    "hp": 910,
+    "attack": 158,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 23",
+    "loot_chance": "27%"
+  },
+  {
+    "name": "Swamp Horror 20",
+    "hp": 1794,
+    "attack": 247,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "City of Thorns 30",
+    "loot_chance": "76%"
+  },
+  {
+    "name": "Swamp Horror 21",
+    "hp": 164,
+    "attack": 214,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Wied\u017amograd District 13",
+    "loot_chance": "55%"
+  },
+  {
+    "name": "Swamp Horror 22",
+    "hp": 814,
+    "attack": 267,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Forgotten Mines 27",
+    "loot_chance": "44%"
+  },
+  {
+    "name": "Swamp Horror 23",
+    "hp": 2497,
+    "attack": 133,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Catacombs of Zalos 10",
+    "loot_chance": "83%"
+  },
+  {
+    "name": "Swamp Horror 24",
+    "hp": 2273,
+    "attack": 147,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Burning Chapel 8",
+    "loot_chance": "21%"
+  },
+  {
+    "name": "Swamp Horror 25",
+    "hp": 1235,
+    "attack": 292,
+    "special_ability": "Mutate",
+    "rarity": "Uncommon",
+    "location_hint": "Forsaken Border 7",
+    "loot_chance": "52%"
+  },
+  {
+    "name": "Swamp Horror 26",
+    "hp": 1339,
+    "attack": 34,
+    "special_ability": "Fire Aura",
+    "rarity": "Uncommon",
+    "location_hint": "Forsaken Border 16",
+    "loot_chance": "84%"
+  },
+  {
+    "name": "Swamp Horror 27",
+    "hp": 1634,
+    "attack": 320,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Forsaken Border 22",
+    "loot_chance": "11%"
+  },
+  {
+    "name": "Swamp Horror 28",
+    "hp": 1615,
+    "attack": 257,
+    "special_ability": "Fear",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 10",
+    "loot_chance": "68%"
+  },
+  {
+    "name": "Swamp Horror 29",
+    "hp": 242,
+    "attack": 242,
+    "special_ability": "Fear",
+    "rarity": "Common",
+    "location_hint": "Ghost Hamlet 16",
+    "loot_chance": "56%"
+  },
+  {
+    "name": "Bone Reaver 1",
+    "hp": 272,
+    "attack": 268,
+    "special_ability": "Mutate",
+    "rarity": "Rare",
+    "location_hint": "Catacombs of Zalos 1",
+    "loot_chance": "55%"
+  },
+  {
+    "name": "Bone Reaver 2",
+    "hp": 961,
+    "attack": 171,
+    "special_ability": "Mutate",
+    "rarity": "Uncommon",
+    "location_hint": "Forgotten Mines 4",
+    "loot_chance": "58%"
+  },
+  {
+    "name": "Bone Reaver 3",
+    "hp": 1984,
+    "attack": 127,
+    "special_ability": "Fire Aura",
+    "rarity": "Epic",
+    "location_hint": "Burning Chapel 5",
+    "loot_chance": "21%"
+  },
+  {
+    "name": "Bone Reaver 4",
+    "hp": 920,
+    "attack": 250,
+    "special_ability": "Fire Aura",
+    "rarity": "Common",
+    "location_hint": "Ghost Hamlet 6",
+    "loot_chance": "55%"
+  },
+  {
+    "name": "Bone Reaver 5",
+    "hp": 1521,
+    "attack": 263,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Shattered Tower 2",
+    "loot_chance": "51%"
+  },
+  {
+    "name": "Bone Reaver 6",
+    "hp": 2226,
+    "attack": 136,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "City of Thorns 9",
+    "loot_chance": "73%"
+  },
+  {
+    "name": "Bone Reaver 7",
+    "hp": 1322,
+    "attack": 96,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Shattered Tower 2",
+    "loot_chance": "43%"
+  },
+  {
+    "name": "Bone Reaver 8",
+    "hp": 855,
+    "attack": 304,
+    "special_ability": "Mutate",
+    "rarity": "Epic",
+    "location_hint": "Forsaken Border 1",
+    "loot_chance": "80%"
+  },
+  {
+    "name": "Bone Reaver 9",
+    "hp": 2237,
+    "attack": 220,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "City of Thorns 3",
+    "loot_chance": "73%"
+  },
+  {
+    "name": "Bone Reaver 10",
+    "hp": 1978,
+    "attack": 135,
+    "special_ability": "Fear",
+    "rarity": "Common",
+    "location_hint": "Burning Chapel 11",
+    "loot_chance": "51%"
+  },
+  {
+    "name": "Bone Reaver 11",
+    "hp": 480,
+    "attack": 167,
+    "special_ability": "Fear",
+    "rarity": "Rare",
+    "location_hint": "Shattered Tower 22",
+    "loot_chance": "55%"
+  },
+  {
+    "name": "Bone Reaver 12",
+    "hp": 951,
+    "attack": 218,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Swamp of Decay 22",
+    "loot_chance": "41%"
+  },
+  {
+    "name": "Bone Reaver 13",
+    "hp": 2429,
+    "attack": 149,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Shattered Tower 20",
+    "loot_chance": "21%"
+  },
+  {
+    "name": "Bone Reaver 14",
+    "hp": 1089,
+    "attack": 184,
+    "special_ability": "Fire Aura",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 18",
+    "loot_chance": "58%"
+  },
+  {
+    "name": "Bone Reaver 15",
+    "hp": 1203,
+    "attack": 286,
+    "special_ability": "Fire Aura",
+    "rarity": "Common",
+    "location_hint": "Wied\u017amograd District 12",
+    "loot_chance": "10%"
+  },
+  {
+    "name": "Bone Reaver 16",
+    "hp": 716,
+    "attack": 20,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Ruins of Nahor 8",
+    "loot_chance": "46%"
+  },
+  {
+    "name": "Bone Reaver 17",
+    "hp": 1636,
+    "attack": 281,
+    "special_ability": "Mutate",
+    "rarity": "Epic",
+    "location_hint": "City of Thorns 14",
+    "loot_chance": "59%"
+  },
+  {
+    "name": "Bone Reaver 18",
+    "hp": 1622,
+    "attack": 248,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Shattered Tower 20",
+    "loot_chance": "28%"
+  },
+  {
+    "name": "Bone Reaver 19",
+    "hp": 1555,
+    "attack": 127,
+    "special_ability": "Fire Aura",
+    "rarity": "Common",
+    "location_hint": "City of Thorns 10",
+    "loot_chance": "13%"
+  },
+  {
+    "name": "Bone Reaver 20",
+    "hp": 302,
+    "attack": 326,
+    "special_ability": "Slow",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 9",
+    "loot_chance": "64%"
+  },
+  {
+    "name": "Bone Reaver 21",
+    "hp": 1001,
+    "attack": 106,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Wied\u017amograd District 15",
+    "loot_chance": "14%"
+  },
+  {
+    "name": "Bone Reaver 22",
+    "hp": 2012,
+    "attack": 166,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 13",
+    "loot_chance": "57%"
+  },
+  {
+    "name": "Bone Reaver 23",
+    "hp": 888,
+    "attack": 256,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 7",
+    "loot_chance": "26%"
+  },
+  {
+    "name": "Bone Reaver 24",
+    "hp": 2253,
+    "attack": 95,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Ghost Hamlet 9",
+    "loot_chance": "21%"
+  },
+  {
+    "name": "Bone Reaver 25",
+    "hp": 2334,
+    "attack": 154,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 22",
+    "loot_chance": "40%"
+  },
+  {
+    "name": "Bone Reaver 26",
+    "hp": 956,
+    "attack": 66,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Wied\u017amograd District 11",
+    "loot_chance": "32%"
+  },
+  {
+    "name": "Bone Reaver 27",
+    "hp": 1981,
+    "attack": 283,
+    "special_ability": "Fire Aura",
+    "rarity": "Rare",
+    "location_hint": "Ghost Hamlet 18",
+    "loot_chance": "25%"
+  },
+  {
+    "name": "Bone Reaver 28",
+    "hp": 823,
+    "attack": 302,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Burning Chapel 13",
+    "loot_chance": "37%"
+  },
+  {
+    "name": "Bone Reaver 29",
+    "hp": 763,
+    "attack": 308,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Forgotten Mines 16",
+    "loot_chance": "75%"
+  },
+  {
+    "name": "Flesh Templar 1",
+    "hp": 202,
+    "attack": 244,
+    "special_ability": "Fire Aura",
+    "rarity": "Rare",
+    "location_hint": "Shattered Tower 12",
+    "loot_chance": "10%"
+  },
+  {
+    "name": "Flesh Templar 2",
+    "hp": 738,
+    "attack": 174,
+    "special_ability": "Bleed",
+    "rarity": "Epic",
+    "location_hint": "Obsidian Fortress 23",
+    "loot_chance": "75%"
+  },
+  {
+    "name": "Flesh Templar 3",
+    "hp": 770,
+    "attack": 307,
+    "special_ability": "Slow",
+    "rarity": "Epic",
+    "location_hint": "Swamp of Decay 13",
+    "loot_chance": "30%"
+  },
+  {
+    "name": "Flesh Templar 4",
+    "hp": 1168,
+    "attack": 96,
+    "special_ability": "Poison",
+    "rarity": "Epic",
+    "location_hint": "Wied\u017amograd District 20",
+    "loot_chance": "71%"
+  },
+  {
+    "name": "Flesh Templar 5",
+    "hp": 319,
+    "attack": 321,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "City of Thorns 7",
+    "loot_chance": "14%"
+  },
+  {
+    "name": "Flesh Templar 6",
+    "hp": 2291,
+    "attack": 103,
+    "special_ability": "Mutate",
+    "rarity": "Rare",
+    "location_hint": "Forgotten Mines 10",
+    "loot_chance": "12%"
+  },
+  {
+    "name": "Flesh Templar 7",
+    "hp": 736,
+    "attack": 80,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Obsidian Fortress 1",
+    "loot_chance": "64%"
+  },
+  {
+    "name": "Flesh Templar 8",
+    "hp": 2342,
+    "attack": 65,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Burning Chapel 4",
+    "loot_chance": "73%"
+  },
+  {
+    "name": "Flesh Templar 9",
+    "hp": 1119,
+    "attack": 174,
+    "special_ability": "Fear",
+    "rarity": "Legendary",
+    "location_hint": "Shattered Tower 15",
+    "loot_chance": "67%"
+  },
+  {
+    "name": "Flesh Templar 10",
+    "hp": 904,
+    "attack": 269,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Shattered Tower 17",
+    "loot_chance": "40%"
+  },
+  {
+    "name": "Flesh Templar 11",
+    "hp": 1499,
+    "attack": 232,
+    "special_ability": "Mutate",
+    "rarity": "Epic",
+    "location_hint": "Shattered Tower 16",
+    "loot_chance": "82%"
+  },
+  {
+    "name": "Flesh Templar 12",
+    "hp": 1921,
+    "attack": 334,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 19",
+    "loot_chance": "49%"
+  },
+  {
+    "name": "Flesh Templar 13",
+    "hp": 1966,
+    "attack": 55,
+    "special_ability": "Fire Aura",
+    "rarity": "Rare",
+    "location_hint": "Forgotten Mines 27",
+    "loot_chance": "17%"
+  },
+  {
+    "name": "Flesh Templar 14",
+    "hp": 653,
+    "attack": 111,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Wied\u017amograd District 2",
+    "loot_chance": "36%"
+  },
+  {
+    "name": "Flesh Templar 15",
+    "hp": 262,
+    "attack": 318,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Ghost Hamlet 5",
+    "loot_chance": "48%"
+  },
+  {
+    "name": "Flesh Templar 16",
+    "hp": 1272,
+    "attack": 60,
+    "special_ability": "Bleed",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 17",
+    "loot_chance": "22%"
+  },
+  {
+    "name": "Flesh Templar 17",
+    "hp": 577,
+    "attack": 83,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Burning Chapel 3",
+    "loot_chance": "74%"
+  },
+  {
+    "name": "Flesh Templar 18",
+    "hp": 202,
+    "attack": 337,
+    "special_ability": "Slow",
+    "rarity": "Rare",
+    "location_hint": "Shattered Tower 4",
+    "loot_chance": "23%"
+  },
+  {
+    "name": "Flesh Templar 19",
+    "hp": 782,
+    "attack": 150,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Catacombs of Zalos 6",
+    "loot_chance": "56%"
+  },
+  {
+    "name": "Flesh Templar 20",
+    "hp": 2121,
+    "attack": 162,
+    "special_ability": "Slow",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 21",
+    "loot_chance": "36%"
+  },
+  {
+    "name": "Flesh Templar 21",
+    "hp": 2166,
+    "attack": 261,
+    "special_ability": "Mutate",
+    "rarity": "Rare",
+    "location_hint": "Ruins of Nahor 21",
+    "loot_chance": "25%"
+  },
+  {
+    "name": "Flesh Templar 22",
+    "hp": 1090,
+    "attack": 186,
+    "special_ability": "Poison",
+    "rarity": "Epic",
+    "location_hint": "Ghost Hamlet 12",
+    "loot_chance": "77%"
+  },
+  {
+    "name": "Flesh Templar 23",
+    "hp": 150,
+    "attack": 221,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Forgotten Mines 14",
+    "loot_chance": "73%"
+  },
+  {
+    "name": "Flesh Templar 24",
+    "hp": 356,
+    "attack": 64,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Forsaken Border 14",
+    "loot_chance": "37%"
+  },
+  {
+    "name": "Cultist of Nahor 1",
+    "hp": 2157,
+    "attack": 211,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Catacombs of Zalos 4",
+    "loot_chance": "57%"
+  },
+  {
+    "name": "Cultist of Nahor 2",
+    "hp": 1432,
+    "attack": 150,
+    "special_ability": "Fear",
+    "rarity": "Common",
+    "location_hint": "Forgotten Mines 10",
+    "loot_chance": "80%"
+  },
+  {
+    "name": "Cultist of Nahor 3",
+    "hp": 1606,
+    "attack": 130,
+    "special_ability": "Fear",
+    "rarity": "Uncommon",
+    "location_hint": "Catacombs of Zalos 6",
+    "loot_chance": "80%"
+  },
+  {
+    "name": "Cultist of Nahor 4",
+    "hp": 943,
+    "attack": 132,
+    "special_ability": "Mutate",
+    "rarity": "Epic",
+    "location_hint": "Wied\u017amograd District 14",
+    "loot_chance": "61%"
+  },
+  {
+    "name": "Cultist of Nahor 5",
+    "hp": 1380,
+    "attack": 220,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "City of Thorns 29",
+    "loot_chance": "61%"
+  },
+  {
+    "name": "Cultist of Nahor 6",
+    "hp": 2344,
+    "attack": 102,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Shattered Tower 12",
+    "loot_chance": "49%"
+  },
+  {
+    "name": "Cultist of Nahor 7",
+    "hp": 585,
+    "attack": 129,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "City of Thorns 24",
+    "loot_chance": "22%"
+  },
+  {
+    "name": "Cultist of Nahor 8",
+    "hp": 1092,
+    "attack": 147,
+    "special_ability": "Slow",
+    "rarity": "Epic",
+    "location_hint": "Forsaken Border 5",
+    "loot_chance": "17%"
+  },
+  {
+    "name": "Cultist of Nahor 9",
+    "hp": 2069,
+    "attack": 160,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Burning Chapel 11",
+    "loot_chance": "44%"
+  },
+  {
+    "name": "Cultist of Nahor 10",
+    "hp": 1594,
+    "attack": 153,
+    "special_ability": "Poison",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 14",
+    "loot_chance": "80%"
+  },
+  {
+    "name": "Cultist of Nahor 11",
+    "hp": 480,
+    "attack": 316,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "Shattered Tower 12",
+    "loot_chance": "77%"
+  },
+  {
+    "name": "Cultist of Nahor 12",
+    "hp": 2361,
+    "attack": 335,
+    "special_ability": "Mutate",
+    "rarity": "Epic",
+    "location_hint": "Catacombs of Zalos 16",
+    "loot_chance": "13%"
+  },
+  {
+    "name": "Cultist of Nahor 13",
+    "hp": 291,
+    "attack": 343,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "City of Thorns 29",
+    "loot_chance": "23%"
+  },
+  {
+    "name": "Cultist of Nahor 14",
+    "hp": 576,
+    "attack": 225,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Ruins of Nahor 5",
+    "loot_chance": "35%"
+  },
+  {
+    "name": "Cultist of Nahor 15",
+    "hp": 1032,
+    "attack": 36,
+    "special_ability": "Bleed",
+    "rarity": "Epic",
+    "location_hint": "Shattered Tower 11",
+    "loot_chance": "25%"
+  },
+  {
+    "name": "Cultist of Nahor 16",
+    "hp": 1029,
+    "attack": 331,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Obsidian Fortress 11",
+    "loot_chance": "40%"
+  },
+  {
+    "name": "Cultist of Nahor 17",
+    "hp": 2234,
+    "attack": 105,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "Ruins of Nahor 7",
+    "loot_chance": "82%"
+  },
+  {
+    "name": "Cultist of Nahor 18",
+    "hp": 232,
+    "attack": 167,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 3",
+    "loot_chance": "19%"
+  },
+  {
+    "name": "Cultist of Nahor 19",
+    "hp": 2190,
+    "attack": 166,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Burning Chapel 16",
+    "loot_chance": "50%"
+  },
+  {
+    "name": "Cultist of Nahor 20",
+    "hp": 2110,
+    "attack": 343,
+    "special_ability": "Fear",
+    "rarity": "Rare",
+    "location_hint": "City of Thorns 22",
+    "loot_chance": "74%"
+  },
+  {
+    "name": "Cultist of Nahor 21",
+    "hp": 1839,
+    "attack": 208,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "Forgotten Mines 22",
+    "loot_chance": "21%"
+  },
+  {
+    "name": "Cultist of Nahor 22",
+    "hp": 176,
+    "attack": 209,
+    "special_ability": "Bleed",
+    "rarity": "Rare",
+    "location_hint": "City of Thorns 11",
+    "loot_chance": "68%"
+  },
+  {
+    "name": "Cultist of Nahor 23",
+    "hp": 1320,
+    "attack": 211,
+    "special_ability": "Slow",
+    "rarity": "Epic",
+    "location_hint": "Ruins of Nahor 4",
+    "loot_chance": "55%"
+  },
+  {
+    "name": "Cultist of Nahor 24",
+    "hp": 2089,
+    "attack": 112,
+    "special_ability": "Bleed",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 3",
+    "loot_chance": "72%"
+  },
+  {
+    "name": "Cultist of Nahor 25",
+    "hp": 1440,
+    "attack": 93,
+    "special_ability": "Bleed",
+    "rarity": "Common",
+    "location_hint": "Ghost Hamlet 15",
+    "loot_chance": "62%"
+  },
+  {
+    "name": "Cultist of Nahor 26",
+    "hp": 898,
+    "attack": 63,
+    "special_ability": "Bleed",
+    "rarity": "Common",
+    "location_hint": "Burning Chapel 11",
+    "loot_chance": "71%"
+  },
+  {
+    "name": "Cultist of Nahor 27",
+    "hp": 2089,
+    "attack": 189,
+    "special_ability": "Fear",
+    "rarity": "Rare",
+    "location_hint": "Catacombs of Zalos 22",
+    "loot_chance": "66%"
+  },
+  {
+    "name": "Cultist of Nahor 28",
+    "hp": 1924,
+    "attack": 179,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 10",
+    "loot_chance": "60%"
+  },
+  {
+    "name": "Cultist of Nahor 29",
+    "hp": 2316,
+    "attack": 145,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "City of Thorns 24",
+    "loot_chance": "66%"
+  },
+  {
+    "name": "Rotten Wolf 1",
+    "hp": 2359,
+    "attack": 73,
+    "special_ability": "Slow",
+    "rarity": "Epic",
+    "location_hint": "Ruins of Nahor 25",
+    "loot_chance": "20%"
+  },
+  {
+    "name": "Rotten Wolf 2",
+    "hp": 1501,
+    "attack": 64,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Burning Chapel 6",
+    "loot_chance": "10%"
+  },
+  {
+    "name": "Rotten Wolf 3",
+    "hp": 841,
+    "attack": 233,
+    "special_ability": "Mutate",
+    "rarity": "Epic",
+    "location_hint": "Ghost Hamlet 9",
+    "loot_chance": "14%"
+  },
+  {
+    "name": "Rotten Wolf 4",
+    "hp": 1838,
+    "attack": 231,
+    "special_ability": "Poison",
+    "rarity": "Uncommon",
+    "location_hint": "Ghost Hamlet 1",
+    "loot_chance": "36%"
+  },
+  {
+    "name": "Rotten Wolf 5",
+    "hp": 966,
+    "attack": 326,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "Forgotten Mines 23",
+    "loot_chance": "79%"
+  },
+  {
+    "name": "Rotten Wolf 6",
+    "hp": 651,
+    "attack": 282,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 25",
+    "loot_chance": "58%"
+  },
+  {
+    "name": "Rotten Wolf 7",
+    "hp": 1986,
+    "attack": 314,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Shattered Tower 16",
+    "loot_chance": "67%"
+  },
+  {
+    "name": "Rotten Wolf 8",
+    "hp": 252,
+    "attack": 258,
+    "special_ability": "Bleed",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 21",
+    "loot_chance": "44%"
+  },
+  {
+    "name": "Rotten Wolf 9",
+    "hp": 399,
+    "attack": 219,
+    "special_ability": "Fire Aura",
+    "rarity": "Epic",
+    "location_hint": "Obsidian Fortress 15",
+    "loot_chance": "79%"
+  },
+  {
+    "name": "Rotten Wolf 10",
+    "hp": 1958,
+    "attack": 248,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Shattered Tower 16",
+    "loot_chance": "81%"
+  },
+  {
+    "name": "Rotten Wolf 11",
+    "hp": 213,
+    "attack": 91,
+    "special_ability": "Mutate",
+    "rarity": "Epic",
+    "location_hint": "Ghost Hamlet 10",
+    "loot_chance": "32%"
+  },
+  {
+    "name": "Rotten Wolf 12",
+    "hp": 570,
+    "attack": 314,
+    "special_ability": "Mutate",
+    "rarity": "Uncommon",
+    "location_hint": "Ruins of Nahor 6",
+    "loot_chance": "69%"
+  },
+  {
+    "name": "Rotten Wolf 13",
+    "hp": 1894,
+    "attack": 132,
+    "special_ability": "Fear",
+    "rarity": "Legendary",
+    "location_hint": "Swamp of Decay 1",
+    "loot_chance": "14%"
+  },
+  {
+    "name": "Rotten Wolf 14",
+    "hp": 1081,
+    "attack": 169,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Ghost Hamlet 3",
+    "loot_chance": "40%"
+  },
+  {
+    "name": "Rotten Wolf 15",
+    "hp": 494,
+    "attack": 302,
+    "special_ability": "Mutate",
+    "rarity": "Rare",
+    "location_hint": "City of Thorns 21",
+    "loot_chance": "29%"
+  },
+  {
+    "name": "Rotten Wolf 16",
+    "hp": 2184,
+    "attack": 60,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 1",
+    "loot_chance": "43%"
+  },
+  {
+    "name": "Rotten Wolf 17",
+    "hp": 478,
+    "attack": 289,
+    "special_ability": "Slow",
+    "rarity": "Rare",
+    "location_hint": "Forgotten Mines 5",
+    "loot_chance": "24%"
+  },
+  {
+    "name": "Rotten Wolf 18",
+    "hp": 1182,
+    "attack": 338,
+    "special_ability": "Fear",
+    "rarity": "Uncommon",
+    "location_hint": "City of Thorns 16",
+    "loot_chance": "32%"
+  },
+  {
+    "name": "Rotten Wolf 19",
+    "hp": 815,
+    "attack": 89,
+    "special_ability": "Fear",
+    "rarity": "Common",
+    "location_hint": "Obsidian Fortress 1",
+    "loot_chance": "63%"
+  },
+  {
+    "name": "Rotten Wolf 20",
+    "hp": 2024,
+    "attack": 42,
+    "special_ability": "Slow",
+    "rarity": "Rare",
+    "location_hint": "Catacombs of Zalos 20",
+    "loot_chance": "17%"
+  },
+  {
+    "name": "Rotten Wolf 21",
+    "hp": 981,
+    "attack": 65,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Shattered Tower 2",
+    "loot_chance": "79%"
+  },
+  {
+    "name": "Rotten Wolf 22",
+    "hp": 359,
+    "attack": 298,
+    "special_ability": "Mutate",
+    "rarity": "Uncommon",
+    "location_hint": "Wied\u017amograd District 16",
+    "loot_chance": "17%"
+  },
+  {
+    "name": "Rotten Wolf 23",
+    "hp": 173,
+    "attack": 214,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Obsidian Fortress 15",
+    "loot_chance": "67%"
+  },
+  {
+    "name": "Rotten Wolf 24",
+    "hp": 1083,
+    "attack": 225,
+    "special_ability": "Fire Aura",
+    "rarity": "Uncommon",
+    "location_hint": "City of Thorns 28",
+    "loot_chance": "73%"
+  },
+  {
+    "name": "Plagued Brute 1",
+    "hp": 2115,
+    "attack": 234,
+    "special_ability": "Fire Aura",
+    "rarity": "Rare",
+    "location_hint": "Catacombs of Zalos 2",
+    "loot_chance": "23%"
+  },
+  {
+    "name": "Plagued Brute 2",
+    "hp": 391,
+    "attack": 340,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Forsaken Border 2",
+    "loot_chance": "54%"
+  },
+  {
+    "name": "Plagued Brute 3",
+    "hp": 376,
+    "attack": 230,
+    "special_ability": "Fire Aura",
+    "rarity": "Epic",
+    "location_hint": "Swamp of Decay 24",
+    "loot_chance": "47%"
+  },
+  {
+    "name": "Plagued Brute 4",
+    "hp": 1264,
+    "attack": 215,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Forgotten Mines 26",
+    "loot_chance": "36%"
+  },
+  {
+    "name": "Plagued Brute 5",
+    "hp": 1409,
+    "attack": 22,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Wied\u017amograd District 20",
+    "loot_chance": "56%"
+  },
+  {
+    "name": "Plagued Brute 6",
+    "hp": 2198,
+    "attack": 42,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Burning Chapel 10",
+    "loot_chance": "43%"
+  },
+  {
+    "name": "Plagued Brute 7",
+    "hp": 2257,
+    "attack": 273,
+    "special_ability": "Fire Aura",
+    "rarity": "Epic",
+    "location_hint": "Forsaken Border 10",
+    "loot_chance": "38%"
+  },
+  {
+    "name": "Plagued Brute 8",
+    "hp": 906,
+    "attack": 108,
+    "special_ability": "Fear",
+    "rarity": "Common",
+    "location_hint": "City of Thorns 20",
+    "loot_chance": "73%"
+  },
+  {
+    "name": "Plagued Brute 9",
+    "hp": 1624,
+    "attack": 69,
+    "special_ability": "Fire Aura",
+    "rarity": "Epic",
+    "location_hint": "Obsidian Fortress 19",
+    "loot_chance": "48%"
+  },
+  {
+    "name": "Plagued Brute 10",
+    "hp": 438,
+    "attack": 293,
+    "special_ability": "Mutate",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 8",
+    "loot_chance": "49%"
+  },
+  {
+    "name": "Plagued Brute 11",
+    "hp": 1664,
+    "attack": 323,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Ruins of Nahor 27",
+    "loot_chance": "42%"
+  },
+  {
+    "name": "Plagued Brute 12",
+    "hp": 1398,
+    "attack": 128,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Forsaken Border 8",
+    "loot_chance": "54%"
+  },
+  {
+    "name": "Plagued Brute 13",
+    "hp": 1705,
+    "attack": 55,
+    "special_ability": "Fire Aura",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 23",
+    "loot_chance": "53%"
+  },
+  {
+    "name": "Plagued Brute 14",
+    "hp": 1105,
+    "attack": 53,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "Swamp of Decay 14",
+    "loot_chance": "31%"
+  },
+  {
+    "name": "Plagued Brute 15",
+    "hp": 1581,
+    "attack": 346,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "City of Thorns 16",
+    "loot_chance": "13%"
+  },
+  {
+    "name": "Plagued Brute 16",
+    "hp": 609,
+    "attack": 291,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "Burning Chapel 1",
+    "loot_chance": "56%"
+  },
+  {
+    "name": "Plagued Brute 17",
+    "hp": 398,
+    "attack": 23,
+    "special_ability": "Fire Aura",
+    "rarity": "Uncommon",
+    "location_hint": "Forsaken Border 5",
+    "loot_chance": "37%"
+  },
+  {
+    "name": "Plagued Brute 18",
+    "hp": 317,
+    "attack": 106,
+    "special_ability": "Fire Aura",
+    "rarity": "Epic",
+    "location_hint": "Ruins of Nahor 2",
+    "loot_chance": "47%"
+  },
+  {
+    "name": "Plagued Brute 19",
+    "hp": 176,
+    "attack": 119,
+    "special_ability": "Bleed",
+    "rarity": "Common",
+    "location_hint": "City of Thorns 9",
+    "loot_chance": "20%"
+  },
+  {
+    "name": "Plagued Brute 20",
+    "hp": 1501,
+    "attack": 56,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Obsidian Fortress 17",
+    "loot_chance": "48%"
+  },
+  {
+    "name": "Plagued Brute 21",
+    "hp": 1782,
+    "attack": 201,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 4",
+    "loot_chance": "15%"
+  },
+  {
+    "name": "Plagued Brute 22",
+    "hp": 304,
+    "attack": 261,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "Shattered Tower 17",
+    "loot_chance": "69%"
+  },
+  {
+    "name": "Plagued Brute 23",
+    "hp": 932,
+    "attack": 284,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 29",
+    "loot_chance": "23%"
+  },
+  {
+    "name": "Plagued Brute 24",
+    "hp": 410,
+    "attack": 324,
+    "special_ability": "Fire Aura",
+    "rarity": "Rare",
+    "location_hint": "City of Thorns 16",
+    "loot_chance": "33%"
+  },
+  {
+    "name": "Cursed Knight 1",
+    "hp": 1576,
+    "attack": 202,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "Forsaken Border 8",
+    "loot_chance": "23%"
+  },
+  {
+    "name": "Cursed Knight 2",
+    "hp": 239,
+    "attack": 38,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Ruins of Nahor 10",
+    "loot_chance": "57%"
+  },
+  {
+    "name": "Cursed Knight 3",
+    "hp": 2233,
+    "attack": 241,
+    "special_ability": "Poison",
+    "rarity": "Rare",
+    "location_hint": "Catacombs of Zalos 21",
+    "loot_chance": "58%"
+  },
+  {
+    "name": "Cursed Knight 4",
+    "hp": 1482,
+    "attack": 91,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Swamp of Decay 8",
+    "loot_chance": "10%"
+  },
+  {
+    "name": "Cursed Knight 5",
+    "hp": 1212,
+    "attack": 213,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Swamp of Decay 18",
+    "loot_chance": "37%"
+  },
+  {
+    "name": "Cursed Knight 6",
+    "hp": 267,
+    "attack": 122,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Obsidian Fortress 24",
+    "loot_chance": "36%"
+  },
+  {
+    "name": "Cursed Knight 7",
+    "hp": 1899,
+    "attack": 183,
+    "special_ability": "Fire Aura",
+    "rarity": "Uncommon",
+    "location_hint": "Obsidian Fortress 10",
+    "loot_chance": "55%"
+  },
+  {
+    "name": "Cursed Knight 8",
+    "hp": 582,
+    "attack": 252,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Ghost Hamlet 2",
+    "loot_chance": "50%"
+  },
+  {
+    "name": "Cursed Knight 9",
+    "hp": 2445,
+    "attack": 99,
+    "special_ability": "Slow",
+    "rarity": "Rare",
+    "location_hint": "Wied\u017amograd District 3",
+    "loot_chance": "57%"
+  },
+  {
+    "name": "Cursed Knight 10",
+    "hp": 1109,
+    "attack": 350,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "Forsaken Border 20",
+    "loot_chance": "10%"
+  },
+  {
+    "name": "Cursed Knight 11",
+    "hp": 2485,
+    "attack": 67,
+    "special_ability": "Fear",
+    "rarity": "Uncommon",
+    "location_hint": "Burning Chapel 14",
+    "loot_chance": "83%"
+  },
+  {
+    "name": "Cursed Knight 12",
+    "hp": 340,
+    "attack": 189,
+    "special_ability": "Fear",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 6",
+    "loot_chance": "48%"
+  },
+  {
+    "name": "Cursed Knight 13",
+    "hp": 2005,
+    "attack": 54,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 6",
+    "loot_chance": "72%"
+  },
+  {
+    "name": "Cursed Knight 14",
+    "hp": 1209,
+    "attack": 189,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 18",
+    "loot_chance": "32%"
+  },
+  {
+    "name": "Cursed Knight 15",
+    "hp": 2427,
+    "attack": 222,
+    "special_ability": "Fear",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 19",
+    "loot_chance": "68%"
+  },
+  {
+    "name": "Cursed Knight 16",
+    "hp": 772,
+    "attack": 140,
+    "special_ability": "Bleed",
+    "rarity": "Rare",
+    "location_hint": "Swamp of Decay 6",
+    "loot_chance": "10%"
+  },
+  {
+    "name": "Cursed Knight 17",
+    "hp": 660,
+    "attack": 177,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "City of Thorns 4",
+    "loot_chance": "77%"
+  },
+  {
+    "name": "Cursed Knight 18",
+    "hp": 187,
+    "attack": 149,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "City of Thorns 15",
+    "loot_chance": "54%"
+  },
+  {
+    "name": "Cursed Knight 19",
+    "hp": 649,
+    "attack": 179,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 11",
+    "loot_chance": "57%"
+  },
+  {
+    "name": "Cursed Knight 20",
+    "hp": 2291,
+    "attack": 80,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 1",
+    "loot_chance": "84%"
+  },
+  {
+    "name": "Cursed Knight 21",
+    "hp": 1994,
+    "attack": 266,
+    "special_ability": "Fear",
+    "rarity": "Rare",
+    "location_hint": "Shattered Tower 19",
+    "loot_chance": "81%"
+  },
+  {
+    "name": "Cursed Knight 22",
+    "hp": 1738,
+    "attack": 338,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Ghost Hamlet 1",
+    "loot_chance": "33%"
+  },
+  {
+    "name": "Cursed Knight 23",
+    "hp": 2471,
+    "attack": 80,
+    "special_ability": "Fire Aura",
+    "rarity": "Legendary",
+    "location_hint": "Shattered Tower 7",
+    "loot_chance": "75%"
+  },
+  {
+    "name": "Cursed Knight 24",
+    "hp": 612,
+    "attack": 230,
+    "special_ability": "Slow",
+    "rarity": "Epic",
+    "location_hint": "Catacombs of Zalos 17",
+    "loot_chance": "42%"
+  },
+  {
+    "name": "Blighted Elf 1",
+    "hp": 1109,
+    "attack": 201,
+    "special_ability": "Bleed",
+    "rarity": "Epic",
+    "location_hint": "Forgotten Mines 2",
+    "loot_chance": "11%"
+  },
+  {
+    "name": "Blighted Elf 2",
+    "hp": 217,
+    "attack": 98,
+    "special_ability": "Fear",
+    "rarity": "Epic",
+    "location_hint": "City of Thorns 19",
+    "loot_chance": "48%"
+  },
+  {
+    "name": "Blighted Elf 3",
+    "hp": 1915,
+    "attack": 245,
+    "special_ability": "Fire Aura",
+    "rarity": "Epic",
+    "location_hint": "Shattered Tower 9",
+    "loot_chance": "52%"
+  },
+  {
+    "name": "Blighted Elf 4",
+    "hp": 1030,
+    "attack": 293,
+    "special_ability": "Mutate",
+    "rarity": "Epic",
+    "location_hint": "Forgotten Mines 10",
+    "loot_chance": "78%"
+  },
+  {
+    "name": "Blighted Elf 5",
+    "hp": 1335,
+    "attack": 254,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Burning Chapel 6",
+    "loot_chance": "46%"
+  },
+  {
+    "name": "Blighted Elf 6",
+    "hp": 691,
+    "attack": 234,
+    "special_ability": "Poison",
+    "rarity": "Epic",
+    "location_hint": "Forgotten Mines 24",
+    "loot_chance": "50%"
+  },
+  {
+    "name": "Blighted Elf 7",
+    "hp": 1653,
+    "attack": 257,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Catacombs of Zalos 17",
+    "loot_chance": "76%"
+  },
+  {
+    "name": "Blighted Elf 8",
+    "hp": 550,
+    "attack": 199,
+    "special_ability": "Fear",
+    "rarity": "Common",
+    "location_hint": "Wied\u017amograd District 17",
+    "loot_chance": "28%"
+  },
+  {
+    "name": "Blighted Elf 9",
+    "hp": 391,
+    "attack": 345,
+    "special_ability": "Bleed",
+    "rarity": "Legendary",
+    "location_hint": "Ghost Hamlet 19",
+    "loot_chance": "33%"
+  },
+  {
+    "name": "Blighted Elf 10",
+    "hp": 1520,
+    "attack": 76,
+    "special_ability": "Slow",
+    "rarity": "Rare",
+    "location_hint": "Burning Chapel 2",
+    "loot_chance": "77%"
+  },
+  {
+    "name": "Blighted Elf 11",
+    "hp": 591,
+    "attack": 23,
+    "special_ability": "Mutate",
+    "rarity": "Rare",
+    "location_hint": "Forgotten Mines 23",
+    "loot_chance": "79%"
+  },
+  {
+    "name": "Blighted Elf 12",
+    "hp": 2330,
+    "attack": 196,
+    "special_ability": "Fire Aura",
+    "rarity": "Epic",
+    "location_hint": "Wied\u017amograd District 18",
+    "loot_chance": "78%"
+  },
+  {
+    "name": "Blighted Elf 13",
+    "hp": 381,
+    "attack": 89,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Catacombs of Zalos 7",
+    "loot_chance": "48%"
+  },
+  {
+    "name": "Blighted Elf 14",
+    "hp": 2304,
+    "attack": 82,
+    "special_ability": "Slow",
+    "rarity": "Uncommon",
+    "location_hint": "Catacombs of Zalos 21",
+    "loot_chance": "29%"
+  },
+  {
+    "name": "Blighted Elf 15",
+    "hp": 788,
+    "attack": 109,
+    "special_ability": "Fire Aura",
+    "rarity": "Common",
+    "location_hint": "Ruins of Nahor 18",
+    "loot_chance": "14%"
+  },
+  {
+    "name": "Blighted Elf 16",
+    "hp": 990,
+    "attack": 216,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Forgotten Mines 21",
+    "loot_chance": "27%"
+  },
+  {
+    "name": "Blighted Elf 17",
+    "hp": 2319,
+    "attack": 276,
+    "special_ability": "Bleed",
+    "rarity": "Common",
+    "location_hint": "Swamp of Decay 24",
+    "loot_chance": "19%"
+  },
+  {
+    "name": "Blighted Elf 18",
+    "hp": 2191,
+    "attack": 266,
+    "special_ability": "Fear",
+    "rarity": "Common",
+    "location_hint": "Ruins of Nahor 13",
+    "loot_chance": "84%"
+  },
+  {
+    "name": "Blighted Elf 19",
+    "hp": 1458,
+    "attack": 344,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Forgotten Mines 8",
+    "loot_chance": "44%"
+  },
+  {
+    "name": "Blighted Elf 20",
+    "hp": 316,
+    "attack": 239,
+    "special_ability": "Bleed",
+    "rarity": "Common",
+    "location_hint": "Swamp of Decay 6",
+    "loot_chance": "57%"
+  },
+  {
+    "name": "Blighted Elf 21",
+    "hp": 429,
+    "attack": 135,
+    "special_ability": "Fire Aura",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 12",
+    "loot_chance": "67%"
+  },
+  {
+    "name": "Blighted Elf 22",
+    "hp": 770,
+    "attack": 133,
+    "special_ability": "Bleed",
+    "rarity": "Rare",
+    "location_hint": "Burning Chapel 15",
+    "loot_chance": "65%"
+  },
+  {
+    "name": "Blighted Elf 23",
+    "hp": 2465,
+    "attack": 321,
+    "special_ability": "Slow",
+    "rarity": "Rare",
+    "location_hint": "Forgotten Mines 25",
+    "loot_chance": "83%"
+  },
+  {
+    "name": "Blighted Elf 24",
+    "hp": 1700,
+    "attack": 296,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Forgotten Mines 28",
+    "loot_chance": "59%"
+  },
+  {
+    "name": "Spectral Sorcerer 1",
+    "hp": 1553,
+    "attack": 317,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Wied\u017amograd District 2",
+    "loot_chance": "23%"
+  },
+  {
+    "name": "Spectral Sorcerer 2",
+    "hp": 2152,
+    "attack": 340,
+    "special_ability": "Fire Aura",
+    "rarity": "Common",
+    "location_hint": "Ruins of Nahor 14",
+    "loot_chance": "21%"
+  },
+  {
+    "name": "Spectral Sorcerer 3",
+    "hp": 286,
+    "attack": 145,
+    "special_ability": "Mutate",
+    "rarity": "Legendary",
+    "location_hint": "Ruins of Nahor 9",
+    "loot_chance": "43%"
+  },
+  {
+    "name": "Spectral Sorcerer 4",
+    "hp": 1220,
+    "attack": 222,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Burning Chapel 10",
+    "loot_chance": "29%"
+  },
+  {
+    "name": "Spectral Sorcerer 5",
+    "hp": 1329,
+    "attack": 132,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 24",
+    "loot_chance": "36%"
+  },
+  {
+    "name": "Spectral Sorcerer 6",
+    "hp": 2265,
+    "attack": 296,
+    "special_ability": "Poison",
+    "rarity": "Legendary",
+    "location_hint": "Shattered Tower 11",
+    "loot_chance": "33%"
+  },
+  {
+    "name": "Spectral Sorcerer 7",
+    "hp": 1093,
+    "attack": 206,
+    "special_ability": "Fear",
+    "rarity": "Common",
+    "location_hint": "Wied\u017amograd District 3",
+    "loot_chance": "14%"
+  },
+  {
+    "name": "Spectral Sorcerer 8",
+    "hp": 250,
+    "attack": 212,
+    "special_ability": "Fear",
+    "rarity": "Legendary",
+    "location_hint": "Forgotten Mines 16",
+    "loot_chance": "55%"
+  },
+  {
+    "name": "Spectral Sorcerer 9",
+    "hp": 2045,
+    "attack": 71,
+    "special_ability": "Bleed",
+    "rarity": "Common",
+    "location_hint": "Wied\u017amograd District 20",
+    "loot_chance": "38%"
+  },
+  {
+    "name": "Spectral Sorcerer 10",
+    "hp": 1037,
+    "attack": 262,
+    "special_ability": "Poison",
+    "rarity": "Epic",
+    "location_hint": "Shattered Tower 13",
+    "loot_chance": "35%"
+  },
+  {
+    "name": "Spectral Sorcerer 11",
+    "hp": 722,
+    "attack": 292,
+    "special_ability": "Mutate",
+    "rarity": "Common",
+    "location_hint": "Ruins of Nahor 1",
+    "loot_chance": "13%"
+  },
+  {
+    "name": "Spectral Sorcerer 12",
+    "hp": 2035,
+    "attack": 204,
+    "special_ability": "Poison",
+    "rarity": "Uncommon",
+    "location_hint": "Shattered Tower 14",
+    "loot_chance": "49%"
+  },
+  {
+    "name": "Spectral Sorcerer 13",
+    "hp": 779,
+    "attack": 178,
+    "special_ability": "Poison",
+    "rarity": "Epic",
+    "location_hint": "Forgotten Mines 29",
+    "loot_chance": "64%"
+  },
+  {
+    "name": "Spectral Sorcerer 14",
+    "hp": 1197,
+    "attack": 344,
+    "special_ability": "Slow",
+    "rarity": "Common",
+    "location_hint": "Ghost Hamlet 4",
+    "loot_chance": "82%"
+  },
+  {
+    "name": "Spectral Sorcerer 15",
+    "hp": 1004,
+    "attack": 330,
+    "special_ability": "Poison",
+    "rarity": "Uncommon",
+    "location_hint": "Ghost Hamlet 16",
+    "loot_chance": "38%"
+  },
+  {
+    "name": "Spectral Sorcerer 16",
+    "hp": 1179,
+    "attack": 240,
+    "special_ability": "Fear",
+    "rarity": "Rare",
+    "location_hint": "Swamp of Decay 2",
+    "loot_chance": "84%"
+  },
+  {
+    "name": "Spectral Sorcerer 17",
+    "hp": 1499,
+    "attack": 91,
+    "special_ability": "Bleed",
+    "rarity": "Uncommon",
+    "location_hint": "Wied\u017amograd District 19",
+    "loot_chance": "18%"
+  },
+  {
+    "name": "Spectral Sorcerer 18",
+    "hp": 1533,
+    "attack": 125,
+    "special_ability": "Slow",
+    "rarity": "Epic",
+    "location_hint": "Wied\u017amograd District 2",
+    "loot_chance": "71%"
+  },
+  {
+    "name": "Spectral Sorcerer 19",
+    "hp": 1347,
+    "attack": 321,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Obsidian Fortress 16",
+    "loot_chance": "39%"
+  },
+  {
+    "name": "Spectral Sorcerer 20",
+    "hp": 1668,
+    "attack": 289,
+    "special_ability": "Fire Aura",
+    "rarity": "Rare",
+    "location_hint": "Obsidian Fortress 21",
+    "loot_chance": "47%"
+  },
+  {
+    "name": "Spectral Sorcerer 21",
+    "hp": 442,
+    "attack": 299,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Obsidian Fortress 12",
+    "loot_chance": "13%"
+  },
+  {
+    "name": "Spectral Sorcerer 22",
+    "hp": 1835,
+    "attack": 221,
+    "special_ability": "Poison",
+    "rarity": "Epic",
+    "location_hint": "City of Thorns 28",
+    "loot_chance": "27%"
+  },
+  {
+    "name": "Spectral Sorcerer 23",
+    "hp": 2091,
+    "attack": 258,
+    "special_ability": "Slow",
+    "rarity": "Legendary",
+    "location_hint": "Catacombs of Zalos 4",
+    "loot_chance": "49%"
+  },
+  {
+    "name": "Spectral Sorcerer 24",
+    "hp": 2117,
+    "attack": 91,
+    "special_ability": "Poison",
+    "rarity": "Common",
+    "location_hint": "Shattered Tower 8",
+    "loot_chance": "74%"
+  }
+]
