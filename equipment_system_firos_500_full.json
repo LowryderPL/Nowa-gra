@@ -1,0 +1,7366 @@
+{
+  "items": [
+    {
+      "id": "itm_0001",
+      "name": "Iron Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 15,
+      "rarity": "Common",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1107,
+      "description": "A iron staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0002",
+      "name": "Ethereal Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 569,
+      "description": "A ethereal gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0003",
+      "name": "Cursed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense",
+        "+10 HP",
+        "+Speed"
+      ],
+      "price_rfn": 716,
+      "description": "A cursed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0004",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 30,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 369,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0005",
+      "name": "Cursed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 18,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+Speed",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1104,
+      "description": "A cursed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0006",
+      "name": "Obsidian Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1145,
+      "description": "A obsidian dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0007",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen",
+        "+10 HP"
+      ],
+      "price_rfn": 1388,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0008",
+      "name": "Blessed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 579,
+      "description": "A blessed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0009",
+      "name": "Steel Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 26,
+      "rarity": "Epic",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 498,
+      "description": "A steel helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0010",
+      "name": "Blessed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 350,
+      "description": "A blessed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0011",
+      "name": "Runed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Attack Speed"
+      ],
+      "price_rfn": 264,
+      "description": "A runed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0012",
+      "name": "Runed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Epic",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 1222,
+      "description": "A runed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0013",
+      "name": "Dragonbone Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 12,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit",
+        "+Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 150,
+      "description": "A dragonbone helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0014",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1223,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0015",
+      "name": "Cursed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 29,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 485,
+      "description": "A cursed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0016",
+      "name": "Steel Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1161,
+      "description": "A steel dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0017",
+      "name": "Runed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Legendary",
+      "effects": [
+        "+Attack Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 922,
+      "description": "A runed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0018",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 23,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 305,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0019",
+      "name": "Silver Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 20,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1459,
+      "description": "A silver amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0020",
+      "name": "Silver Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 4,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 122,
+      "description": "A silver bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0021",
+      "name": "Obsidian Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1336,
+      "description": "A obsidian axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0022",
+      "name": "Obsidian Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 24,
+      "rarity": "Epic",
+      "effects": [
+        "+Frost Resist",
+        "+Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 478,
+      "description": "A obsidian ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0023",
+      "name": "Iron Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1257,
+      "description": "A iron staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0024",
+      "name": "Silver Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 9,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist",
+        "+Attack Speed",
+        "+Defense"
+      ],
+      "price_rfn": 693,
+      "description": "A silver armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0025",
+      "name": "Iron Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1095,
+      "description": "A iron axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0026",
+      "name": "Steel Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 460,
+      "description": "A steel ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0027",
+      "name": "Silver Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 806,
+      "description": "A silver sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0028",
+      "name": "Obsidian Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 830,
+      "description": "A obsidian sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0029",
+      "name": "Obsidian Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 21,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist",
+        "+Fire Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 240,
+      "description": "A obsidian amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0030",
+      "name": "Ethereal Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 19,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1197,
+      "description": "A ethereal dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0031",
+      "name": "Iron Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+10 HP"
+      ],
+      "price_rfn": 905,
+      "description": "A iron bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0032",
+      "name": "Steel Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 11,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Poison Immunity",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1170,
+      "description": "A steel helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0033",
+      "name": "Blessed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 12,
+      "rarity": "Legendary",
+      "effects": [
+        "+Defense",
+        "+10 HP",
+        "+5% Crit"
+      ],
+      "price_rfn": 1373,
+      "description": "A blessed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0034",
+      "name": "Silver Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist",
+        "+Speed",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1439,
+      "description": "A silver staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0035",
+      "name": "Iron Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+Frost Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 227,
+      "description": "A iron dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0036",
+      "name": "Runed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Legendary",
+      "effects": [
+        "+10 HP",
+        "+5% Crit"
+      ],
+      "price_rfn": 769,
+      "description": "A runed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0037",
+      "name": "Steel Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 6,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+5% Crit",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1001,
+      "description": "A steel axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0038",
+      "name": "Runed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+Speed"
+      ],
+      "price_rfn": 629,
+      "description": "A runed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0039",
+      "name": "Runed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 16,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 531,
+      "description": "A runed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0040",
+      "name": "Obsidian Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 1427,
+      "description": "A obsidian bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0041",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen",
+        "+Poison Immunity",
+        "+Fire Resist"
+      ],
+      "price_rfn": 779,
+      "description": "A iron armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0042",
+      "name": "Blessed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 3,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+10 HP",
+        "+Speed"
+      ],
+      "price_rfn": 1125,
+      "description": "A blessed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0043",
+      "name": "Ethereal Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Epic",
+      "effects": [
+        "+Frost Resist",
+        "+10 HP"
+      ],
+      "price_rfn": 1085,
+      "description": "A ethereal gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0044",
+      "name": "Dragonbone Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 25,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 101,
+      "description": "A dragonbone bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0045",
+      "name": "Blessed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Fire Resist",
+        "+Attack Speed"
+      ],
+      "price_rfn": 893,
+      "description": "A blessed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0046",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+3 Mana Regen",
+        "+Speed"
+      ],
+      "price_rfn": 174,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0047",
+      "name": "Steel Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1351,
+      "description": "A steel sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0048",
+      "name": "Dragonbone Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 27,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+Defense"
+      ],
+      "price_rfn": 1179,
+      "description": "A dragonbone helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0049",
+      "name": "Obsidian Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 8,
+      "rarity": "Epic",
+      "effects": [
+        "+Frost Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 684,
+      "description": "A obsidian helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0050",
+      "name": "Steel Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense",
+        "+Speed"
+      ],
+      "price_rfn": 298,
+      "description": "A steel dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0051",
+      "name": "Dragonbone Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Epic",
+      "effects": [
+        "+Frost Resist",
+        "+Fire Resist",
+        "+Defense"
+      ],
+      "price_rfn": 1427,
+      "description": "A dragonbone staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0052",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 28,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+Fire Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 596,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0053",
+      "name": "Blessed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 6,
+      "rarity": "Legendary",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1371,
+      "description": "A blessed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0054",
+      "name": "Ethereal Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+10 HP",
+        "+Defense"
+      ],
+      "price_rfn": 670,
+      "description": "A ethereal staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0055",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 23,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+Poison Immunity",
+        "+Fire Resist"
+      ],
+      "price_rfn": 410,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0056",
+      "name": "Obsidian Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 13,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 747,
+      "description": "A obsidian boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0057",
+      "name": "Obsidian Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 2,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit",
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 434,
+      "description": "A obsidian sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0058",
+      "name": "Iron Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Epic",
+      "effects": [
+        "+Attack Speed",
+        "+Defense"
+      ],
+      "price_rfn": 611,
+      "description": "A iron bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0059",
+      "name": "Steel Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 28,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 789,
+      "description": "A steel staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0060",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1190,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0061",
+      "name": "Steel Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 21,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist",
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 1155,
+      "description": "A steel ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0062",
+      "name": "Iron Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1262,
+      "description": "A iron sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0063",
+      "name": "Obsidian Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 21,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 695,
+      "description": "A obsidian armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0064",
+      "name": "Ethereal Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 18,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 1366,
+      "description": "A ethereal axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0065",
+      "name": "Dragonbone Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 12,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 72,
+      "description": "A dragonbone sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0066",
+      "name": "Obsidian Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1001,
+      "description": "A obsidian dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0067",
+      "name": "Runed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Legendary",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 1097,
+      "description": "A runed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0068",
+      "name": "Blessed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 779,
+      "description": "A blessed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0069",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 27,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1325,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0070",
+      "name": "Runed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 29,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed",
+        "+Defense",
+        "+10 HP"
+      ],
+      "price_rfn": 588,
+      "description": "A runed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0071",
+      "name": "Blessed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1443,
+      "description": "A blessed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0072",
+      "name": "Obsidian Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 29,
+      "rarity": "Epic",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 608,
+      "description": "A obsidian sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0073",
+      "name": "Blessed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1456,
+      "description": "A blessed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0074",
+      "name": "Ethereal Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 1472,
+      "description": "A ethereal axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0075",
+      "name": "Iron Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1418,
+      "description": "A iron dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0076",
+      "name": "Steel Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 2,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1352,
+      "description": "A steel staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0077",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 23,
+      "rarity": "Rare",
+      "effects": [
+        "+Frost Resist",
+        "+Speed"
+      ],
+      "price_rfn": 1357,
+      "description": "A iron armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0078",
+      "name": "Dragonbone Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 4,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 1272,
+      "description": "A dragonbone amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0079",
+      "name": "Obsidian Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 170,
+      "description": "A obsidian helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0080",
+      "name": "Silver Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 29,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 693,
+      "description": "A silver boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0081",
+      "name": "Iron Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 705,
+      "description": "A iron dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0082",
+      "name": "Runed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 23,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 675,
+      "description": "A runed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0083",
+      "name": "Steel Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 16,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1158,
+      "description": "A steel amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0084",
+      "name": "Cursed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+3 Mana Regen",
+        "+Frost Resist"
+      ],
+      "price_rfn": 369,
+      "description": "A cursed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0085",
+      "name": "Runed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense",
+        "+10 HP",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 852,
+      "description": "A runed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0086",
+      "name": "Obsidian Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 545,
+      "description": "A obsidian gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0087",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 25,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 369,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0088",
+      "name": "Dragonbone Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 14,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist",
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1112,
+      "description": "A dragonbone ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0089",
+      "name": "Ethereal Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 22,
+      "rarity": "Legendary",
+      "effects": [
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 85,
+      "description": "A ethereal armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0090",
+      "name": "Runed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Speed"
+      ],
+      "price_rfn": 1087,
+      "description": "A runed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0091",
+      "name": "Silver Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 30,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+Frost Resist"
+      ],
+      "price_rfn": 683,
+      "description": "A silver armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0092",
+      "name": "Dragonbone Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 6,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1432,
+      "description": "A dragonbone staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0093",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 14,
+      "rarity": "Epic",
+      "effects": [
+        "+10 HP",
+        "+Poison Immunity",
+        "+Defense"
+      ],
+      "price_rfn": 578,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0094",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 4,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 682,
+      "description": "A iron armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0095",
+      "name": "Cursed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Legendary",
+      "effects": [
+        "+Poison Immunity",
+        "+Attack Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1426,
+      "description": "A cursed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0096",
+      "name": "Dragonbone Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 9,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 105,
+      "description": "A dragonbone bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0097",
+      "name": "Cursed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 21,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP",
+        "+Attack Speed"
+      ],
+      "price_rfn": 103,
+      "description": "A cursed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0098",
+      "name": "Iron Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 21,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+Defense",
+        "+Speed"
+      ],
+      "price_rfn": 250,
+      "description": "A iron amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0099",
+      "name": "Silver Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 4,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Fire Resist"
+      ],
+      "price_rfn": 431,
+      "description": "A silver gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0100",
+      "name": "Iron Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 8,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 1224,
+      "description": "A iron helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0101",
+      "name": "Obsidian Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Legendary",
+      "effects": [
+        "+Fire Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 812,
+      "description": "A obsidian bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0102",
+      "name": "Runed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1271,
+      "description": "A runed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0103",
+      "name": "Steel Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 790,
+      "description": "A steel gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0104",
+      "name": "Silver Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 22,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 362,
+      "description": "A silver sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0105",
+      "name": "Silver Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 866,
+      "description": "A silver staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0106",
+      "name": "Silver Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 29,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen",
+        "+Attack Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 964,
+      "description": "A silver gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0107",
+      "name": "Iron Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 15,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 252,
+      "description": "A iron ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0108",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 12,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 765,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0109",
+      "name": "Dragonbone Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 12,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 757,
+      "description": "A dragonbone staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0110",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 25,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Defense",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 325,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0111",
+      "name": "Blessed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 1059,
+      "description": "A blessed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0112",
+      "name": "Ethereal Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 13,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+5% Crit",
+        "+Defense"
+      ],
+      "price_rfn": 875,
+      "description": "A ethereal ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0113",
+      "name": "Steel Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 1194,
+      "description": "A steel boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0114",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist",
+        "+Attack Speed"
+      ],
+      "price_rfn": 201,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0115",
+      "name": "Dragonbone Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed",
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 129,
+      "description": "A dragonbone axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0116",
+      "name": "Dragonbone Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 27,
+      "rarity": "Legendary",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 440,
+      "description": "A dragonbone boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0117",
+      "name": "Cursed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 18,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 538,
+      "description": "A cursed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0118",
+      "name": "Blessed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 143,
+      "description": "A blessed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0119",
+      "name": "Blessed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 15,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 396,
+      "description": "A blessed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0120",
+      "name": "Steel Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 1,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+5% Crit"
+      ],
+      "price_rfn": 1058,
+      "description": "A steel amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0121",
+      "name": "Dragonbone Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed",
+        "+Frost Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 378,
+      "description": "A dragonbone gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0122",
+      "name": "Steel Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 27,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 155,
+      "description": "A steel helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0123",
+      "name": "Silver Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+10 HP",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1204,
+      "description": "A silver axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0124",
+      "name": "Blessed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 2,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 503,
+      "description": "A blessed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0125",
+      "name": "Silver Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+10 HP",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1034,
+      "description": "A silver gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0126",
+      "name": "Steel Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Attack Speed",
+        "+Defense"
+      ],
+      "price_rfn": 76,
+      "description": "A steel bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0127",
+      "name": "Runed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 665,
+      "description": "A runed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0128",
+      "name": "Dragonbone Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 30,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 202,
+      "description": "A dragonbone helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0129",
+      "name": "Blessed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 25,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Defense"
+      ],
+      "price_rfn": 354,
+      "description": "A blessed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0130",
+      "name": "Dragonbone Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 3,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 542,
+      "description": "A dragonbone gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0131",
+      "name": "Cursed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 28,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 726,
+      "description": "A cursed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0132",
+      "name": "Steel Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 14,
+      "rarity": "Legendary",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit",
+        "+Speed"
+      ],
+      "price_rfn": 85,
+      "description": "A steel amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0133",
+      "name": "Silver Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 24,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity",
+        "+Defense",
+        "+Fire Resist"
+      ],
+      "price_rfn": 827,
+      "description": "A silver sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0134",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 15,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1269,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0135",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 388,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0136",
+      "name": "Obsidian Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Defense",
+        "+5% Crit"
+      ],
+      "price_rfn": 896,
+      "description": "A obsidian staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0137",
+      "name": "Obsidian Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+3 Mana Regen",
+        "+Fire Resist"
+      ],
+      "price_rfn": 683,
+      "description": "A obsidian dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0138",
+      "name": "Obsidian Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 274,
+      "description": "A obsidian sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0139",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 2,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 417,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0140",
+      "name": "Blessed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1328,
+      "description": "A blessed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0141",
+      "name": "Obsidian Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 12,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+3 Mana Regen",
+        "+Speed"
+      ],
+      "price_rfn": 991,
+      "description": "A obsidian boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0142",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 935,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0143",
+      "name": "Steel Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 1461,
+      "description": "A steel gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0144",
+      "name": "Obsidian Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 15,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 571,
+      "description": "A obsidian ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0145",
+      "name": "Dragonbone Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 23,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 804,
+      "description": "A dragonbone sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0146",
+      "name": "Silver Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1290,
+      "description": "A silver axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0147",
+      "name": "Obsidian Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 30,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+Speed",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1296,
+      "description": "A obsidian amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0148",
+      "name": "Ethereal Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 15,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 647,
+      "description": "A ethereal armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0149",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 99,
+      "description": "A iron armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0150",
+      "name": "Dragonbone Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 1396,
+      "description": "A dragonbone boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0151",
+      "name": "Dragonbone Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 29,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity",
+        "+Fire Resist"
+      ],
+      "price_rfn": 210,
+      "description": "A dragonbone armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0152",
+      "name": "Dragonbone Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen",
+        "+Poison Immunity",
+        "+5% Crit"
+      ],
+      "price_rfn": 499,
+      "description": "A dragonbone staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0153",
+      "name": "Silver Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1049,
+      "description": "A silver gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0154",
+      "name": "Iron Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Common",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 116,
+      "description": "A iron axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0155",
+      "name": "Ethereal Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 8,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit",
+        "+Frost Resist",
+        "+Defense"
+      ],
+      "price_rfn": 51,
+      "description": "A ethereal amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0156",
+      "name": "Dragonbone Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 4,
+      "rarity": "Legendary",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1407,
+      "description": "A dragonbone dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0157",
+      "name": "Dragonbone Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Legendary",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 861,
+      "description": "A dragonbone bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0158",
+      "name": "Dragonbone Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 1285,
+      "description": "A dragonbone axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0159",
+      "name": "Cursed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 2,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense",
+        "+Frost Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1259,
+      "description": "A cursed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0160",
+      "name": "Iron Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 22,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 627,
+      "description": "A iron helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0161",
+      "name": "Ethereal Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist",
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 919,
+      "description": "A ethereal ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0162",
+      "name": "Silver Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 4,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 523,
+      "description": "A silver bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0163",
+      "name": "Silver Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 29,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 544,
+      "description": "A silver helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0164",
+      "name": "Dragonbone Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 2,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 1475,
+      "description": "A dragonbone bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0165",
+      "name": "Obsidian Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 10,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 999,
+      "description": "A obsidian gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0166",
+      "name": "Obsidian Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 22,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+Poison Immunity",
+        "+Defense"
+      ],
+      "price_rfn": 1472,
+      "description": "A obsidian ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0167",
+      "name": "Runed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Rare",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1092,
+      "description": "A runed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0168",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 2,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity",
+        "+Defense",
+        "+Fire Resist"
+      ],
+      "price_rfn": 483,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0169",
+      "name": "Steel Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 763,
+      "description": "A steel axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0170",
+      "name": "Obsidian Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist",
+        "+Fire Resist",
+        "+Defense"
+      ],
+      "price_rfn": 653,
+      "description": "A obsidian dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0171",
+      "name": "Steel Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 1,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 161,
+      "description": "A steel amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0172",
+      "name": "Obsidian Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 11,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist",
+        "+10 HP"
+      ],
+      "price_rfn": 1193,
+      "description": "A obsidian helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0173",
+      "name": "Runed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+Poison Immunity",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 391,
+      "description": "A runed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0174",
+      "name": "Blessed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 9,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 1033,
+      "description": "A blessed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0175",
+      "name": "Silver Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 4,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed",
+        "+Defense",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 127,
+      "description": "A silver ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0176",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+Fire Resist"
+      ],
+      "price_rfn": 64,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0177",
+      "name": "Obsidian Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 15,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist",
+        "+10 HP"
+      ],
+      "price_rfn": 1238,
+      "description": "A obsidian helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0178",
+      "name": "Blessed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 745,
+      "description": "A blessed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0179",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 8,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 981,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0180",
+      "name": "Iron Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Attack Speed",
+        "+Defense"
+      ],
+      "price_rfn": 763,
+      "description": "A iron sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0181",
+      "name": "Blessed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 7,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+3 Mana Regen",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 879,
+      "description": "A blessed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0182",
+      "name": "Steel Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 289,
+      "description": "A steel gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0183",
+      "name": "Blessed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 12,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 1101,
+      "description": "A blessed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0184",
+      "name": "Runed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 9,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 712,
+      "description": "A runed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0185",
+      "name": "Ethereal Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense",
+        "+5% Crit"
+      ],
+      "price_rfn": 153,
+      "description": "A ethereal sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0186",
+      "name": "Dragonbone Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1015,
+      "description": "A dragonbone ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0187",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 1334,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0188",
+      "name": "Steel Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 6,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 865,
+      "description": "A steel ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0189",
+      "name": "Dragonbone Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 11,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense",
+        "+10 HP"
+      ],
+      "price_rfn": 1359,
+      "description": "A dragonbone ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0190",
+      "name": "Blessed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 3,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist",
+        "+Fire Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 669,
+      "description": "A blessed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0191",
+      "name": "Silver Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 1404,
+      "description": "A silver staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0192",
+      "name": "Dragonbone Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 9,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1209,
+      "description": "A dragonbone bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0193",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 12,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 773,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0194",
+      "name": "Obsidian Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed",
+        "+Poison Immunity",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1138,
+      "description": "A obsidian bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0195",
+      "name": "Blessed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 12,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 224,
+      "description": "A blessed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0196",
+      "name": "Iron Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Legendary",
+      "effects": [
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 788,
+      "description": "A iron axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0197",
+      "name": "Ethereal Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 25,
+      "rarity": "Legendary",
+      "effects": [
+        "+Fire Resist",
+        "+Poison Immunity",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1195,
+      "description": "A ethereal gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0198",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 8,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 530,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0199",
+      "name": "Obsidian Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 27,
+      "rarity": "Legendary",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1057,
+      "description": "A obsidian axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0200",
+      "name": "Cursed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 15,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+Poison Immunity",
+        "+Defense"
+      ],
+      "price_rfn": 666,
+      "description": "A cursed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0201",
+      "name": "Silver Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 2,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+Fire Resist"
+      ],
+      "price_rfn": 695,
+      "description": "A silver armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0202",
+      "name": "Iron Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Legendary",
+      "effects": [
+        "+Attack Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1159,
+      "description": "A iron axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0203",
+      "name": "Runed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 1,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 424,
+      "description": "A runed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0204",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 29,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 818,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0205",
+      "name": "Cursed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Rare",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 913,
+      "description": "A cursed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0206",
+      "name": "Iron Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 941,
+      "description": "A iron bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0207",
+      "name": "Iron Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 16,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen",
+        "+10 HP",
+        "+Frost Resist"
+      ],
+      "price_rfn": 162,
+      "description": "A iron gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0208",
+      "name": "Iron Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 19,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 743,
+      "description": "A iron amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0209",
+      "name": "Obsidian Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 4,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1175,
+      "description": "A obsidian staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0210",
+      "name": "Ethereal Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 2,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 769,
+      "description": "A ethereal dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0211",
+      "name": "Ethereal Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+5% Crit",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 328,
+      "description": "A ethereal armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0212",
+      "name": "Iron Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 28,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 1388,
+      "description": "A iron amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0213",
+      "name": "Silver Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 1135,
+      "description": "A silver helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0214",
+      "name": "Steel Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 940,
+      "description": "A steel bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0215",
+      "name": "Runed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 888,
+      "description": "A runed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0216",
+      "name": "Blessed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 12,
+      "rarity": "Common",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 638,
+      "description": "A blessed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0217",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 19,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 485,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0218",
+      "name": "Silver Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen",
+        "+5% Crit",
+        "+Fire Resist"
+      ],
+      "price_rfn": 493,
+      "description": "A silver axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0219",
+      "name": "Cursed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 17,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 491,
+      "description": "A cursed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0220",
+      "name": "Silver Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 3,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen",
+        "+Frost Resist",
+        "+Speed"
+      ],
+      "price_rfn": 851,
+      "description": "A silver axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0221",
+      "name": "Silver Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Rare",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 170,
+      "description": "A silver staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0222",
+      "name": "Runed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 6,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 174,
+      "description": "A runed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0223",
+      "name": "Runed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1423,
+      "description": "A runed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0224",
+      "name": "Runed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 566,
+      "description": "A runed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0225",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 23,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist",
+        "+3 Mana Regen",
+        "+Defense"
+      ],
+      "price_rfn": 167,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0226",
+      "name": "Cursed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1130,
+      "description": "A cursed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0227",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 13,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+Attack Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1287,
+      "description": "A iron armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0228",
+      "name": "Dragonbone Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 27,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+5% Crit"
+      ],
+      "price_rfn": 1237,
+      "description": "A dragonbone staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0229",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 11,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 1072,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0230",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 22,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 120,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0231",
+      "name": "Cursed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 850,
+      "description": "A cursed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0232",
+      "name": "Blessed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 22,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 394,
+      "description": "A blessed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0233",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 10,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed",
+        "+5% Crit",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1152,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0234",
+      "name": "Cursed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 202,
+      "description": "A cursed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0235",
+      "name": "Obsidian Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 1132,
+      "description": "A obsidian bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0236",
+      "name": "Iron Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+5% Crit"
+      ],
+      "price_rfn": 409,
+      "description": "A iron axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0237",
+      "name": "Blessed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Legendary",
+      "effects": [
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1074,
+      "description": "A blessed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0238",
+      "name": "Cursed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 21,
+      "rarity": "Epic",
+      "effects": [
+        "+Frost Resist",
+        "+5% Crit",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1404,
+      "description": "A cursed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0239",
+      "name": "Iron Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Rare",
+      "effects": [
+        "+Frost Resist",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1444,
+      "description": "A iron bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0240",
+      "name": "Dragonbone Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 23,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 332,
+      "description": "A dragonbone boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0241",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 9,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+10 HP"
+      ],
+      "price_rfn": 1124,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0242",
+      "name": "Blessed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 9,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 101,
+      "description": "A blessed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0243",
+      "name": "Dragonbone Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 27,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+3 Mana Regen",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 423,
+      "description": "A dragonbone amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0244",
+      "name": "Steel Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 3,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 179,
+      "description": "A steel sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0245",
+      "name": "Dragonbone Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 24,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit",
+        "+Speed",
+        "+Attack Speed"
+      ],
+      "price_rfn": 572,
+      "description": "A dragonbone axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0246",
+      "name": "Obsidian Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 8,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Fire Resist",
+        "+10 HP"
+      ],
+      "price_rfn": 488,
+      "description": "A obsidian armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0247",
+      "name": "Cursed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 29,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Fire Resist",
+        "+10 HP"
+      ],
+      "price_rfn": 689,
+      "description": "A cursed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0248",
+      "name": "Ethereal Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 852,
+      "description": "A ethereal gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0249",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+Fire Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1303,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0250",
+      "name": "Steel Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 22,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 579,
+      "description": "A steel staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0251",
+      "name": "Iron Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1258,
+      "description": "A iron ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0252",
+      "name": "Dragonbone Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 1008,
+      "description": "A dragonbone gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0253",
+      "name": "Cursed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 27,
+      "rarity": "Epic",
+      "effects": [
+        "+Frost Resist",
+        "+Defense"
+      ],
+      "price_rfn": 338,
+      "description": "A cursed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0254",
+      "name": "Steel Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 4,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist",
+        "+Attack Speed",
+        "+Defense"
+      ],
+      "price_rfn": 1429,
+      "description": "A steel staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0255",
+      "name": "Ethereal Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 27,
+      "rarity": "Rare",
+      "effects": [
+        "+Poison Immunity",
+        "+Fire Resist"
+      ],
+      "price_rfn": 456,
+      "description": "A ethereal armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0256",
+      "name": "Steel Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 1360,
+      "description": "A steel dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0257",
+      "name": "Steel Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 27,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+Speed"
+      ],
+      "price_rfn": 1023,
+      "description": "A steel boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0258",
+      "name": "Dragonbone Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Fire Resist",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1093,
+      "description": "A dragonbone helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0259",
+      "name": "Cursed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 28,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1258,
+      "description": "A cursed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0260",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+5% Crit",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 305,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0261",
+      "name": "Silver Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 4,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+Speed"
+      ],
+      "price_rfn": 390,
+      "description": "A silver bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0262",
+      "name": "Steel Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+Defense",
+        "+Attack Speed"
+      ],
+      "price_rfn": 676,
+      "description": "A steel gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0263",
+      "name": "Silver Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 1,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 1352,
+      "description": "A silver gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0264",
+      "name": "Dragonbone Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 1,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+Frost Resist"
+      ],
+      "price_rfn": 699,
+      "description": "A dragonbone boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0265",
+      "name": "Runed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 940,
+      "description": "A runed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0266",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 13,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Frost Resist"
+      ],
+      "price_rfn": 888,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0267",
+      "name": "Dragonbone Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Rare",
+      "effects": [
+        "+Poison Immunity",
+        "+Defense",
+        "+Speed"
+      ],
+      "price_rfn": 374,
+      "description": "A dragonbone dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0268",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 24,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1242,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0269",
+      "name": "Dragonbone Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 15,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+10 HP",
+        "+Speed"
+      ],
+      "price_rfn": 877,
+      "description": "A dragonbone armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0270",
+      "name": "Steel Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Frost Resist",
+        "+Attack Speed"
+      ],
+      "price_rfn": 758,
+      "description": "A steel bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0271",
+      "name": "Silver Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 25,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 825,
+      "description": "A silver axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0272",
+      "name": "Silver Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 4,
+      "rarity": "Legendary",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 100,
+      "description": "A silver armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0273",
+      "name": "Dragonbone Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 21,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 857,
+      "description": "A dragonbone gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0274",
+      "name": "Dragonbone Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 13,
+      "rarity": "Rare",
+      "effects": [
+        "+Frost Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 392,
+      "description": "A dragonbone gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0275",
+      "name": "Silver Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Frost Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 167,
+      "description": "A silver axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0276",
+      "name": "Steel Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 9,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 1229,
+      "description": "A steel axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0277",
+      "name": "Ethereal Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 24,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 271,
+      "description": "A ethereal axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0278",
+      "name": "Ethereal Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 24,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+Poison Immunity",
+        "+Defense"
+      ],
+      "price_rfn": 1484,
+      "description": "A ethereal ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0279",
+      "name": "Steel Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 1,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+Frost Resist"
+      ],
+      "price_rfn": 835,
+      "description": "A steel helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0280",
+      "name": "Obsidian Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1037,
+      "description": "A obsidian gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0281",
+      "name": "Cursed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 17,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1492,
+      "description": "A cursed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0282",
+      "name": "Blessed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 12,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 1320,
+      "description": "A blessed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0283",
+      "name": "Dragonbone Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1046,
+      "description": "A dragonbone bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0284",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 985,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0285",
+      "name": "Obsidian Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 28,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit",
+        "+10 HP"
+      ],
+      "price_rfn": 149,
+      "description": "A obsidian boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0286",
+      "name": "Blessed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP",
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 1465,
+      "description": "A blessed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0287",
+      "name": "Obsidian Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist",
+        "+10 HP"
+      ],
+      "price_rfn": 475,
+      "description": "A obsidian dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0288",
+      "name": "Steel Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 28,
+      "rarity": "Legendary",
+      "effects": [
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1490,
+      "description": "A steel axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0289",
+      "name": "Silver Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 28,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+Attack Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 896,
+      "description": "A silver staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0290",
+      "name": "Ethereal Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Poison Immunity",
+        "+10 HP"
+      ],
+      "price_rfn": 92,
+      "description": "A ethereal dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0291",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 12,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 1237,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0292",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense",
+        "+10 HP"
+      ],
+      "price_rfn": 246,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0293",
+      "name": "Steel Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 17,
+      "rarity": "Rare",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 958,
+      "description": "A steel dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0294",
+      "name": "Blessed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 27,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist",
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 1393,
+      "description": "A blessed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0295",
+      "name": "Iron Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 3,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1422,
+      "description": "A iron ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0296",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen",
+        "+5% Crit"
+      ],
+      "price_rfn": 351,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0297",
+      "name": "Iron Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 24,
+      "rarity": "Epic",
+      "effects": [
+        "+Attack Speed",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 389,
+      "description": "A iron staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0298",
+      "name": "Ethereal Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity",
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 402,
+      "description": "A ethereal boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0299",
+      "name": "Dragonbone Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 16,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist",
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 654,
+      "description": "A dragonbone gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0300",
+      "name": "Dragonbone Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 6,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 71,
+      "description": "A dragonbone boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0301",
+      "name": "Ethereal Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 13,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 591,
+      "description": "A ethereal ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0302",
+      "name": "Iron Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 759,
+      "description": "A iron staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0303",
+      "name": "Runed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+Fire Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 948,
+      "description": "A runed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0304",
+      "name": "Dragonbone Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 770,
+      "description": "A dragonbone gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0305",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 1452,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0306",
+      "name": "Ethereal Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1113,
+      "description": "A ethereal axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0307",
+      "name": "Iron Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense",
+        "+3 Mana Regen",
+        "+Attack Speed"
+      ],
+      "price_rfn": 731,
+      "description": "A iron sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0308",
+      "name": "Obsidian Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+Attack Speed"
+      ],
+      "price_rfn": 57,
+      "description": "A obsidian dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0309",
+      "name": "Silver Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 1,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+Poison Immunity",
+        "+5% Crit"
+      ],
+      "price_rfn": 1471,
+      "description": "A silver boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0310",
+      "name": "Obsidian Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 242,
+      "description": "A obsidian helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0311",
+      "name": "Steel Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 679,
+      "description": "A steel axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0312",
+      "name": "Ethereal Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 19,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 812,
+      "description": "A ethereal bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0313",
+      "name": "Blessed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 16,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Frost Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 262,
+      "description": "A blessed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0314",
+      "name": "Obsidian Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist",
+        "+Defense"
+      ],
+      "price_rfn": 69,
+      "description": "A obsidian bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0315",
+      "name": "Steel Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 3,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+Defense"
+      ],
+      "price_rfn": 154,
+      "description": "A steel axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0316",
+      "name": "Obsidian Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 24,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 152,
+      "description": "A obsidian dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0317",
+      "name": "Dragonbone Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+10 HP",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1025,
+      "description": "A dragonbone boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0318",
+      "name": "Ethereal Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 491,
+      "description": "A ethereal sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0319",
+      "name": "Ethereal Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 2,
+      "rarity": "Epic",
+      "effects": [
+        "+10 HP",
+        "+Speed"
+      ],
+      "price_rfn": 845,
+      "description": "A ethereal armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0320",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Rare",
+      "effects": [
+        "+Fire Resist",
+        "+Attack Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 747,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0321",
+      "name": "Obsidian Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 25,
+      "rarity": "Legendary",
+      "effects": [
+        "+Frost Resist",
+        "+Attack Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 567,
+      "description": "A obsidian bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0322",
+      "name": "Iron Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1301,
+      "description": "A iron dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0323",
+      "name": "Ethereal Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 1204,
+      "description": "A ethereal boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0324",
+      "name": "Runed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 1,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 116,
+      "description": "A runed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0325",
+      "name": "Obsidian Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 120,
+      "description": "A obsidian boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0326",
+      "name": "Steel Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Rare",
+      "effects": [
+        "+Frost Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 75,
+      "description": "A steel boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0327",
+      "name": "Steel Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 1,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+3 Mana Regen",
+        "+Speed"
+      ],
+      "price_rfn": 1048,
+      "description": "A steel armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0328",
+      "name": "Dragonbone Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist",
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 875,
+      "description": "A dragonbone sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0329",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 30,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity",
+        "+Speed"
+      ],
+      "price_rfn": 116,
+      "description": "A iron armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0330",
+      "name": "Steel Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Legendary",
+      "effects": [
+        "+Poison Immunity",
+        "+5% Crit"
+      ],
+      "price_rfn": 500,
+      "description": "A steel helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0331",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 9,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity",
+        "+Attack Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 1321,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0332",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 27,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1060,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0333",
+      "name": "Steel Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 9,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+Frost Resist"
+      ],
+      "price_rfn": 729,
+      "description": "A steel staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0334",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 1,
+      "rarity": "Epic",
+      "effects": [
+        "+Fire Resist",
+        "+Speed"
+      ],
+      "price_rfn": 1097,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0335",
+      "name": "Dragonbone Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 1472,
+      "description": "A dragonbone helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0336",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 25,
+      "rarity": "Epic",
+      "effects": [
+        "+Attack Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 315,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0337",
+      "name": "Dragonbone Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 13,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1079,
+      "description": "A dragonbone amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0338",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 99,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0339",
+      "name": "Silver Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 26,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 1160,
+      "description": "A silver ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0340",
+      "name": "Dragonbone Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit",
+        "+Frost Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 783,
+      "description": "A dragonbone sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0341",
+      "name": "Cursed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 152,
+      "description": "A cursed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0342",
+      "name": "Blessed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+3 Mana Regen",
+        "+Speed"
+      ],
+      "price_rfn": 346,
+      "description": "A blessed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0343",
+      "name": "Ethereal Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen",
+        "+Poison Immunity",
+        "+10 HP"
+      ],
+      "price_rfn": 1366,
+      "description": "A ethereal staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0344",
+      "name": "Silver Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 619,
+      "description": "A silver boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0345",
+      "name": "Silver Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 1174,
+      "description": "A silver gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0346",
+      "name": "Cursed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 832,
+      "description": "A cursed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0347",
+      "name": "Iron Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1263,
+      "description": "A iron axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0348",
+      "name": "Cursed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Rare",
+      "effects": [
+        "+Poison Immunity",
+        "+Fire Resist",
+        "+10 HP"
+      ],
+      "price_rfn": 1167,
+      "description": "A cursed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0349",
+      "name": "Blessed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 25,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 585,
+      "description": "A blessed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0350",
+      "name": "Runed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 8,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed",
+        "+Fire Resist",
+        "+Frost Resist"
+      ],
+      "price_rfn": 318,
+      "description": "A runed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0351",
+      "name": "Ethereal Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+Frost Resist"
+      ],
+      "price_rfn": 817,
+      "description": "A ethereal gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0352",
+      "name": "Silver Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 21,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 1408,
+      "description": "A silver amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0353",
+      "name": "Obsidian Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 24,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 458,
+      "description": "A obsidian dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0354",
+      "name": "Runed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 3,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 189,
+      "description": "A runed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0355",
+      "name": "Silver Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+Frost Resist"
+      ],
+      "price_rfn": 699,
+      "description": "A silver bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0356",
+      "name": "Silver Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 23,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1327,
+      "description": "A silver staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0357",
+      "name": "Runed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 1492,
+      "description": "A runed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0358",
+      "name": "Dragonbone Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 22,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 1291,
+      "description": "A dragonbone helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0359",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP",
+        "+3 Mana Regen",
+        "+Defense"
+      ],
+      "price_rfn": 752,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0360",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 18,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 374,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0361",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 6,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+Speed"
+      ],
+      "price_rfn": 1115,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0362",
+      "name": "Runed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 3,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 199,
+      "description": "A runed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0363",
+      "name": "Obsidian Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 17,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Attack Speed",
+        "+Defense"
+      ],
+      "price_rfn": 624,
+      "description": "A obsidian staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0364",
+      "name": "Runed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 20,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 1257,
+      "description": "A runed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0365",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 29,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 476,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0366",
+      "name": "Steel Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 24,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 262,
+      "description": "A steel amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0367",
+      "name": "Blessed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 24,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 677,
+      "description": "A blessed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0368",
+      "name": "Runed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 348,
+      "description": "A runed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0369",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 12,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist",
+        "+Poison Immunity",
+        "+5% Crit"
+      ],
+      "price_rfn": 1192,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0370",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Speed",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1339,
+      "description": "A iron armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0371",
+      "name": "Dragonbone Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 3,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 734,
+      "description": "A dragonbone dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0372",
+      "name": "Cursed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 5,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1230,
+      "description": "A cursed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0373",
+      "name": "Cursed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 10,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 913,
+      "description": "A cursed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0374",
+      "name": "Obsidian Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 14,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense",
+        "+Fire Resist",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 790,
+      "description": "A obsidian ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0375",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 23,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 883,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0376",
+      "name": "Dragonbone Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+Speed",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 819,
+      "description": "A dragonbone dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0377",
+      "name": "Runed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 23,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1389,
+      "description": "A runed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0378",
+      "name": "Steel Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 28,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 1321,
+      "description": "A steel staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0379",
+      "name": "Ethereal Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 16,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1053,
+      "description": "A ethereal amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0380",
+      "name": "Silver Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1330,
+      "description": "A silver helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0381",
+      "name": "Blessed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 28,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 57,
+      "description": "A blessed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0382",
+      "name": "Iron Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 11,
+      "rarity": "Legendary",
+      "effects": [
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 819,
+      "description": "A iron armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0383",
+      "name": "Blessed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 540,
+      "description": "A blessed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0384",
+      "name": "Obsidian Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 4,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+Frost Resist"
+      ],
+      "price_rfn": 522,
+      "description": "A obsidian boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0385",
+      "name": "Iron Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 14,
+      "rarity": "Rare",
+      "effects": [
+        "+Poison Immunity",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1068,
+      "description": "A iron ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0386",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 419,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0387",
+      "name": "Silver Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Poison Immunity",
+        "+Speed"
+      ],
+      "price_rfn": 920,
+      "description": "A silver gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0388",
+      "name": "Ethereal Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 13,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 533,
+      "description": "A ethereal gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0389",
+      "name": "Obsidian Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 4,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1357,
+      "description": "A obsidian armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0390",
+      "name": "Steel Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 28,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Frost Resist",
+        "+10 HP"
+      ],
+      "price_rfn": 740,
+      "description": "A steel sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0391",
+      "name": "Obsidian Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1265,
+      "description": "A obsidian armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0392",
+      "name": "Ethereal Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 21,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity",
+        "+Frost Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 724,
+      "description": "A ethereal bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0393",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Legendary",
+      "effects": [
+        "+Defense",
+        "+Poison Immunity",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 855,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0394",
+      "name": "Ethereal Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 15,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit",
+        "+10 HP"
+      ],
+      "price_rfn": 1139,
+      "description": "A ethereal dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0395",
+      "name": "Dragonbone Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 30,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 637,
+      "description": "A dragonbone sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0396",
+      "name": "Obsidian Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 3,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 367,
+      "description": "A obsidian ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0397",
+      "name": "Obsidian Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 24,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense",
+        "+Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1131,
+      "description": "A obsidian axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0398",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 18,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1058,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0399",
+      "name": "Cursed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 3,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1428,
+      "description": "A cursed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0400",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 27,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense",
+        "+Frost Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 494,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0401",
+      "name": "Obsidian Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 23,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 468,
+      "description": "A obsidian amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0402",
+      "name": "Cursed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 780,
+      "description": "A cursed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0403",
+      "name": "Silver Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 2,
+      "rarity": "Common",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 1421,
+      "description": "A silver axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0404",
+      "name": "Dragonbone Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 225,
+      "description": "A dragonbone boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0405",
+      "name": "Cursed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 2,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1162,
+      "description": "A cursed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0406",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 20,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1264,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0407",
+      "name": "Iron Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 1,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+Defense"
+      ],
+      "price_rfn": 519,
+      "description": "A iron helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0408",
+      "name": "Obsidian Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 28,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 1001,
+      "description": "A obsidian amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0409",
+      "name": "Cursed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+Poison Immunity",
+        "+Speed"
+      ],
+      "price_rfn": 1177,
+      "description": "A cursed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0410",
+      "name": "Iron Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 6,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Fire Resist"
+      ],
+      "price_rfn": 757,
+      "description": "A iron axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0411",
+      "name": "Cursed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Uncommon",
+      "effects": [
+        "+5% Crit",
+        "+Frost Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1459,
+      "description": "A cursed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0412",
+      "name": "Cursed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1222,
+      "description": "A cursed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0413",
+      "name": "Runed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity",
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1292,
+      "description": "A runed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0414",
+      "name": "Iron Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 11,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1246,
+      "description": "A iron amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0415",
+      "name": "Runed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 3,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 135,
+      "description": "A runed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0416",
+      "name": "Silver Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Frost Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1418,
+      "description": "A silver bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0417",
+      "name": "Iron Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 29,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1106,
+      "description": "A iron ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0418",
+      "name": "Blessed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+Defense"
+      ],
+      "price_rfn": 173,
+      "description": "A blessed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0419",
+      "name": "Runed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1272,
+      "description": "A runed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0420",
+      "name": "Blessed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+Fire Resist",
+        "+Attack Speed"
+      ],
+      "price_rfn": 221,
+      "description": "A blessed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0421",
+      "name": "Cursed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+10 HP",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1407,
+      "description": "A cursed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0422",
+      "name": "Cursed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1028,
+      "description": "A cursed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0423",
+      "name": "Blessed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 1,
+      "rarity": "Epic",
+      "effects": [
+        "+10 HP"
+      ],
+      "price_rfn": 488,
+      "description": "A blessed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0424",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 19,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 234,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0425",
+      "name": "Blessed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Poison Immunity",
+        "+Attack Speed"
+      ],
+      "price_rfn": 439,
+      "description": "A blessed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0426",
+      "name": "Blessed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 20,
+      "rarity": "Rare",
+      "effects": [
+        "+Defense",
+        "+5% Crit",
+        "+Speed"
+      ],
+      "price_rfn": 709,
+      "description": "A blessed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0427",
+      "name": "Iron Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 13,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 1162,
+      "description": "A iron bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0428",
+      "name": "Silver Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Legendary",
+      "effects": [
+        "+Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 1023,
+      "description": "A silver axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0429",
+      "name": "Iron Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 9,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 665,
+      "description": "A iron amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0430",
+      "name": "Dragonbone Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 30,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1139,
+      "description": "A dragonbone ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0431",
+      "name": "Cursed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 235,
+      "description": "A cursed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0432",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 2,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity",
+        "+Speed"
+      ],
+      "price_rfn": 902,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0433",
+      "name": "Iron Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+10 HP",
+        "+5% Crit"
+      ],
+      "price_rfn": 1385,
+      "description": "A iron sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0434",
+      "name": "Ethereal Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 9,
+      "rarity": "Epic",
+      "effects": [
+        "+Attack Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 486,
+      "description": "A ethereal staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0435",
+      "name": "Ethereal Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 582,
+      "description": "A ethereal gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0436",
+      "name": "Iron Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 12,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Frost Resist"
+      ],
+      "price_rfn": 535,
+      "description": "A iron amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0437",
+      "name": "Cursed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 28,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+5% Crit"
+      ],
+      "price_rfn": 215,
+      "description": "A cursed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0438",
+      "name": "Iron Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 30,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity",
+        "+Defense",
+        "+10 HP"
+      ],
+      "price_rfn": 863,
+      "description": "A iron gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0439",
+      "name": "Cursed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 18,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 85,
+      "description": "A cursed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0440",
+      "name": "Dragonbone Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Legendary",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 453,
+      "description": "A dragonbone dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0441",
+      "name": "Runed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 28,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+5% Crit",
+        "+Defense"
+      ],
+      "price_rfn": 1495,
+      "description": "A runed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0442",
+      "name": "Ethereal Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 1218,
+      "description": "A ethereal armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0443",
+      "name": "Blessed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 28,
+      "rarity": "Common",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 94,
+      "description": "A blessed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0444",
+      "name": "Obsidian Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 3,
+      "rarity": "Uncommon",
+      "effects": [
+        "+3 Mana Regen",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1043,
+      "description": "A obsidian armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0445",
+      "name": "Dragonbone Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 282,
+      "description": "A dragonbone staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0446",
+      "name": "Iron Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 10,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 919,
+      "description": "A iron helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0447",
+      "name": "Cursed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 12,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 1402,
+      "description": "A cursed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0448",
+      "name": "Ethereal Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 18,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 162,
+      "description": "A ethereal helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0449",
+      "name": "Cursed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 23,
+      "rarity": "Common",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 960,
+      "description": "A cursed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0450",
+      "name": "Ethereal Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 11,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 371,
+      "description": "A ethereal gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0451",
+      "name": "Ethereal Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 18,
+      "rarity": "Epic",
+      "effects": [
+        "+Attack Speed",
+        "+Defense",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1463,
+      "description": "A ethereal amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0452",
+      "name": "Dragonbone Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 12,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Poison Immunity",
+        "+5% Crit"
+      ],
+      "price_rfn": 790,
+      "description": "A dragonbone helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0453",
+      "name": "Runed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 14,
+      "rarity": "Epic",
+      "effects": [
+        "+5% Crit"
+      ],
+      "price_rfn": 1156,
+      "description": "A runed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0454",
+      "name": "Steel Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 17,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 229,
+      "description": "A steel staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0455",
+      "name": "Runed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 22,
+      "rarity": "Epic",
+      "effects": [
+        "+3 Mana Regen",
+        "+Frost Resist",
+        "+Defense"
+      ],
+      "price_rfn": 1102,
+      "description": "A runed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0456",
+      "name": "Silver Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed"
+      ],
+      "price_rfn": 526,
+      "description": "A silver sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0457",
+      "name": "Steel Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 15,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Attack Speed"
+      ],
+      "price_rfn": 577,
+      "description": "A steel axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0458",
+      "name": "Dragonbone Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 17,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 199,
+      "description": "A dragonbone gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0459",
+      "name": "Blessed Staff",
+      "type": "Staff",
+      "category": "Weapons",
+      "level": 27,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 556,
+      "description": "A blessed staff used by warriors of Firos."
+    },
+    {
+      "id": "itm_0460",
+      "name": "Iron Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 5,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist"
+      ],
+      "price_rfn": 726,
+      "description": "A iron gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0461",
+      "name": "Blessed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 23,
+      "rarity": "Legendary",
+      "effects": [
+        "+Defense",
+        "+3 Mana Regen",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1269,
+      "description": "A blessed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0462",
+      "name": "Runed Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 28,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 1048,
+      "description": "A runed ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0463",
+      "name": "Iron Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 9,
+      "rarity": "Common",
+      "effects": [
+        "+3 Mana Regen",
+        "+5% Crit",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1135,
+      "description": "A iron boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0464",
+      "name": "Obsidian Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 7,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 947,
+      "description": "A obsidian armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0465",
+      "name": "Steel Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1236,
+      "description": "A steel bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0466",
+      "name": "Blessed Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 23,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Defense",
+        "+10 HP",
+        "+Fire Resist"
+      ],
+      "price_rfn": 1284,
+      "description": "A blessed armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0467",
+      "name": "Steel Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 18,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Attack Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 1404,
+      "description": "A steel amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0468",
+      "name": "Dragonbone Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 23,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1181,
+      "description": "A dragonbone dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0469",
+      "name": "Ethereal Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Common",
+      "effects": [
+        "+Frost Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 890,
+      "description": "A ethereal axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0470",
+      "name": "Cursed Gloves",
+      "type": "Gloves",
+      "category": "Armor",
+      "level": 8,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 134,
+      "description": "A cursed gloves used by warriors of Firos."
+    },
+    {
+      "id": "itm_0471",
+      "name": "Obsidian Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 2,
+      "rarity": "Rare",
+      "effects": [
+        "+Poison Immunity",
+        "+Fire Resist"
+      ],
+      "price_rfn": 630,
+      "description": "A obsidian amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0472",
+      "name": "Runed Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 3,
+      "rarity": "Rare",
+      "effects": [
+        "+Attack Speed",
+        "+10 HP",
+        "+Speed"
+      ],
+      "price_rfn": 519,
+      "description": "A runed amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0473",
+      "name": "Silver Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+Defense",
+        "+Attack Speed"
+      ],
+      "price_rfn": 229,
+      "description": "A silver ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0474",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen",
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 744,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0475",
+      "name": "Cursed Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 11,
+      "rarity": "Legendary",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 399,
+      "description": "A cursed dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0476",
+      "name": "Dragonbone Amulet",
+      "type": "Amulet",
+      "category": "Accessories",
+      "level": 20,
+      "rarity": "Common",
+      "effects": [
+        "+Fire Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 214,
+      "description": "A dragonbone amulet used by warriors of Firos."
+    },
+    {
+      "id": "itm_0477",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 5,
+      "rarity": "Epic",
+      "effects": [
+        "+10 HP",
+        "+Fire Resist",
+        "+Defense"
+      ],
+      "price_rfn": 287,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0478",
+      "name": "Ethereal Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 17,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+Poison Immunity",
+        "+Attack Speed"
+      ],
+      "price_rfn": 1199,
+      "description": "A ethereal bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0479",
+      "name": "Blessed Boots",
+      "type": "Boots",
+      "category": "Armor",
+      "level": 9,
+      "rarity": "Common",
+      "effects": [
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 790,
+      "description": "A blessed boots used by warriors of Firos."
+    },
+    {
+      "id": "itm_0480",
+      "name": "Cursed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 3,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Frost Resist"
+      ],
+      "price_rfn": 1097,
+      "description": "A cursed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0481",
+      "name": "Cursed Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 14,
+      "rarity": "Legendary",
+      "effects": [
+        "+10 HP",
+        "+Fire Resist",
+        "+Speed"
+      ],
+      "price_rfn": 1435,
+      "description": "A cursed bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0482",
+      "name": "Silver Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Epic",
+      "effects": [
+        "+Attack Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 1215,
+      "description": "A silver armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0483",
+      "name": "Silver Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 25,
+      "rarity": "Rare",
+      "effects": [
+        "+3 Mana Regen",
+        "+5% Crit",
+        "+Defense"
+      ],
+      "price_rfn": 415,
+      "description": "A silver bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0484",
+      "name": "Obsidian Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 6,
+      "rarity": "Rare",
+      "effects": [
+        "+5% Crit",
+        "+10 HP",
+        "+Defense"
+      ],
+      "price_rfn": 1278,
+      "description": "A obsidian axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0485",
+      "name": "Steel Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 21,
+      "rarity": "Rare",
+      "effects": [
+        "+10 HP",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 204,
+      "description": "A steel armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0486",
+      "name": "Obsidian Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 29,
+      "rarity": "Legendary",
+      "effects": [
+        "+3 Mana Regen",
+        "+5% Crit",
+        "+Defense"
+      ],
+      "price_rfn": 1407,
+      "description": "A obsidian helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0487",
+      "name": "Cursed Axe",
+      "type": "Axe",
+      "category": "Weapons",
+      "level": 26,
+      "rarity": "Common",
+      "effects": [
+        "+10 HP",
+        "+Attack Speed"
+      ],
+      "price_rfn": 849,
+      "description": "A cursed axe used by warriors of Firos."
+    },
+    {
+      "id": "itm_0488",
+      "name": "Ethereal Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 19,
+      "rarity": "Rare",
+      "effects": [
+        "+Speed"
+      ],
+      "price_rfn": 923,
+      "description": "A ethereal sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0489",
+      "name": "Obsidian Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 16,
+      "rarity": "Common",
+      "effects": [
+        "+5% Crit",
+        "+Attack Speed"
+      ],
+      "price_rfn": 294,
+      "description": "A obsidian sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0490",
+      "name": "Steel Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 19,
+      "rarity": "Common",
+      "effects": [
+        "+Attack Speed",
+        "+Speed",
+        "+Defense"
+      ],
+      "price_rfn": 1006,
+      "description": "A steel sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0491",
+      "name": "Silver Dagger",
+      "type": "Dagger",
+      "category": "Weapons",
+      "level": 8,
+      "rarity": "Common",
+      "effects": [
+        "+Poison Immunity"
+      ],
+      "price_rfn": 1092,
+      "description": "A silver dagger used by warriors of Firos."
+    },
+    {
+      "id": "itm_0492",
+      "name": "Cursed Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 10,
+      "rarity": "Legendary",
+      "effects": [
+        "+Defense"
+      ],
+      "price_rfn": 305,
+      "description": "A cursed sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0493",
+      "name": "Dragonbone Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 13,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity",
+        "+Defense",
+        "+Frost Resist"
+      ],
+      "price_rfn": 782,
+      "description": "A dragonbone ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0494",
+      "name": "Cursed Helm",
+      "type": "Helm",
+      "category": "Armor",
+      "level": 24,
+      "rarity": "Epic",
+      "effects": [
+        "+Speed",
+        "+Attack Speed"
+      ],
+      "price_rfn": 928,
+      "description": "A cursed helm used by warriors of Firos."
+    },
+    {
+      "id": "itm_0495",
+      "name": "Steel Bow",
+      "type": "Bow",
+      "category": "Weapons",
+      "level": 15,
+      "rarity": "Epic",
+      "effects": [
+        "+Defense",
+        "+Speed"
+      ],
+      "price_rfn": 1272,
+      "description": "A steel bow used by warriors of Firos."
+    },
+    {
+      "id": "itm_0496",
+      "name": "Silver Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 26,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP",
+        "+Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 102,
+      "description": "A silver armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0497",
+      "name": "Dragonbone Armor",
+      "type": "Armor",
+      "category": "Armor",
+      "level": 21,
+      "rarity": "Epic",
+      "effects": [
+        "+Poison Immunity",
+        "+Speed"
+      ],
+      "price_rfn": 118,
+      "description": "A dragonbone armor used by warriors of Firos."
+    },
+    {
+      "id": "itm_0498",
+      "name": "Silver Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 12,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Fire Resist"
+      ],
+      "price_rfn": 1092,
+      "description": "A silver ring used by warriors of Firos."
+    },
+    {
+      "id": "itm_0499",
+      "name": "Obsidian Sword",
+      "type": "Sword",
+      "category": "Weapons",
+      "level": 7,
+      "rarity": "Uncommon",
+      "effects": [
+        "+10 HP",
+        "+Attack Speed"
+      ],
+      "price_rfn": 713,
+      "description": "A obsidian sword used by warriors of Firos."
+    },
+    {
+      "id": "itm_0500",
+      "name": "Iron Ring",
+      "type": "Ring",
+      "category": "Accessories",
+      "level": 14,
+      "rarity": "Uncommon",
+      "effects": [
+        "+Frost Resist",
+        "+Attack Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 93,
+      "description": "A iron ring used by warriors of Firos."
+    },
+    {
+      "id": "mat_coal",
+      "name": "Coal",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Common",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 187
+    },
+    {
+      "id": "mat_iron_ore",
+      "name": "Iron Ore",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Common",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 119
+    },
+    {
+      "id": "mat_silver_dust",
+      "name": "Silver Dust",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Uncommon",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 10
+    },
+    {
+      "id": "mat_dragon_scale",
+      "name": "Dragon Scale",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Rare",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 107
+    },
+    {
+      "id": "mat_mandrake_root",
+      "name": "Mandrake Root",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Rare",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 145
+    },
+    {
+      "id": "mat_phoenix_feather",
+      "name": "Phoenix Feather",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Uncommon",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 178
+    },
+    {
+      "id": "mat_witch_resin",
+      "name": "Witch Resin",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Common",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 23
+    },
+    {
+      "id": "mat_goblin_teeth",
+      "name": "Goblin Teeth",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Rare",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 107
+    },
+    {
+      "id": "mat_ancient_bone",
+      "name": "Ancient Bone",
+      "type": "Material",
+      "category": "Materials",
+      "rarity": "Rare",
+      "description": "Used for crafting powerful items.",
+      "price_rfn": 36
+    },
+    {
+      "id": "art_001",
+      "name": "Artifact of Storms",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+10 HP",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 5100
+    },
+    {
+      "id": "art_002",
+      "name": "Artifact of Flame",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 5200
+    },
+    {
+      "id": "art_003",
+      "name": "Artifact of Shadows",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Defense",
+        "+Fire Resist"
+      ],
+      "price_rfn": 5300
+    },
+    {
+      "id": "art_004",
+      "name": "Artifact of Storms",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+3 Mana Regen",
+        "+Defense"
+      ],
+      "price_rfn": 5400
+    },
+    {
+      "id": "art_005",
+      "name": "Artifact of Storms",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Attack Speed",
+        "+Speed"
+      ],
+      "price_rfn": 5500
+    },
+    {
+      "id": "art_006",
+      "name": "Artifact of Storms",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Attack Speed",
+        "+Frost Resist"
+      ],
+      "price_rfn": 5600
+    },
+    {
+      "id": "art_007",
+      "name": "Artifact of Flame",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Attack Speed",
+        "+Fire Resist"
+      ],
+      "price_rfn": 5700
+    },
+    {
+      "id": "art_008",
+      "name": "Artifact of Decay",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+3 Mana Regen",
+        "+Fire Resist"
+      ],
+      "price_rfn": 5800
+    },
+    {
+      "id": "art_009",
+      "name": "Artifact of Shadows",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Attack Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 5900
+    },
+    {
+      "id": "art_010",
+      "name": "Artifact of Shadows",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Speed",
+        "+5% Crit"
+      ],
+      "price_rfn": 6000
+    },
+    {
+      "id": "art_011",
+      "name": "Artifact of Storms",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Fire Resist",
+        "+Speed"
+      ],
+      "price_rfn": 6100
+    },
+    {
+      "id": "art_012",
+      "name": "Artifact of Shadows",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+5% Crit",
+        "+Defense"
+      ],
+      "price_rfn": 6200
+    },
+    {
+      "id": "art_013",
+      "name": "Artifact of Shadows",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Defense",
+        "+10 HP"
+      ],
+      "price_rfn": 6300
+    },
+    {
+      "id": "art_014",
+      "name": "Artifact of Storms",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Attack Speed",
+        "+Defense"
+      ],
+      "price_rfn": 6400
+    },
+    {
+      "id": "art_015",
+      "name": "Artifact of Storms",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Attack Speed",
+        "+10 HP"
+      ],
+      "price_rfn": 6500
+    },
+    {
+      "id": "art_016",
+      "name": "Artifact of Flame",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Fire Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 6600
+    },
+    {
+      "id": "art_017",
+      "name": "Artifact of Flame",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Frost Resist",
+        "+5% Crit"
+      ],
+      "price_rfn": 6700
+    },
+    {
+      "id": "art_018",
+      "name": "Artifact of Storms",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Speed",
+        "+3 Mana Regen"
+      ],
+      "price_rfn": 6800
+    },
+    {
+      "id": "art_019",
+      "name": "Artifact of Shadows",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+Fire Resist",
+        "+Poison Immunity"
+      ],
+      "price_rfn": 6900
+    },
+    {
+      "id": "art_020",
+      "name": "Artifact of Decay",
+      "type": "Artifact",
+      "category": "Artifacts",
+      "rarity": "Legendary",
+      "description": "A relic from the ancient wars of Firos. Emits a strange energy.",
+      "effects": [
+        "+3 Mana Regen",
+        "+Fire Resist"
+      ],
+      "price_rfn": 7000
+    }
+  ],
+  "categories": [
+    "Weapons",
+    "Armor",
+    "Accessories",
+    "Consumables",
+    "Materials",
+    "Artifacts"
+  ],
+  "rarities": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary"
+  ],
+  "effects_pool": [
+    "+5% Crit",
+    "+10 HP",
+    "+3 Mana Regen",
+    "+Fire Resist",
+    "+Frost Resist",
+    "+Poison Immunity",
+    "+Speed",
+    "+Attack Speed",
+    "+Defense"
+  ]
+}
